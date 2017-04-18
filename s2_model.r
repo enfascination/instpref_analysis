@@ -1,6 +1,9 @@
+#!/usr/bin/env Rscript
 library(dplyr)
+library(rjson)
+settings <- fromJSON( file="settings.json")
 
-prefs <- read.csv("./data/s2/out.csv")
+prefs <- read.csv(file.path( settings$data, "s2/out.csv"))
 prefs$out <- 1
 colSums(prefs)
 

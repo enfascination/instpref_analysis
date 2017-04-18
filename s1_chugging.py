@@ -18,6 +18,9 @@ from game_topology_scaling_dynamics import OrdinalGameSpace
 from ordinalGameSolver import EmpiricalOrdinalGame2P
 import copy
 import csv
+import json
+settings = json.load(open('settings.json'))
+print(settings)
 
 ### for handling deeply nested objects
 ###  https://www.haykranen.nl/2016/02/13/handling-complex-nested-dicts-in-python
@@ -49,12 +52,33 @@ def showPayoff( aPayoff):
 
 def buildChooseGameIdToQuestionHash(  questionArray ):
     idsToQuestions = {}
-    for q in questionArray:
-        # pprint( q )
-        #if q["theData"]['type'] == 'chooseStrategy':
-        if DQ(q).get("theData/type") == 'chooseStrategy':
-            idsToQuestions[ q["_id"] ] = q["theDataConsummated"] if q.get("theDataConsummated") else q["theData"]
-        # now do some merging from neighboring questions
+    for oData in questionArray:
+        #more easily queryable alternative/clone for deep queires
+        dq = DictQuery(oData)
+        # pprint( oData )
+        #if oData["theData"]['type'] == 'chooseStrategy':
+        if dq.get("theData/type") == 'chooseStrategy':
+            q = oData["theDataConsummated"] if oData.get("theDataConsummated") else oData["theData"]
+            idsToQuestions[ oData["_id"] ] = q
+    # now do some merging from neighboring questions
+    for oData in questionArray:
+        q = idsToQuestions[ oData["_id"] ]
+        sec = q["sec"]
+        rnd = q["sec_rnd"]
+        qtype = q["type"]
+        mtWId = q["mtWorkerId"]
+        mtAsstId = q["mtAssignmentId"]
+        qOId = q["matchingGameId"]
+        # for round 1 or 2 question
+        #     get preferred choice question from same round
+        #     get expected choice question from same round
+        #     get expected outcome question from previous question
+        #     get choice from matching round 4 question (if exists)
+        #     get choice from other player's matching question 
+        #     get preferred choice from other player's matching question 
+        #     get expected choice from other player's matching question 
+        if rnd == 0 or rnd == 1:
+            pass
     return( idsToQuestions )
 
 def buildChooseGameIdToPayoffHash(  questionArray ):
@@ -168,6 +192,6 @@ def main( sIn, sOut ):
     #print( len( idsToPayoffs ))
     print( len( gameChoices ), nGameCount)
 
-sIn = "../instpref/data/v1_writable_20170411/"
-main( sIn, "./data/s2/out.csv" )
+sIn = settings["data"]+"v1_writable_20170411/"
+main( sIn, settings["data"]+"s2/out.csv" )
 import gambit
