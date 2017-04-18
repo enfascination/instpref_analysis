@@ -11,6 +11,7 @@
 #from builtins import dict
 #from builtins import range
 #from io import open
+#import gambit
 
 from pprint import pprint
 from game_topology_scaling_dynamics import OrdinalGameSpace
@@ -45,9 +46,6 @@ class DQ(DictQuery):
     pass
 
 # fns
-def showPayoff( aPayoff):
-    return aPayoff
-
 
 def buildChooseGameIdToQuestionHash(  questionArray ):
     idsToQuestions = {}
@@ -67,40 +65,45 @@ def buildRndToQuestionHash(  questionArray ):
     for oData in questionArray:
         q = oData["theDataConsummated"] if oData.get("theDataConsummated") else oData["theData"]
         ### guide vars
-        rnd = q["sec_rnd"]
-        qtype = q["type"]
         asst = q["mtAssignmentId"]
-        #mtId = q["mtWorkerId"]
-        #sec = q["sec"]
-        #qOId = q["matchingGameId"]
-        ## build hash on index: asst, rnd, type
-        if not qs.get(asst): qs[asst] = {}
-        if not qs.get(asst).get(rnd): qs[asst][rnd] = {}
-        if not qs.get(asst).get(rnd).get(qtype): qs[asst][rnd][qtype] = {}
-        qs[asst][rnd][qtype] = q
-    return( qs )
-
-def enrichQuestionObject(  questionArray ):
-    # now do some merging from neighboring questions
-    for oData in questionArray:
-        q = idsToQuestions[ oData["_id"] ]
         sec = q["sec"]
         rnd = q["sec_rnd"]
         qtype = q["type"]
-        mtWId = q["mtWorkerId"]
-        mtAsstId = q["mtAssignmentId"]
-        qOId = q["matchingGameId"]
-        # for round 1 or 2 question
-        #     get preferred choice question from same round 
-        #     get expected choice question from same round 
-        #     get expected outcome question from previous question
-        #     get choice from matching round 4 question (if exists)
-        #     get choice from other player's matching question 
-        #     get preferred choice from other player's matching question 
-        #     get expected choice from other player's matching question 
-        if rnd == 0 or rnd == 1:
-            pass
-    return( idsToQuestions )
+        #mtId = q["mtWorkerId"]
+        #qOId = q["matchingGameId"]
+        ## build hash on index: asst, rnd, type
+        if not qs.get(asst): qs[asst] = {}
+        if not qs.get(asst).get(sec): qs[asst][sec] = {}
+        if not qs.get(asst).get(sec).get(rnd): qs[asst][sec][rnd] = {}
+        if not qs.get(asst).get(sec).get(rnd).get(qtype): qs[asst][sec][rnd][qtype] = {}
+        qs[asst][sec][rnd][qtype] = q
+    return( qs )
+
+def enrichQuestionObject(  q, qdb ):
+    # now do some merging from neighboring questions
+    asst = q["mtAssignmentId"]
+    rnd = q["sec_rnd"]
+    qtype = q["type"]
+    mtid = q["mtWorkerId"]
+    sec = q["sec"]
+    qOId = q["matchingGameId"]
+    # for round 1 or 2 question
+    #     get preferred choice question from same round 
+    #     get expected choice question from same round 
+    #     get expected outcome question from previous question
+    #     get choice from matching round 4 question (if exists)
+    #     get choice from other player's matching question 
+    #     get preferred choice from other player's matching question 
+    #     get expected choice from other player's matching question 
+    if (rnd == 0 or rnd == 1 ) and type == "chooseStrategy":
+        # get preferred choice question from same round 
+        qPref = qdb[asst][rnd]["chooseOutcome"]
+        if qPref["text"][0:14] != "Hypothetically":
+            print( "PROBLEM ARJGF556:", qPref["text"], qPref, q)
+        q["outcomePreferred"] = qPref["choice"]
+    else:
+        print("PROBLEM OFJDFLJG8: why did you even call me?")
+    return( q )
 
 def gprint( payoffs ):
     p = payoffs
@@ -122,6 +125,7 @@ def expPayoffToGame( payoffs, gameSpace ):
 def main( sIn, sOut ):
     gameChoices = json.load(open(sIn + 'SubData.json', 'r', encoding='utf-8'))
     idsToQuestions =  buildChooseGameIdToQuestionHash( gameChoices )
+    rndsToQuestions =  buildRndToQuestionHash( gameChoices )
     #idsToQuestionsR0R1 =  buildChooseGameIdToQuestionHash( gameChoices ,[0,1])
     #idsToQuestionsR4 =  buildChooseGameIdToQuestionHash( gameChoices ,[4])
     twoPSpace = OrdinalGameSpace(2)
@@ -135,7 +139,7 @@ def main( sIn, sOut ):
             q = game['theData']
             if q['type'] == 'chooseGame':
                 # pprint( game['theData'] )
-                # print( "1:", idsToQuestions[ q["idGameQ1"] ].payoffs, q["payoffsGame1"], showPayoff( q["payoffsGame1"] ) )
+                # print( "1:", idsToQuestions[ q["idGameQ1"] ].payoffs, q["payoffsGame1"] )
                 # print( "2:", idsToQuestions[ q["idGameQ2"] ].payoffs, q["payoffsGame2"] )
                 # print()
                 # gprint(q["payoffsGame2"])
@@ -211,6 +215,63 @@ def main( sIn, sOut ):
     #print( len( idsToQuestions ))
     print( len( gameChoices ), nGameCount)
 
-sIn = settings["data"]+"v1_20170418_first100/"
-main( sIn, settings["data"]+"s2/out.csv" )
-import gambit
+
+import unittest
+class TestOrdinalGame(unittest.TestCase):
+
+    def setUp(self):
+        #self.twoSpace = OrdinalGameSpace(2)
+        #self.pd = EmpiricalOrdinalGame2P( np.array([[[3,3],[1,4]],[[4,1],[2,2]]] ))
+        #self.sh = EmpiricalOrdinalGame2P( np.array([[[3,3],[1,2]],[[2,1],[4,4]]] ))
+        self.gameChoices = json.load(open(
+            settings["dataTest"] + 'SubDataTestSample.json',
+            'r',
+            encoding='utf-8'
+        ))
+
+    def test_buildChooseGameIdToQuestionHash(self):
+        qHash = buildChooseGameIdToQuestionHash( self.gameChoices )
+        q1 = qHash["aDsp4bhaLxWM9NDnt"]
+        self.assertTrue( qHash.get("aDsp4bhaLxWM9NDnt"), "PROBLEM: "+ json.dumps(q1) )
+        self.assertEqual( q1["choiceLoadedTime"], 1491924056516.0,  "PROBLEM: "+ json.dumps(q1) )
+        #np.testing.assert_array_equal( self.sh.payoffsOfPlayer(0), np.array([3,1,2,4]) )
+        #np.testing.assert_array_equal( self.sh.payoffsOfPlayer(1), np.array([3,2,1,4]) )
+
+    def test_buildRndToQuestionHash( self ):
+        qHash = buildRndToQuestionHash( self.gameChoices )
+        q1 = qHash["3M0BCWMB8VW9HRSLQPHEG8SSQ56WB9"]["experiment1"][1]["chooseStrategy"]
+        self.assertEqual( q1["_id"], "aDsp4bhaLxWM9NDnt", "PROBLEM: "+ json.dumps(q1) )
+        self.assertEqual( q1["choiceLoadedTime"], 1491924056516.0,  "PROBLEM: "+ json.dumps(q1) )
+        q1 = qHash["3M0BCWMB8VW9HRSLQPHEG8SSQ56WB9"]["experiment1"][0]["chooseOutcome"]
+        self.assertEqual( q1["_id"], "TrywhPxnyFSbpkiZa", "PROBLEM: "+ json.dumps(q1) )
+        self.assertEqual( q1["choiceLoadedTime"], 1491924045731.0, "PROBLEM: "+ json.dumps(q1) )
+        q1 = qHash["33FOTY3KEMLZQV4O71OOY28GCDYC1Y"]["survey"][0]["dropdown"]
+        self.assertEqual( q1["_id"], "x4pXuDqNxtRAr2hep", "PROBLEM: "+ json.dumps(q1) )
+        self.assertEqual( int( q1["choice"] ), 3, "PROBLEM: "+ json.dumps(q1) )
+        #self.pd.findNashEq()
+        #self.sh.findNashEq()
+        #self.assertEqual( len( self.pd.foundNashEq ), 1)
+        #self.assertEqual( len( self.sh.foundNashEq ), 2)
+        #np.testing.assert_array_equal( self.pd.outcomes[ self.pd.foundNashEq[0] ], np.array([2,2]) )
+
+    def test_enrichQuestionObject( self ):
+        pass
+
+test = True
+if test :
+    print("testing")
+    #gameChoices = json.load(open(
+        #settings["dataTest"] + 'SubDataTestSample.json',
+        #'r',
+        #encoding='utf-8'
+    #))
+    #print("HKDSLJK", len(gameChoices))
+    #qHash = buildChooseGameIdToQuestionHash( gameChoices )
+    #print( len(qHash), qHash.keys() )
+
+    unittest.main()
+else:
+    sIn = settings["data"]+"v1_20170418_first100/"
+    main( sIn, settings["data"]+"s2/out.csv" )
+
+
