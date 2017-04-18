@@ -12,14 +12,13 @@
 #from builtins import range
 #from io import open
 
-import pickle
 from pprint import pprint
 from game_topology_scaling_dynamics import OrdinalGameSpace
 from ordinalGameSolver import EmpiricalOrdinalGame2P
 import copy
 import csv
 import json
-settings = json.load(open('settings.json'))
+settings = json.load(open('settings.json', encoding='utf-8'))
 print(settings)
 
 ### for handling deeply nested objects
@@ -60,6 +59,28 @@ def buildChooseGameIdToQuestionHash(  questionArray ):
         if dq.get("theData/type") == 'chooseStrategy':
             q = oData["theDataConsummated"] if oData.get("theDataConsummated") else oData["theData"]
             idsToQuestions[ oData["_id"] ] = q
+    return( idsToQuestions)
+
+# now let me index on (round, type, asst)
+def buildRndToQuestionHash(  questionArray ):
+    qs = DictQuery({})  ## more easily queryable
+    for oData in questionArray:
+        q = oData["theDataConsummated"] if oData.get("theDataConsummated") else oData["theData"]
+        ### guide vars
+        rnd = q["sec_rnd"]
+        qtype = q["type"]
+        asst = q["mtAssignmentId"]
+        #mtId = q["mtWorkerId"]
+        #sec = q["sec"]
+        #qOId = q["matchingGameId"]
+        ## build hash on index: asst, rnd, type
+        if not qs.get(asst): qs[asst] = {}
+        if not qs.get(asst).get(rnd): qs[asst][rnd] = {}
+        if not qs.get(asst).get(rnd).get(qtype): qs[asst][rnd][qtype] = {}
+        qs[asst][rnd][qtype] = q
+    return( qs )
+
+def enrichQuestionObject(  questionArray ):
     # now do some merging from neighboring questions
     for oData in questionArray:
         q = idsToQuestions[ oData["_id"] ]
@@ -70,8 +91,8 @@ def buildChooseGameIdToQuestionHash(  questionArray ):
         mtAsstId = q["mtAssignmentId"]
         qOId = q["matchingGameId"]
         # for round 1 or 2 question
-        #     get preferred choice question from same round
-        #     get expected choice question from same round
+        #     get preferred choice question from same round 
+        #     get expected choice question from same round 
         #     get expected outcome question from previous question
         #     get choice from matching round 4 question (if exists)
         #     get choice from other player's matching question 
@@ -80,14 +101,6 @@ def buildChooseGameIdToQuestionHash(  questionArray ):
         if rnd == 0 or rnd == 1:
             pass
     return( idsToQuestions )
-
-def buildChooseGameIdToPayoffHash(  questionArray ):
-    idsToPayoffs = {}
-    for q in questionArray:
-        # pprint( q )
-        if q["theData"]['type'] == 'chooseStrategy':
-            idsToPayoffs[ q["_id"] ] = q["theData"]["payoffs"]
-    return( idsToPayoffs )
 
 def gprint( payoffs ):
     p = payoffs
@@ -107,11 +120,10 @@ def expPayoffToGame( payoffs, gameSpace ):
     return( g1 )
 
 def main( sIn, sOut ):
-    gameChoices = pickle.load(open(sIn + 'SubData.p', 'rb'))
+    gameChoices = json.load(open(sIn + 'SubData.json', 'r', encoding='utf-8'))
     idsToQuestions =  buildChooseGameIdToQuestionHash( gameChoices )
     #idsToQuestionsR0R1 =  buildChooseGameIdToQuestionHash( gameChoices ,[0,1])
     #idsToQuestionsR4 =  buildChooseGameIdToQuestionHash( gameChoices ,[4])
-    idsToPayoffs = buildChooseGameIdToPayoffHash( gameChoices )
     twoPSpace = OrdinalGameSpace(2)
     nGameCount = 0
     with open(sOut, 'w') as fOut:
@@ -123,17 +135,24 @@ def main( sIn, sOut ):
             q = game['theData']
             if q['type'] == 'chooseGame':
                 # pprint( game['theData'] )
-                # print( "1:", idsToPayoffs[ q["idGameQ1"] ], q["payoffsGame1"], showPayoff( q["payoffsGame1"] ) )
-                # print( "2:", idsToPayoffs[ q["idGameQ2"] ], q["payoffsGame2"] )
+                # print( "1:", idsToQuestions[ q["idGameQ1"] ].payoffs, q["payoffsGame1"], showPayoff( q["payoffsGame1"] ) )
+                # print( "2:", idsToQuestions[ q["idGameQ2"] ].payoffs, q["payoffsGame2"] )
                 # print()
                 # gprint(q["payoffsGame2"])
                 nGameCount += 1
-                g1Q = idsToQuestions[ q["idGameQ1"] ]
-                g2Q = idsToQuestions[ q["idGameQ2"] ]
+                #pprint( q )
+                g1Q = idsToQuestions.get( q["idGameQ1"], False)
+                g2Q = idsToQuestions.get( q["idGameQ2"], False)
+                if not g1Q:
+                    print("FAIL question q1", g1Q, q["idGameQ1"] )
+                    continue
+                if not g2Q:
+                    print("FAIL question q2", g2Q, q["idGameQ2"] )
+                    continue
                 g1Game = expPayoffToGame( q["payoffsGame1"], twoPSpace )
                 g2Game = expPayoffToGame( q["payoffsGame2"], twoPSpace )
 
-                pprint(g1Q)
+                #pprint(g1Q)
 
                 # caluc firtst game
                 g1 = {}
@@ -177,11 +196,11 @@ def main( sIn, sOut ):
 
                 ### output
                 ### csvwriter
-                print(features)
-                print( [ chosenGame[f] for f in features ] )
-                print( [ otherGame[f] for f in features ] )
-                print( [ diffGame[f] for f in features ] )
-                print()
+                #print(features)
+                #print( [ chosenGame[f] for f in features ] )
+                #print( [ otherGame[f] for f in features ] )
+                #print( [ diffGame[f] for f in features ] )
+                #print()
                 fCSV.writerow( diffGame )
 
 
@@ -189,9 +208,9 @@ def main( sIn, sOut ):
                 #pprint( idsToQuestions[ q["idGameQ1"] ] )
 
         pass
-    #print( len( idsToPayoffs ))
+    #print( len( idsToQuestions ))
     print( len( gameChoices ), nGameCount)
 
-sIn = settings["data"]+"v1_writable_20170411/"
+sIn = settings["data"]+"v1_20170418_first100/"
 main( sIn, settings["data"]+"s2/out.csv" )
 import gambit
