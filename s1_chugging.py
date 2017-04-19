@@ -15,7 +15,7 @@
 
 from pprint import pprint
 from game_topology_scaling_dynamics import OrdinalGameSpace
-from ordinalGameSolver import EmpiricalOrdinalGame2P
+from ordinalGameSolver import EmpiricalOrdinalGame2P, outcomeToIdx, outcomeDiff
 import copy
 import csv
 import json
@@ -185,6 +185,74 @@ def expPayoffToGame( payoffs, gameSpace ):
     g1 = EmpiricalOrdinalGame2P( g1o )
     return( g1 )
 
+def buildGameFeatures( q, game ):
+    #print("INtrospect", q['sec'], q['treatment'])
+    # caluc firtst game
+    g = {}
+    # choice rather than game property related
+    g["gameRT"] = ( q["choiceMadeTime"] - q["choiceLoadedTime"] ) / 10000 # not q["choiceSubmittedTime"]
+    g["gratGameF"] = 1 if q['outcomePreferred'] == q['outcome'] else 0
+    g["gratFGameF"] = 1 if q['outcomePreferred'].partition(',')[0] == q['outcome'].partition(',')[0] else 0
+    g["gratOGameF"] = 1 if q['outcomePreferred'].partition(',')[2] == q['outcome'].partition(',')[2] else 0
+    g["predGameF"] = 1 if q['outcomePredicted'] == q['outcome'] else 0
+    ## i obviously can't put habitGameF in the model.  talk about selection bias
+    #g["habitGameF"] = 1 if (q['choice'] == q['choiceRepeated']) else 0
+    #print(q['outcome'], q['choice'], q['outcomePreferred'], q['choicePredicted'], (q['choice'] + ',' + q['choicePredicted']))
+    #print( q['outcome'], q['outcomePreferred'], q['outcomePreferredOther'], q['outcomePredicted'], q['outcomePredictedOther'] )
+    # other player
+    g["gratGameO"] = 1 if q['outcomePreferredOther'] == q['outcome'] else 0
+    g["predGameO"] = 1 if q['outcomePredictedOther'] == q['outcome'] else 0
+    #g["habitGameO"] = 1 if (q['choiceOther'] == q['choiceRepeatedOther']) else 0
+    g["cnssGame"] = 1 if q['outcomePreferred'] == q['outcomePreferredOther'] else 0
+    g["stratCertGame"] = 1 if q['outcomePredicted'] == q['outcomePredictedOther'] else 0
+    # game properties
+    g["0PNash"] = len( game.findNashEq() ) == 0
+    g["1PNash"] = len( game.findNashEq() ) == 1
+    g["nPNash"] = len( game.findNashEq() ) >= 2
+    g["WPNash"] = len( game.findOnlyWeakNashEq() )
+    g["wwGame"] = 1 if game.isWinWin() else 0
+    g["effGame"] = game.efficiencyOfGame()
+    g["effGameF"] = game.efficiencyOfGame(0)
+    g["effGameO"] = game.efficiencyOfGame(1)
+    gOutcomePref = game.outcomes[ outcomeToIdx(q['outcomePreferred']) ]
+    g["ineqTolGame"] = outcomeDiff( gOutcomePref )
+    # game properties, more psychological
+    #domGameF indiffF domGameO indiffO cmndGameF cmndGameO nonGameF nonGameO
+    g["domGameF"] = int( game.choiceDominates( 0, 0) or game.choiceDominates( 1, 0) )
+    g["indiffF"] = int( game.choiceDominates( 0, 0, weakOnly=True) and game.choiceDominates( 1, 0, weakOnly=True) )
+    g["domGameO"] = int( game.choiceDominates( 0, 1) or game.choiceDominates( 1, 1) )
+    g["indiffO"] = int( game.choiceDominates( 0, 1, weakOnly=True) and game.choiceDominates( 1, 1, weakOnly=True) )
+    gcmdf = game.choiceCommands( 0, 0)
+    gcmdo = game.choiceCommands( 0, 1)
+    g["cmndGameF"] = gcmdf if not gcmdf is False else 0
+    g["cmndGameO"] = gcmdo if not gcmdo is False else 0
+    ## these next two are reversed: if i have 0 command over you, than you are in a non-game (not me)
+    g["nonGameO"] = 1 if gcmdf == 0 and not gcmdf is False else 0
+    g["nonGameF"] = 1 if gcmdo == 0 and not gcmdo is False else 0
+    #print( q['payoffs'], game.outcomes.tolist() )
+    # if top dominates bottom then bottom can't dominate top
+    #   (but bottom not dominating top doesn't imply top dominating bottom)
+    assert not game.choiceDominates( 0, 0) if game.choiceDominates( 1, 0) else True, q["payoffs"]
+    assert not game.choiceDominates( 0, 1) if game.choiceDominates( 1, 1) else True, q["payoffs"]
+    assert not game.choiceDominates( 1, 0) if game.choiceDominates( 0, 0) else True, q["payoffs"]
+    assert not game.choiceDominates( 1, 1) if game.choiceDominates( 0, 1) else True, q["payoffs"]
+    # if top weakly dominates bottom (and doesn't dominate strongly) then bottom weakly dominates top
+    if game.choiceDominates( 0, 0, weakOnly=True):
+        assert game.choiceDominates( 1, 0, weakOnly=True) , q["payoffs"]
+    if game.choiceDominates( 0, 1, weakOnly=True):
+        assert game.choiceDominates( 1, 1, weakOnly=True) , q["payoffs"]
+    if game.choiceDominates( 1, 0, weakOnly=True):
+        assert game.choiceDominates( 0, 0, weakOnly=True) , q["payoffs"]
+    if game.choiceDominates( 1, 1, weakOnly=True):
+        assert game.choiceDominates( 0, 1, weakOnly=True) , q["payoffs"]
+    assert gcmdf is False or gcmdf == -game.choiceCommands( 1, 0), q["payoffs"]
+    assert gcmdo is False or gcmdo == -game.choiceCommands( 1, 1), q["payoffs"]
+    ### investigate goes (like any that are rare)
+    #if any( g[f] != 0 for f in ["indiffF", "indiffO", "nonGameF", "nonGameO"] ):
+        #print("TO INSPECT", q["payoffs"], game.outcomes.tolist(), g, game, q)
+        #print()
+    return( g )
+
 def main( sIn, sOut ):
     gameChoices = json.load(open(sIn + 'SubData.json', 'r', encoding='utf-8'))
     idsToQuestions =  buildChooseGameIdToQuestionHash( gameChoices )
@@ -194,7 +262,7 @@ def main( sIn, sOut ):
     twoPSpace = OrdinalGameSpace(2)
     nGameCount = 0
     with open(sOut, 'w') as fOut:
-        features = [ "gameRT", "nPNash", "nWPNash", "wwGame", "effGameF", "effGameO", "gratFGameF", "gratOGameF", "predGameF", "gratGameO", "predGameO", "cnssGame", "stratCertGame" ]
+        features = [ "gameRT", "0PNash", "1PNash", "nPNash", "WPNash", "wwGame", "effGameF", "effGameO", "gratFGameF", "gratOGameF", "predGameF", "gratGameO", "predGameO", "cnssGame", "stratCertGame", "ineqTolGame", "domGameF", "domGameO", "indiffF", "indiffO", "cmndGameF", "cmndGameO", "nonGameF", "nonGameO",   ]
         featuresNOT = ["effGame", "habitGameF", "habitGameO", "expdGameF", "expdGameO", "gratGameF", ]
         ## diff level
         features.extend(["block","expdGameF","expdGameO","outRT"])
@@ -226,7 +294,7 @@ def main( sIn, sOut ):
                 if not g2Q["matchingGameId"] is None:
                     g2Q = enrichQuestionObjectOtherPlayer(g2Q, idsToQuestions, rndsToQuestions )
                 if not all( (f in g1Q and f in g2Q) for f in ["outcome", "choiceRepeated", "choiceRepeatedOther"] ):
-                    print("FAIL q1 or q2 incomplete keys", g1Q["_id"], g2Q["_id"] )
+                    print("FAIL q q1 or q2 incomplete keys", g1Q["_id"], g2Q["_id"] )
                     #print("FAIL q1 or q2 incomplete keys", g1Q.keys(), g2Q.keys() )
                     continue
 
@@ -234,55 +302,9 @@ def main( sIn, sOut ):
                 g1Game = expPayoffToGame( q["payoffsGame1"], twoPSpace )
                 g2Game = expPayoffToGame( q["payoffsGame2"], twoPSpace )
 
-                #pprint(g1Q)
-
-                #print("INtrospect", q['sec'], q['treatment'])
-                # caluc firtst game
-                g1 = {}
-                # choice rather than game property related
-                g1["gameRT"] = ( g1Q["choiceMadeTime"] - g1Q["choiceLoadedTime"] ) / 10000 # not g1Q["choiceSubmittedTime"]
-                g1["gratGameF"] = 1 if g1Q['outcomePreferred'] == g1Q['outcome'] else 0
-                g1["gratFGameF"] = 1 if g1Q['outcomePreferred'].partition(',')[0] == g1Q['outcome'].partition(',')[0] else 0
-                g1["gratOGameF"] = 1 if g1Q['outcomePreferred'].partition(',')[2] == g1Q['outcome'].partition(',')[2] else 0
-                g1["predGameF"] = 1 if g1Q['outcomePredicted'] == g1Q['outcome'] else 0
-                ## i obviously can't put habitGameF in the model.  talk about selection bias
-                #g1["habitGameF"] = 1 if (g1Q['choice'] == g1Q['choiceRepeated']) else 0
-                #print(g1Q['outcome'], g1Q['choice'], g1Q['outcomePreferred'], g1Q['choicePredicted'], (g1Q['choice'] + ',' + g1Q['choicePredicted']))
-                # other player
-                print( g1Q['outcome'], g1Q['outcomePreferred'], g1Q['outcomePreferredOther'], g1Q['outcomePredicted'], g1Q['outcomePredictedOther'] )
-                g1["gratGameO"] = 1 if g1Q['outcomePreferredOther'] == g1Q['outcome'] else 0
-                g1["predGameO"] = 1 if g1Q['outcomePredictedOther'] == g1Q['outcome'] else 0
-                #g1["habitGameO"] = 1 if (g1Q['choiceOther'] == g1Q['choiceRepeatedOther']) else 0
-                g1["cnssGame"] = 1 if g1Q['outcomePreferred'] == g1Q['outcomePreferredOther'] else 0
-                g1["stratCertGame"] = 1 if g1Q['outcomePredicted'] == g1Q['outcomePredictedOther'] else 0
-
-                # game properties
-                g1["nPNash"] = len( g1Game.findNashEq() )
-                g1["nWPNash"] = len( g1Game.findWeakNashEq() )
-                g1["wwGame"] = 1 if g1Game.isWinWin() else 0
-                g1["effGame"] = g1Game.efficiencyOfGame()
-                g1["effGameF"] = g1Game.efficiencyOfGame(0)
-                g1["effGameO"] = g1Game.efficiencyOfGame(1)
-
-                # secodn game
-                g2 = {}
-                g2["gameRT"] = ( g2Q["choiceMadeTime"] - g2Q["choiceLoadedTime"] ) / 10000
-                g2["gratGameF"] = 1 if g2Q['outcomePreferred'] == g2Q['outcome'] else 0
-                g2["gratFGameF"] = 1 if g2Q['outcomePreferred'].partition(',')[0] == g2Q['outcome'].partition(',')[0] else 0
-                g2["gratOGameF"] = 1 if g2Q['outcomePreferred'].partition(',')[2] == g2Q['outcome'].partition(',')[2] else 0
-                g2["predGameF"] = 1 if (g2Q['choice'] + ',' + g2Q['choicePredicted']) == g2Q['outcome'] else 0
-                #g2["habitGameF"] = 1 if (g2Q['choice'] == g2Q['choiceRepeated']) else 0
-                g2["gratGameO"] = 1 if g2Q['outcomePreferredOther'] == g2Q['outcome'] else 0
-                g2["predGameO"] = 1 if g2Q['outcomePredictedOther'] == g2Q['outcome'] else 0
-                #g2["habitGameO"] = 1 if (g2Q['choiceOther'] == g2Q['choiceRepeatedOther']) else 0
-                g2["cnssGame"] = 1 if g2Q['outcomePreferred'] == g2Q['outcomePreferredOther'] else 0
-                g2["stratCertGame"] = 1 if g2Q['outcomePredicted'] == g2Q['outcomePredictedOther'] else 0
-                g2["nPNash"] = len( g2Game.findNashEq() )
-                g2["nWPNash"] = len( g2Game.findWeakNashEq() )
-                g2["wwGame"] = 1 if g2Game.isWinWin() else 0
-                g2["effGame"] = g2Game.efficiencyOfGame()
-                g2["effGameF"] = g2Game.efficiencyOfGame(0)
-                g2["effGameO"] = g2Game.efficiencyOfGame(1)
+                # compute features
+                g1 = buildGameFeatures( g1Q, g1Game )
+                g2 = buildGameFeatures( g2Q, g2Game )
 
                 # game to diff
                 if q["choice"] == q["idGameQ1"]:
