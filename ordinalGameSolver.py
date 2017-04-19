@@ -39,6 +39,11 @@ class EmpiricalOrdinalGame2P(OrdinalGame):
             self.isNash( s )
         return( self.foundNashEq )
 
+    def findWeakNashEq(self):
+        for s in self.strategySet:
+            self.isWeakNash( s )
+        return( self.foundWeakNashEq )
+
 import unittest
 class TestOrdinalGame(unittest.TestCase):
 
@@ -61,6 +66,7 @@ class TestOrdinalGame(unittest.TestCase):
         self.assertEqual( self.sh.efficiencyOfGame(), 20 )
         self.assertEqual( self.pd.efficiencyOfGame( 0 ), 10 )
         self.assertEqual( self.pd.efficiencyOfGame( 1 ), 10 )
+        self.assertEqual( self.pd.efficiencyOfGame( 0 ) + self.pd.efficiencyOfGame( 1 ), self.pd.efficiencyOfGame() )
 
     def test_payoffsToOutcomes( self ):
         #payoffsPrimitive = [3,3,1,4,4,1,2,2]

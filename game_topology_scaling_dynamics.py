@@ -29,6 +29,7 @@ class OrdinalGame(object):
     self.name = ""
     self.__gameid = ""
     self.foundNashEq = []
+    self.foundWeakNashEq = []
     self.ntests = 0 ### the number of times that this game has been probed for equilibria (the number of strategy sets that have been tested)
   ### changes one player's strategy in the list of strategies
   def flip(self, strategy_set, player):
@@ -55,6 +56,7 @@ class OrdinalGame(object):
     else: return( False )
   def isWeakNash(self, strategy_set):
     if all( [ (self.payoff(strategy_set, i) >= self.payoff(self.flip(strategy_set, i), i ) ) for i in range(0,self.nplayers) ] ):
+      if not strategy_set in self.foundWeakNashEq: self.foundWeakNashEq.append( strategy_set )
       return( True )
     else: return( False )
   ### two player, now generalized
