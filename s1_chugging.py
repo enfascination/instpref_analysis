@@ -344,7 +344,7 @@ def main( sIn, sOut ):
                 diffGame["expdGameF"] = 0 if q['treatment'] == "nofeedback" else 1
                 diffGame["expdGameO"] = 1 if q['treatment'] == "nofeedback" else 0  # necessarily the opposite in this staggered deisgn
                 diffGame["outRT"] = ( g2Q["choiceMadeTime"] - g2Q["choiceLoadedTime"] ) / 10000
-                diffGame["wwChoice"] =  g1Q["wwGame"] or g2Q["wwGame"]
+                diffGame["wwChoice"] =  chosenGame["wwGame"] or otherGame["wwGame"]
                 ### output
                 ### csvwriter
                 #print(features)
