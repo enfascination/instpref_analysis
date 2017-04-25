@@ -19,6 +19,7 @@ from ordinalGameSolver import EmpiricalOrdinalGame2P, outcomeToIdx, outcomeDiff
 import copy
 import csv
 import json
+import numpy as np
 settings = json.load(open('settings.json', encoding='utf-8'))
 
 ### for handling deeply nested objects
@@ -191,31 +192,46 @@ def buildGameFeatures( q, game ):
     g = {}
     # choice rather than game property related
     g["gameRT"] = ( q["choiceMadeTime"] - q["choiceLoadedTime"] ) / 10000 # not q["choiceSubmittedTime"]
-    g["gratGameF"] = 1 if q['outcomePreferred'] == q['outcome'] else 0
-    g["gratFGameF"] = 1 if q['outcomePreferred'].partition(',')[0] == q['outcome'].partition(',')[0] else 0
-    g["gratOGameF"] = 1 if q['outcomePreferred'].partition(',')[2] == q['outcome'].partition(',')[2] else 0
+    g["prefOutcomeF"] = 1 if q['outcomePreferred'] == q['outcome'] else 0
+    g["prefOutcomeFSpoilt"] = 0
+    g["prefOutcomeOSpoilt"] = 0
+    if not g["prefOutcomeF"]:
+        if q['outcomePreferred'].partition(',')[0] == q['choice']:
+            assert q['outcomePreferred'].partition(',')[2] != q['choiceOther'], q
+        if q['outcomePreferred'].partition(',')[2] == q['choiceOther']:
+            assert q['outcomePreferred'].partition(',')[0] != q['choice'], q
+        if q['outcomePreferred'].partition(',')[0] != q['choice']:
+            g["prefOutcomeFSpoilt"] = 1
+        if q['outcomePreferred'].partition(',')[2] != q['choiceOther']:
+            g["prefOutcomeOSpoilt"] = 1
+    g["prefFGameF"] = 1 if q['outcomePreferred'].partition(',')[0] == q['outcome'].partition(',')[0] else 0
+    g["prefOGameF"] = 1 if q['outcomePreferred'].partition(',')[2] == q['outcome'].partition(',')[2] else 0
+    #print( "prefOutcomeFSpoilt", g["prefOutcomeF"], g["prefOutcomeFSpoilt"], q['outcomePreferred'].partition(',')[0], q['choice'], q['outcomePreferred'].partition(',')[0] != q['choice'], g["prefOutcomeOSpoilt"], q['outcomePreferred'].partition(',')[2], q['choiceOther'], g["prefFGameF"], g["prefOGameF"], )
     g["predGameF"] = 1 if q['outcomePredicted'] == q['outcome'] else 0
     ## i obviously can't put habitGameF in the model.  talk about selection bias
     #g["habitGameF"] = 1 if (q['choice'] == q['choiceRepeated']) else 0
     #print(q['outcome'], q['choice'], q['outcomePreferred'], q['choicePredicted'], (q['choice'] + ',' + q['choicePredicted']))
     #print( q['outcome'], q['outcomePreferred'], q['outcomePreferredOther'], q['outcomePredicted'], q['outcomePredictedOther'] )
     # other player
-    g["gratGameO"] = 1 if q['outcomePreferredOther'] == q['outcome'] else 0
+    g["prefOutcomeO"] = 1 if q['outcomePreferredOther'] == q['outcome'] else 0
     g["predGameO"] = 1 if q['outcomePredictedOther'] == q['outcome'] else 0
     #g["habitGameO"] = 1 if (q['choiceOther'] == q['choiceRepeatedOther']) else 0
-    g["cnssGame"] = 1 if q['outcomePreferred'] == q['outcomePreferredOther'] else 0
-    g["stratCertGame"] = 1 if q['outcomePredicted'] == q['outcomePredictedOther'] else 0
+    g["cnssPrefOut"] = 1 if q['outcomePreferred'] == q['outcomePreferredOther'] else 0
+    g["cnssPredOut"] = 1 if q['outcomePredicted'] == q['outcomePredictedOther'] else 0
     # game properties
-    g["0PNash"] = len( game.findNashEq() ) == 0
-    g["1PNash"] = len( game.findNashEq() ) == 1
-    g["nPNash"] = len( game.findNashEq() ) >= 2
-    g["WPNash"] = len( game.findOnlyWeakNashEq() )
+    g["PNash0"] = int( len( game.findNashEq() ) == 0 )
+    g["PNash1"] = int( len( game.findNashEq() ) == 1 )
+    g["PNashn"] = int( len( game.findNashEq() ) >= 2 )
+    g["WPNash"] = int( len( game.findOnlyWeakNashEq() ) )
+    g["effNashF"] = game.meanEfficiencyOfStrategies( game.foundNashEq, 0) if game.foundNashEq else np.nan
+    g["effNashO"] = game.meanEfficiencyOfStrategies( game.foundNashEq, 1) if game.foundNashEq else np.nan
     g["wwGame"] = 1 if game.isWinWin() else 0
     g["effGame"] = game.efficiencyOfGame()
     g["effGameF"] = game.efficiencyOfGame(0)
     g["effGameO"] = game.efficiencyOfGame(1)
+    #print(q["payoffs"], g["effGameF"], g["effGameO"], type(g["effGameF"]))
     gOutcomePref = game.outcomes[ outcomeToIdx(q['outcomePreferred']) ]
-    g["ineqTolGame"] = outcomeDiff( gOutcomePref )
+    g["prefIneqGame"] = outcomeDiff( gOutcomePref )
     # game properties, more psychological
     #domGameF indiffF domGameO indiffO cmndGameF cmndGameO nonGameF nonGameO
     g["domGameF"] = int( game.choiceDominates( 0, 0) or game.choiceDominates( 1, 0) )
@@ -251,6 +267,9 @@ def buildGameFeatures( q, game ):
     #if any( g[f] != 0 for f in ["indiffF", "indiffO", "nonGameF", "nonGameO"] ):
         #print("TO INSPECT", q["payoffs"], game.outcomes.tolist(), g, game, q)
         #print()
+    #if g["indiffO"] != 0:
+        #print( g["indiffO"] )
+    #print( g )
     return( g )
 
 def main( sIn, sOut ):
@@ -262,8 +281,8 @@ def main( sIn, sOut ):
     twoPSpace = OrdinalGameSpace(2)
     nGameCount = 0
     with open(sOut, 'w') as fOut:
-        features = [ "gameRT", "0PNash", "1PNash", "nPNash", "WPNash", "wwGame", "effGameF", "effGameO", "gratFGameF", "gratOGameF", "predGameF", "gratGameO", "predGameO", "cnssGame", "stratCertGame", "ineqTolGame", "domGameF", "domGameO", "indiffF", "indiffO", "cmndGameF", "cmndGameO", "nonGameF", "nonGameO",   ]
-        featuresNOT = ["effGame", "habitGameF", "habitGameO", "expdGameF", "expdGameO", "gratGameF", ]
+        features = [ "gameRT", "PNash0", "PNash1", "PNashn", "WPNash", "effNashF", "effNashO", "wwGame", "effGameF", "effGameO", "prefFGameF", "prefOGameF", "predGameF", "prefOutcomeO", "predGameO", "cnssPrefOut", "cnssPredOut", "prefIneqGame", "domGameF", "domGameO", "indiffF", "indiffO", "cmndGameF", "cmndGameO", "nonGameF", "nonGameO", "prefOutcomeF", "prefOutcomeFSpoilt", "prefOutcomeOSpoilt"  ]
+        featuresNOT = ["effGame", "habitGameF", "habitGameO", "expdGameF", "expdGameO", ]
         ## diff level
         features.extend(["block","expdGameF","expdGameO","outRT"])
         fCSV = csv.DictWriter( fOut, fieldnames=features )
@@ -332,6 +351,7 @@ def main( sIn, sOut ):
                 #print( [ otherGame[f] for f in features ] )
                 #print( [ diffGame[f] for f in features ] )
                 #print()
+                print(diffGame["effGameF"])
                 fCSV.writerow( diffGame )
 
 
@@ -348,8 +368,6 @@ class TestOrdinalGame(unittest.TestCase):
 
     def setUp(self):
         #self.twoSpace = OrdinalGameSpace(2)
-        #self.pd = EmpiricalOrdinalGame2P( np.array([[[3,3],[1,4]],[[4,1],[2,2]]] ))
-        #self.sh = EmpiricalOrdinalGame2P( np.array([[[3,3],[1,2]],[[2,1],[4,4]]] ))
         with open(
             settings["dataTest"] + 'SubDataTestSample.json',
             'r',
@@ -362,8 +380,6 @@ class TestOrdinalGame(unittest.TestCase):
         q1 = qHash["aDsp4bhaLxWM9NDnt"]
         self.assertTrue( qHash.get("aDsp4bhaLxWM9NDnt"), "PROBLEM: "+ json.dumps(q1) )
         self.assertEqual( q1["choiceLoadedTime"], 1491924056516.0,  "PROBLEM: "+ json.dumps(q1) )
-        #np.testing.assert_array_equal( self.sh.payoffsOfPlayer(0), np.array([3,1,2,4]) )
-        #np.testing.assert_array_equal( self.sh.payoffsOfPlayer(1), np.array([3,2,1,4]) )
 
     def test_buildRndToQuestionHash( self ):
         qHash = buildRndToQuestionHash( self.gameChoices )
@@ -376,11 +392,6 @@ class TestOrdinalGame(unittest.TestCase):
         q1 = qHash["33FOTY3KEMLZQV4O71OOY28GCDYC1Y"]["survey"][0]["dropdown"]
         self.assertEqual( q1["_id"], "x4pXuDqNxtRAr2hep", "PROBLEM: "+ json.dumps(q1) )
         self.assertEqual( int( q1["choice"] ), 3, "PROBLEM: "+ json.dumps(q1) )
-        #self.pd.findNashEq()
-        #self.sh.findNashEq()
-        #self.assertEqual( len( self.pd.foundNashEq ), 1)
-        #self.assertEqual( len( self.sh.foundNashEq ), 2)
-        #np.testing.assert_array_equal( self.pd.outcomes[ self.pd.foundNashEq[0] ], np.array([2,2]) )
 
     def test_enrichQuestionObject( self ):
         qIdHash = buildChooseGameIdToQuestionHash( self.gameChoices )
