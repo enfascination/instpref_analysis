@@ -284,7 +284,7 @@ def main( sIn, sOut ):
         features = [ "gameRT", "PNash0", "PNash1", "PNashn", "WPNash", "effNashF", "effNashO", "wwGame", "effGameF", "effGameO", "prefFGameF", "prefOGameF", "predGameF", "prefOutcomeO", "predGameO", "cnssPrefOut", "cnssPredOut", "prefIneqGame", "domGameF", "domGameO", "indiffF", "indiffO", "cmndGameF", "cmndGameO", "nonGameF", "nonGameO", "prefOutcomeF", "prefOutcomeFSpoilt", "prefOutcomeOSpoilt"  ]
         featuresNOT = ["effGame", "habitGameF", "habitGameO", "expdGameF", "expdGameO", ]
         ## diff level
-        features.extend(["block","expdGameF","expdGameO","outRT"])
+        features.extend(["block","expdGameF","expdGameO","outRT","wwChoice"])
         fCSV = csv.DictWriter( fOut, fieldnames=features )
         fCSV.writeheader()
         for game in gameChoices:
