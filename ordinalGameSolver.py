@@ -38,7 +38,10 @@ class EmpiricalOrdinalGame2P(OrdinalGame):
             out = payoffsP0
         elif player == 1:
             out = payoffsP1
-        return( np.sum( out ) )
+        return( int( np.sum( out ) ) )
+
+    def meanEfficiencyOfStrategies( self, strategy_set, player):
+        return( np.mean([ self.outcomes[s][player] for s in strategy_set ]) )
 
     def payoffsOfPlayer( self, player):
         topRowOs = self.outcomes[0]
@@ -224,6 +227,13 @@ class TestOrdinalGame(unittest.TestCase):
         self.assertEqual( self.nongame1.choiceCommands( 0, 1), 0 )
         self.assertEqual( self.nongame2.choiceCommands( 0, 0), 0 )
         self.assertEqual( self.pd.choiceCommands( 1, 1) , -1)
+
+    def test_meanEfficiencyOfStrategies( self ):
+        self.sh.findNashEq()
+        self.assertEqual( self.sh.meanEfficiencyOfStrategies([(0,0),(1,1)], 0), 3.5 )
+        self.assertEqual( self.sh.meanEfficiencyOfStrategies( self.sh.foundNashEq, 0), 3.5 )
+        self.assertEqual( self.pd.meanEfficiencyOfStrategies([(1,0)], 0), 4)
+        self.assertEqual( self.pd.meanEfficiencyOfStrategies([(1,0)], 1), 1)
 
 if __name__ == '__main__':
 
