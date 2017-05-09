@@ -3,6 +3,7 @@
 # source("s2_model.r")
 library(dplyr)
 library(rjson)
+library(ggplot2)
 settings <- fromJSON( file="settings.json")
 
 prefs <- read.csv(file.path( settings$data, "s2/out.csv"))
@@ -14,7 +15,7 @@ prefs$gameRTctl <- log10( ifelse(prefs$block == 0, prefs$gameRT - RTadj, prefs$g
 colSums(prefs)
 apply(prefs, 2,FUN=table)
 str(prefs)
-## way too colinear: get rid of gameRT, effGameO effNashO, prefFGameF, prefOGameF, prefOutcomeFSPoilt,  
+## way too colinear: get rid of gameRT, effGameO effNashO, prefFGameF, prefOGameF, prefOutcomeFSpoilt,  
 ## symnum( cor(prefs) )
 
 ## predict speed of choice
@@ -34,21 +35,25 @@ controls_drops <- c("expdGameF", "block", "gameRT", "expdGameO")
 preflm <- prefs[ , !(names(prefs) %in% drops)]
 preflm <- prefs[ , !(names(prefs) %in% controls_drops)]
 summary(lm(out ~ . - outRT, preflm))
-summary(lm(out ~ . - outRT, preflm[ preflm$wwGame == 0, ]))
+summary(lm(out ~ . - outRT, preflm[ preflm$wwChoice == 0, ]))
 #summary(lm(out ~ .*. - outRT, preflm))  ## all interactions
 
 ### stat learnings
 # apply(preflrn, 2,FUN=table)
-preflrn <- prefs[prefs$wwGame == 0,]
-outlrn <- prefs[prefs$wwGame == 0,]$out
+preflrn <- prefs
 ### managing sparse ness that is toxic
 ###apply(as.matrix(preflrn), 2, var)
 super_sparse_drops <- c("effGameO", "effNashO", "prefFGameF", "prefOGameF", "prefOutcomeFSpoilt", "prefOutcomeOSpoilt")
 sparse_drops <- c("effNashF", "WPNash", "nonGameO", "nonGameF", "indiffO", "indiffF")
-controls_drops <- c("expdGameF", "block", "gameRT", "gameRTctl", "expdGameO", "outRT", "out")
+controls_drops <- c("expdGameF", "block", "gameRT", "gameRTctl", "expdGameO", "outRT", "out", "wwChoice")
 knowability_drops <- c("prefOutcomeO", "predGameO", "cnssPrefOut", "cnssPredOut" )
+nonsimulatable_drops <- c("gameRT", "prefFGameF", "prefOGameF", "prefGameF", "predGameO", "prefOutcomeO", "cnssPrefOut", "cnssPredOut", "prefIneqGame", "prefOutcomeF",  "prefOutcomeFSpoilt",    "prefOutcomeOSpoilt",    "block", "expdGameF", "expdGameO",  "outRT", "gameRTctl"  )
+nonsimulatable_drops <- c()
+winwin_dropped <- c("wwChoice", "wwGame")
 winwin_dropped <- c("wwGame")
-preflrn <- preflrn[ , !(names(preflrn) %in% c(super_sparse_drops, sparse_drops, controls_drops, knowability_drops, winwin_dropped ))]
+winwin_dropped <- c()
+preflrn <- preflrn[ , !(names(preflrn) %in% c( nonsimulatable_drops, super_sparse_drops, sparse_drops, controls_drops, knowability_drops, winwin_dropped ))]
+outlrn <- prefs$out
 ## and: 
 preflrn$PNashn  <- NULL
 #preflrn$prefOutcomeO  <- NULL
@@ -57,6 +62,7 @@ preflrn$cmndGameF  <- NULL
 #preflrn$domGameO  <- NULL
 #library(elasticnet)
 #enet( y=outlrn, x=as.matrix(preflrn), lambda=0)
+
 library(caret)
 MyTrainControl=trainControl(
                             method = "repeatedCV",
@@ -75,7 +81,6 @@ plot(model, metric='RMSE')
 plot(model$finalModel)
 model$bestTune
 model$finalModel
-
 enetCoefIsolate <- function(xs, y, model, lambda, toPrint=TRUE) {
     gg <- cv.enet(as.matrix(xs),y=y,lambda=lambda,s=seq(0,1,length=100),mode="fraction",trace=FALSE,max.steps=80, plot.it=toPrint)
     ggfrac <- gg$s[min(which(gg$cv < min(gg$cv) + gg$cv.error[which.min(gg$cv)]  ))]
@@ -84,60 +89,67 @@ enetCoefIsolate <- function(xs, y, model, lambda, toPrint=TRUE) {
     ggcoef_reduced <- ggcoef$coef[ ggcoef$coef != 0]
     ggcoef_reduced[ sort(abs(ggcoef_reduced), index.return=TRUE, decreasing=TRUE)$ix ]
 }
-
-enetCoefBoostrap <- function(xs, y, model, lambda, reps=100, conf=.98) {
-    coefNames = as.list(rep(list(),reps) )
+lmCoefIsolate <- function(xs, y) {
+    return( coef( preflm <- lm(y ~ .*., xs) ))
+}
+enetCoefBootstrap <- function(xs, y, mod, lambda, reps=100, conf=.98) {
+    coefNames = c()
     coefList = as.list(rep(0,reps) )
-    ### get all the coefs
+    ### get all the coefs of each boottrpa sample
     for (i in 1:reps) {
-        coefs <- enetCoefIsolate(xs, y, model, lambda, toPrint=FALSE)
+        samp <- sample(1:nrow(xs))
+        #coefs <- enetCoefIsolate(xs[samp,], y, mod, lambda, toPrint=FALSE)
+        coefs <- lmCoefIsolate(xs[samp,], y)
         coefList[[i]] <- coefs
-        coefNames <- union( coefNames, coefs )
+        coefNames <- union( coefNames, names( coefs ) )
+        #print(  names( coefs) )
     }
     mcoefs = matrix(0, nrow=reps, ncol=length(coefNames))
+    colnames(mcoefs) <- coefNames
     ### get all the coefs into a matrix by col
     #print( coefList )
     #print( coefList[[1]] )
     #print( str( coefList[[1]] ))
     #print( coefList[[1]][1] )
-    for (j in 1:length(coefNames)) {
-        n <- coefNames[j]
-        for (i in 1:reps) {
+    for (i in 1:reps) {
+        for (j in 1:length(coefNames)) {
+            n <- coefNames[j]
             if ( n %in% names( coefList[[i]] )  && ( length(coefList[[i]]) > 0 ) ) {
                 #print( n )
                 #print( coefList[[i]] )
                 #print( names( coefList[[i]] ) )
-                #print( coefList[[i]][n] )
-                mcoefs[i, j] <- coefList[[i]][ n ]
+                mcoefs[i, n] <- coefList[[i]][ n ]
             }
         }
+        #print( c(i, coefList[[i]]  ) )
+        #print( c(i, c(n, mcoefs[i,]) ) )
     }
     #print( mcoefs )
     ### calculate mean, min and max
-    cutoff = as.integer( ( reps - reps * conf ) / 2 )
+    cutoff = as.integer( ( reps - reps * conf ) / 2 ) + 1
     #dfcoefs <- matrix(0, ncol=4, nrow=length(coefNames) )
     dfcoefs <- data.frame(f=rep('',length(coefNames)), v=rep(0,length(coefNames)), vmin=rep(0,length(coefNames)), vmax=rep(0,length(coefNames)) )
     dfcoefs[,1] <- names( apply(mcoefs, 2, sum) )
-    dfcoefs[,2] <- apply(mcoefs, 2, sum)
+    dfcoefs[,2] <- apply(mcoefs, 2, mean)
     dfcoefs[,3] <- apply(mcoefs, 2, function(x) sort(x)[cutoff])
     dfcoefs[,4] <- apply(mcoefs, 2, function(x) sort(x)[length(x) - cutoff])
     return( dfcoefs )
 }
-
 enetCoefIsolate(preflrn, outlrn, model$finalModel, model$bestTune$lambda )
-enetCoefBoostrap(preflrn, outlrn, model$finalModel, model$bestTune$lambda )
+prefplot <- enetCoefBootstrap(preflrn, outlrn, model$finalModel, model$bestTune$lambda, conf=0.950 )
+ggplot(prefplot, aes(x=f, y=v)) + geom_point() + geom_errorbar(aes(ymin=vmin, ymax=vmax))
 
 library(randomForest)
 library(inTrees)
 #X <- iris[,-1]; target <- iris[,"Sepal.Length"] 
-X <- preflrn; target <- out
+X <- preflrn; target <- outlrn
 rf <- randomForest(X,target,ntree=10000) # random forest
 ruleExec0 <- extractRules(RF2List(rf),X, ntree=4000, maxdepth=3) 
 ruleExec <- unique(ruleExec0)
 ruleMetric <- getRuleMetric(ruleExec,X,target) # regression rules
 #ruleMetric
 # transform regression rules to classification rules
-target <- dicretizeVector(target) # discretize it into three levels in default with equal frequency (the function also allows one to customize the number of levels to be discretized) 
+target <- dicretizeVector(as.character(target)) # discretize it into three levels in default with equal frequency (the function also allows one to customize the number of levels to be discretized) 
 
 # methods for classification rules can then be used for the conditions extracted from the regression trees
 ruleMetric <- getRuleMetric(ruleExec,X,target)
@@ -146,3 +158,4 @@ ruleMetric <- pruneRule(ruleMetric,X,target) # prune each rule
 learner <- buildLearner(ruleMetric,X,target) #build the simplified tree ensemble learner
 readableLearner <- presentRules(learner,colnames(X)) # present the rules with a more readable format
 readableLearner
+varImpPlot( rf , type=2)
