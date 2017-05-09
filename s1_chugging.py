@@ -111,13 +111,13 @@ def enrichQuestionObject(  q, qdb ):
     if (rnd == 0 or rnd == 1 ) and qtype == "chooseStrategy":
         # get preferred choice question from same round 
         qPref = qdb[asst][sec][rnd]["chooseOutcome"]
-        assert qPref["text"][0:13] != "Hypothetically", qPref["text"][0:13]
-        assert qPref["title"] == "Question 1.2" or qPref["title"] == "Question 2.2", qPref
+        assert qPref["text"][0:14] == "Hypothetically", "Problem HJKFA: DOn't like hypothetically. " + qPref["text"][0:14]
+        #assert qPref["title"] == "Question 1.2" or qPref["title"] == "Question 2.2", qPref
         q["outcomePreferred"] = qPref["choice"]
         q["outcomePreferredID"] = qPref["_id"]
 
         qPred = qdb[asst][sec][rnd]["chooseStrategyTop"]
-        assert qPred["title"] == "Question 1.3" or qPred["title"] == "Question 2.3", qPred
+        #assert qPred["title"] == "Question 1.3" or qPred["title"] == "Question 2.3", qPred
         q["choicePredicted"] = qPred["choice"]
         q["choicePredictedID"] = qPred["_id"]
         q["outcomePredicted"] = q["choice"] + ',' + q['choicePredicted']
@@ -232,6 +232,7 @@ def buildGameFeatures( q, game ):
     #print(q["payoffs"], g["effGameF"], g["effGameO"], type(g["effGameF"]))
     gOutcomePref = game.outcomes[ outcomeToIdx(q['outcomePreferred']) ]
     g["prefIneqGame"] = outcomeDiff( gOutcomePref )
+    g["ineqGame"] = np.mean( [ np.abs( outcomeDiff( game.outcomes[ o ] ) ) for o in [(0,0), (0,1), (1,0), (1,1)] ] )
     # game properties, more psychological
     #domGameF indiffF domGameO indiffO cmndGameF cmndGameO nonGameF nonGameO
     g["domGameF"] = int( game.choiceDominates( 0, 0) or game.choiceDominates( 1, 0) )
@@ -281,7 +282,7 @@ def main( sIn, sOut ):
     twoPSpace = OrdinalGameSpace(2)
     nGameCount = 0
     with open(sOut, 'w') as fOut:
-        features = [ "gameRT", "PNash0", "PNash1", "PNashn", "WPNash", "effNashF", "effNashO", "wwGame", "effGameF", "effGameO", "prefFGameF", "prefOGameF", "predGameF", "prefOutcomeO", "predGameO", "cnssPrefOut", "cnssPredOut", "prefIneqGame", "domGameF", "domGameO", "indiffF", "indiffO", "cmndGameF", "cmndGameO", "nonGameF", "nonGameO", "prefOutcomeF", "prefOutcomeFSpoilt", "prefOutcomeOSpoilt"  ]
+        features = [ "gameRT", "PNash0", "PNash1", "PNashn", "WPNash", "effNashF", "effNashO", "wwGame", "effGameF", "effGameO", "prefFGameF", "prefOGameF", "predGameF", "prefOutcomeO", "predGameO", "cnssPrefOut", "cnssPredOut", "prefIneqGame", "ineqGame", "domGameF", "domGameO", "indiffF", "indiffO", "cmndGameF", "cmndGameO", "nonGameF", "nonGameO", "prefOutcomeF", "prefOutcomeFSpoilt", "prefOutcomeOSpoilt"  ]
         featuresNOT = ["effGame", "habitGameF", "habitGameO", "expdGameF", "expdGameO", ]
         ## diff level
         features.extend(["block","expdGameF","expdGameO","outRT","wwChoice"])
@@ -352,7 +353,6 @@ def main( sIn, sOut ):
                 #print( [ otherGame[f] for f in features ] )
                 #print( [ diffGame[f] for f in features ] )
                 #print()
-                print(diffGame["effGameF"])
                 fCSV.writerow( diffGame )
 
 
