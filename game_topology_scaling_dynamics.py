@@ -4,7 +4,7 @@
 
 #an ordinal game is a normal form economic game with n players and m strategies
 #a strategy is what a player chooses. all players strategies are a list that uniquely determines anoutcome out of the list of outcomes that defines a game.
-from numpy import *
+import numpy as np
 from random import shuffle, sample
 from copy import deepcopy
 import itertools
@@ -12,7 +12,7 @@ from pprint import pprint
 #from math import factorial
 #from scipy import factorial
 def factorial(n):
-  if n == 0: return( 1 )
+  if n <= 0: return( 1 )
   else: return( n*factorial(n-1) )
 
 
@@ -25,7 +25,7 @@ class OrdinalGame(object):
     self.nplayers = n
     self.nstrategies = 2
     self.noutcomes = 2**n
-    self.outcomes = array([])
+    self.outcomes = np.array([])
     self.name = ""
     self.__gameid = ""
     self.foundNashEq = []
@@ -48,16 +48,11 @@ class OrdinalGame(object):
   ### has a side effect of adding the strategy set to the list of equilibria
   def isNash(self, strategy_set):
     if all( [ (self.payoff(strategy_set, i) > self.payoff(self.flip(strategy_set, i), i ) ) for i in range(0,self.nplayers) ] ):
-      #def addStrategySet(parent, entry):
-        #if not entry in parent: parent.append( entry )
-      #addStrategySet( self.foundNashEq, strategy_set )
       if not strategy_set in self.foundNashEq: self.foundNashEq.append( strategy_set )
       return( True )
-    else: return( False )
-  def isWeakNash(self, strategy_set):
-    if all( [ (self.payoff(strategy_set, i) >= self.payoff(self.flip(strategy_set, i), i ) ) for i in range(0,self.nplayers) ] ):
+    ## also test for weak nash
+    if all( [ (self.payoff(strategy_set, i) == self.payoff(self.flip(strategy_set, i), i ) ) for i in range(0,self.nplayers) ] ):
       if not strategy_set in self.foundWeakNashEq: self.foundWeakNashEq.append( strategy_set )
-      return( True )
     else: return( False )
   ### two player, now generalized
   #def isNash(self, strategy_set):
@@ -84,7 +79,8 @@ class OrdinalGame(object):
       #print( [i for i in tuple( self.outcomes.flatten() ) ] )
       self.__gameid = "".join(["%d"%i for i in tuple( self.outcomes.flatten( ) ) ] )
       return( self.__gameid )
-  def findNashEq( self, strats, reps, prospectiveAttractor=False):
+
+  def findNashEq( self, strats, prospectiveAttractor=False):
     """ with the prospective attractor argument, this saves time by stopping early if the game has 
     multiple Nash eq (and is thus not an attractor)  """
     for i in range(len(strats)):
@@ -124,7 +120,7 @@ class OrdinalGameSpace(object):
 
   def generateNextStrategySet( self, previousss):
     strategy = list(previousss)
-    strategy = array(strategy)
+    strategy = np.array(strategy)
     strategy = strategy[::-1]
     for i in range(0,len(strategy)):
       if strategy[i] == 0: 
@@ -147,14 +143,14 @@ class OrdinalGameSpace(object):
     else:
       for i in range(0, len(skeleton)):
         skeleton[i] = self.populateEmptyGameTree(outcomes, skeleton[i] )
-      return( array(skeleton) )
+      return( np.array(skeleton) )
 
   ### a skeleton game is a game in which, for each outcome gives each player a payoff of a different unique consecutive integer from 1 to 2**nplayers.
   ###  another way of saying this is that payoffs are selected from a series without replacement
-  def generateRandomOrdinalGame( self):
+  def generateRandomOrdinalGame( self, strictlyOrdinal=True):
     grow = deepcopy(self.gameskeleton)
     ### generate possible outcomes
-    potentialOutcomes = list(zip( *[ sample(range(1,2**self.nplayers+1),2**self.nplayers) for i in [1]*self.nplayers ] ) )
+    potentialOutcomes = list(zip( *[ np.random.choice(range(1,2**self.nplayers+1),2**self.nplayers, replace = (not strictlyOrdinal)) for i in [1]*self.nplayers ] ) )
     tmp = OrdinalGame(self.nplayers)
     tmp.outcomes = self.populateEmptyGameTree(potentialOutcomes, grow)
     #print("trest")
@@ -167,18 +163,18 @@ class OrdinalGameSpace(object):
   #h.outcomes
 
   ### does the game have a unique nash eq with at least one highest-possible-payoff in its payoffs?
-  def gameIsAttractor( self, aGame, reps=1000 ):
+  def gameIsAttractor( self, aGame):
     if len(aGame.foundNashEq) != 1: return( False )
     if aGame.ntests < self.nstrategysetsrecommended:
-      print("Warning: game has been tested with %d < %d steps"%(aGame.ntests, self.nstrategysetsrecommended))
-    return( any(aGame.outcomes[aGame.foundNashEq[0]]==2**self.nplayers) )
+      print("Warning OIUFD: game has been tested with %d < %d steps"%(aGame.ntests, self.nstrategysetsrecommended))
+    return( aGame.outcomes[aGame.foundNashEq[0]][0]==2**self.nplayers )
   ### does the game have a unique nash eq with all payoffs as the highest possible? 
-  def gameIsWinWinAttractor( self, aGame, reps=1000 ):
+
+  def gameIsWinWinAttractor( self, aGame):
     if len(aGame.foundNashEq) != 1: return( False )
     if aGame.ntests < self.nstrategysetsrecommended:
-      print("Warning: game has been tested with %d < %d steps"%(aGame.ntests, self.nstrategysetsrecommended)
-           )
-      return( all(aGame.outcomes[aGame.foundNashEq[0]]==2**self.nplayers) )
+      print("Warning FLKD: game has been tested with %d < %d steps"%(aGame.ntests, self.nstrategysetsrecommended))
+    return( all( aGame.outcomes[aGame.foundNashEq[0]] == 2**self.nplayers ) )
 
   def populateGameSpace( self, reps, prospectiveAttractor):
     for i in range(reps):
@@ -187,22 +183,22 @@ class OrdinalGameSpace(object):
       self.games[game.gameID()] = game
       ### check all strategies for nashhood
       if self.noutcomes > reps: 
-        game.findNashEq(self.generateRandomStrategySets(reps), reps, prospectiveAttractor)
+        game.findNashEq(self.generateRandomStrategySets(reps), prospectiveAttractor)
       else: 
-        game.findNashEq(self.orderedStrategySets, reps, prospectiveAttractor)
+        game.findNashEq(self.orderedStrategySets, prospectiveAttractor)
       ### stop populating when all games have been found
       if len(self.games) == self.ngames: break
 
   def winWinAttractorGames( self, games):
     attractors = []
     for game in games:
-      if self.gameIsWinWinAttractor(game, self.nstrategysetsrecommended): attractors.append(game)
+      if self.gameIsWinWinAttractor(game): attractors.append(game)
     return( attractors )
 
   def attractorGames( self, games):
     attractors = []
     for game in games:
-      if self.gameIsAttractor(game, self.nstrategysetsrecommended): attractors.append(game)
+      if self.gameIsAttractor(game): attractors.append(game)
     return( attractors )
 
   def classifyGameAttractors( self, games ):
@@ -218,12 +214,12 @@ class OrdinalGameSpace(object):
       else: 
         categories[sum([payoff == 2**self.nplayers for payoff in game.outcomes[game.foundNashEq[0]]])] += 1
         #print (sum([payoff == self.nplayers for payoff in game.outcomes[game.foundNashEq[0]]]) , [payoff == self.nplayers for payoff in game.outcomes[game.foundNashEq[0]]], game.outcomes[game.foundNashEq[0]])
-    return( array(categories) )
+    return( np.array(categories) )
 
 if __name__ == '__main__':
   g = OrdinalGame(2)
-  g.outcomes = array([[[3,3],[1,4]],[[4,1],[2,2]]] )
-  #g.outcomes = array((((3,3),(1,4)),((4,1),(2,2))) )
+  g.outcomes = np.array([[[3,3],[1,4]],[[4,1],[2,2]]] )
+  #g.outcomes = np.array((((3,3),(1,4)),((4,1),(2,2))) )
   g.name = "pd"
   #print ( g.outcomes )
   print(" test flipping of strategy sets" )
@@ -248,10 +244,10 @@ if __name__ == '__main__':
 
   print( " test three player games" )
   threep = OrdinalGame(3)
-  threep.outcomes = array( [[[[1,1,1],[0,0,0]],[[0,0,0],[4,0,0]]], [[[0,0,0],[0,4,0]],[[0,0,4],[3,3,3]]]] )
+  threep.outcomes = np.array( [[[[1,1,1],[0,0,0]],[[0,0,0],[4,0,0]]], [[[0,0,0],[0,4,0]],[[0,0,4],[3,3,3]]]] )
   # if all agree then all get a payoff.  but if they are the only one to pick strategy one, they get lots more.
   threep2 = OrdinalGame(3)
-  threep2.outcomes = array( [[[[1,1,1],[0,0,0]],[[0,0,0],[4,0,0]]], [[[0,0,0],[0,4,0]],[[0,0,4],[5,5,5]]]] )
+  threep2.outcomes = np.array( [[[[1,1,1],[0,0,0]],[[0,0,0],[4,0,0]]], [[[0,0,0],[0,4,0]],[[0,0,4],[5,5,5]]]] )
   # if all agree then all get a payoff.  but if they are the only one to pick strategy one, they get lots more.
   s1 = (0,0,0) 
   s2 = (1,1,1) 
@@ -291,6 +287,6 @@ if __name__ == '__main__':
   fourSpace = OrdinalGameSpace(4)
   h = fourSpace.generateRandomOrdinalGame()
   h.outcomes
-  h.findNashEq( fourSpace.orderedStrategySets, 400, False)
+  h.findNashEq( fourSpace.orderedStrategySets, False)
   print( h.foundNashEq )
 
