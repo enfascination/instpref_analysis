@@ -143,7 +143,7 @@ library(randomForest)
 library(inTrees)
 #X <- iris[,-1]; target <- iris[,"Sepal.Length"] 
 X <- preflrn; target <- outlrn
-rf <- randomForest(X,target,ntree=10000) # random forest
+rf <- randomForest(X,target,importance=TRUE,ntree=10000) # random forest
 ruleExec0 <- extractRules(RF2List(rf),X, ntree=4000, maxdepth=3) 
 ruleExec <- unique(ruleExec0)
 ruleMetric <- getRuleMetric(ruleExec,X,target) # regression rules
@@ -158,4 +158,4 @@ ruleMetric <- pruneRule(ruleMetric,X,target) # prune each rule
 learner <- buildLearner(ruleMetric,X,target) #build the simplified tree ensemble learner
 readableLearner <- presentRules(learner,colnames(X)) # present the rules with a more readable format
 readableLearner
-varImpPlot( rf , type=2)
+varImpPlot( rf , type=1)
