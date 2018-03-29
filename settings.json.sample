@@ -1,4 +1,6 @@
 {
-    "home":"/Users/sfrey/projecto/instpref/analysis/",
-    "data":"./data/"
+    "home":"/SOME/ROOT/PATH/",
+    "data":"/SOME/DATA/PATH/",
+    "dataTest":"/SOME/DATA/PATH/",
+    "syntaxTest" : null
 }
