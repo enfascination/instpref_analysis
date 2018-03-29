@@ -1,0 +1,1092 @@
+[
+ {
+  "_id": "CTjgTGr7nN7SRFMQW", 
+  "users": [
+   "XSreo4RoaNqbKpmkK"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T15:21:50.784000", 
+  "endTime": "2017-04-11T15:25:16.462000"
+ }, 
+ {
+  "_id": "X62qNLLWXEmZ3Gmtc", 
+  "users": [
+   "r6D7Ym94xLPbWSFvE"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T15:23:00.078000", 
+  "endTime": "2017-04-11T15:32:41.932000"
+ }, 
+ {
+  "_id": "2shHFqmTEKnwY2JHq", 
+  "users": [
+   "w2dCCQFuHrf9Bkodc"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T15:31:13.310000", 
+  "endTime": "2017-04-11T15:33:55.531000"
+ }, 
+ {
+  "_id": "zCfTBn63gSZBdwwsK", 
+  "users": [
+   "38pi4HxgRX27sTq4b"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T15:35:34.228000", 
+  "endTime": "2017-04-11T15:41:37.693000"
+ }, 
+ {
+  "_id": "ZEcQGgMLwvKBxEmXD", 
+  "users": [
+   "EaXw7z2Y2wtsvHRBM"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T15:35:44.238000", 
+  "endTime": "2017-04-11T15:40:14.681000"
+ }, 
+ {
+  "_id": "JFR3rFKAam7L7YYj5", 
+  "users": [
+   "AP8vcD9dXt36haXn8"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T15:37:26.407000", 
+  "endTime": "2017-04-11T15:41:43.264000"
+ }, 
+ {
+  "_id": "afn9MQH9PhKpiS9Hy", 
+  "users": [
+   "zCAJyqF8ARDSSJrDX"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T15:51:06.238000", 
+  "endTime": "2017-04-11T15:59:45.833000"
+ }, 
+ {
+  "_id": "tceC6KdyacMyWAocJ", 
+  "users": [
+   "kAaJW7zGCLBBfkh2X"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T18:20:40.358000", 
+  "endTime": "2017-04-11T18:26:45.449000"
+ }, 
+ {
+  "_id": "zqoqNvvCFAxG9jGGk", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T19:32:17.549000", 
+  "endTime": "2017-04-11T19:41:34.122000"
+ }, 
+ {
+  "_id": "qridZmRa4kohrk9sF", 
+  "users": [
+   "YEwfheDvxFD5REcmG"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:14:53.091000", 
+  "endTime": "2017-04-11T20:17:48.570000"
+ }, 
+ {
+  "_id": "D9Wy3y7konZ9scxzn", 
+  "users": [
+   "XSreo4RoaNqbKpmkK"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:17:01.228000", 
+  "endTime": "2017-04-11T20:19:31.366000"
+ }, 
+ {
+  "_id": "4bzMXH47zkpmqMAYh", 
+  "users": [
+   "fzn5XL42LHTcCNYJP"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:23:00.187000", 
+  "endTime": "2017-04-11T20:29:04.318000"
+ }, 
+ {
+  "_id": "hD43LfB4zNw252qGY", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:25:27.038000", 
+  "endTime": "2017-04-11T20:34:11.604000"
+ }, 
+ {
+  "_id": "X9aw5XjTidkJF5zkH", 
+  "users": [
+   "NnrLFYb9Rw7duzNK6"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:30:16.417000", 
+  "endTime": "2017-04-11T20:36:07.765000"
+ }, 
+ {
+  "_id": "N8G8zq5xPkeF7ay7u", 
+  "users": [
+   "Gcso2BbAN4WtgwLRD"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:34:34.803000", 
+  "endTime": "2017-04-11T20:38:23.145000"
+ }, 
+ {
+  "_id": "Qw7RsN7WmiNi5HQta", 
+  "users": [
+   "NnrLFYb9Rw7duzNK6"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:37:22.295000", 
+  "endTime": "2017-04-11T20:40:21.414000"
+ }, 
+ {
+  "_id": "Fs5RjFBxoC6BxduBm", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:39:19.764000", 
+  "endTime": "2017-04-11T20:44:14.813000"
+ }, 
+ {
+  "_id": "Bg8Pj33c4Y25zB7rc", 
+  "users": [
+   "NnrLFYb9Rw7duzNK6"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:40:46.183000", 
+  "endTime": "2017-04-11T20:45:20.236000"
+ }, 
+ {
+  "_id": "93CBAo4HHinmifA28", 
+  "users": [
+   "h75S9sjJJ5FuFZrnt"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T20:46:52.083000", 
+  "endTime": "2017-04-11T20:51:11.760000"
+ }, 
+ {
+  "_id": "DQ5ioohhhMainDwta", 
+  "users": [
+   "R7yQJzocsJJCtCnAh"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T21:19:10.492000", 
+  "endTime": "2017-04-11T21:22:51.697000"
+ }, 
+ {
+  "_id": "KNz7gcuyTwiyu5A7q", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T22:09:38.539000", 
+  "endTime": "2017-04-11T22:17:31.920000"
+ }, 
+ {
+  "_id": "PDEZBBMeC42xbPSp9", 
+  "users": [
+   "RmoXgMC3RJ3hrRpY3"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T22:17:06.602000", 
+  "endTime": "2017-04-11T22:19:23.608000"
+ }, 
+ {
+  "_id": "J6xQz2EZZN2v2PjaT", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T22:20:22.118000", 
+  "endTime": "2017-04-11T22:23:02.730000"
+ }, 
+ {
+  "_id": "w2EK9w9hf2Ay8Yz37", 
+  "users": [
+   "SaTXYqg24E6pH7KAc"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-11T22:30:57.661000", 
+  "endTime": "2017-04-11T22:39:34.409000"
+ }, 
+ {
+  "_id": "EdixdF68eAbudDboc", 
+  "users": [
+   "kb4uSXkyYbsvTw4pj"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-12T12:55:41.054000", 
+  "endTime": "2017-04-12T13:13:59.197000"
+ }, 
+ {
+  "_id": "WKywZGBCyskWK7QPT", 
+  "users": [
+   "RX9N8N6dmdssNCWr6"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T01:46:10.795000", 
+  "endTime": "2017-04-13T01:48:45.843000"
+ }, 
+ {
+  "_id": "LThb8z2z5vZ2B2wqY", 
+  "users": [
+   "fmBsDStFevZRa9Rkc"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T01:49:07.958000", 
+  "endTime": "2017-04-13T01:54:18.893000"
+ }, 
+ {
+  "_id": "ardZMkNuNQ8MuHQ7Y", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T01:50:42.628000", 
+  "endTime": "2017-04-13T01:56:26.268000"
+ }, 
+ {
+  "_id": "ExbE5XnkZByYiSQb9", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T01:58:06.984000", 
+  "endTime": "2017-04-13T02:04:05.208000"
+ }, 
+ {
+  "_id": "28b6maTrvjbs2hZWq", 
+  "users": [
+   "ns5EJRdgjH6rx9mhF"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:13:40.054000", 
+  "endTime": "2017-04-13T02:21:40.413000"
+ }, 
+ {
+  "_id": "reseS53b2L497HRxD", 
+  "users": [
+   "XSreo4RoaNqbKpmkK"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:41:41.893000", 
+  "endTime": "2017-04-13T02:44:08.946000"
+ }, 
+ {
+  "_id": "JAqdpBdazeEwR3bCr", 
+  "users": [
+   "XSreo4RoaNqbKpmkK"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:44:23.990000", 
+  "endTime": "2017-04-13T02:47:03.950000"
+ }, 
+ {
+  "_id": "9f8wfThwRtkZPdq9e", 
+  "users": [
+   "LpWWqJWLn8mp8gZr5"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:45:06.784000", 
+  "endTime": "2017-04-13T02:48:38.086000"
+ }, 
+ {
+  "_id": "8P3rudwksAAW82kF6", 
+  "users": [
+   "38pi4HxgRX27sTq4b"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:45:12.186000", 
+  "endTime": "2017-04-13T02:48:28.680000"
+ }, 
+ {
+  "_id": "6Ki9sfHD7xLd98eLj", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:45:31.745000", 
+  "endTime": "2017-04-13T02:58:22.117000"
+ }, 
+ {
+  "_id": "oozr4ixqcYybTQxrh", 
+  "users": [
+   "hP5QRovHWaETNdLb8"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:47:06.949000", 
+  "endTime": "2017-04-13T02:51:38.165000"
+ }, 
+ {
+  "_id": "4feanyYcwBjRqFu7T", 
+  "users": [
+   "Wx7KNPgJxKRLSjdNT"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:47:58.596000", 
+  "endTime": "2017-04-13T02:56:50.857000"
+ }, 
+ {
+  "_id": "wpD2pNw4mRnbKLbNK", 
+  "users": [
+   "rnrm22qTTooMxarWS"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:48:35.755000", 
+  "endTime": "2017-04-13T02:54:03.576000"
+ }, 
+ {
+  "_id": "m6HosYnmAQByYbJrF", 
+  "users": [
+   "XkTHcAFJPDLDnrAZK"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:48:41.149000", 
+  "endTime": "2017-04-13T02:54:39.619000"
+ }, 
+ {
+  "_id": "uPjsYeZ6mTFPCe4hY", 
+  "users": [
+   "uhcLfTADo2R9rxGEw"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:49:00.433000", 
+  "endTime": "2017-04-13T02:54:42.857000"
+ }, 
+ {
+  "_id": "NuEPqWthzdrSn5BSr", 
+  "users": [
+   "38pi4HxgRX27sTq4b"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:49:04.266000", 
+  "endTime": "2017-04-13T03:07:18.566000"
+ }, 
+ {
+  "_id": "TzvmcMFmRDMmyeLGm", 
+  "users": [
+   "G3KMf4dc2wirsPJnN"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:49:21.844000", 
+  "endTime": "2017-04-13T02:56:07.473000"
+ }, 
+ {
+  "_id": "ibtg9x5AZaMWXF4Kb", 
+  "users": [
+   "Hgc66uQw73gEt7HxW"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:49:38.147000", 
+  "endTime": "2017-04-13T02:57:12.626000"
+ }, 
+ {
+  "_id": "8Dvfn6pXQZ7DAagBR", 
+  "users": [
+   "36bJR27PvovnLFb5h"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:49:40.865000", 
+  "endTime": "2017-04-13T02:56:56.877000"
+ }, 
+ {
+  "_id": "GJBFtk5PbaYfQbwzr", 
+  "users": [
+   "Wr47saendmcHB9Nxr"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:50:34.647000", 
+  "endTime": "2017-04-13T02:55:36.444000"
+ }, 
+ {
+  "_id": "KYagqc38hEw2xdvtd", 
+  "users": [
+   "Bu2dqocZwxuxRHFiC"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:51:00.634000", 
+  "endTime": "2017-04-13T02:57:21.894000"
+ }, 
+ {
+  "_id": "sf6jsqpZMHiSiWtB8", 
+  "users": [
+   "uPjrKvFv3fmSN7T9g"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:51:20.258000", 
+  "endTime": "2017-04-13T03:01:38.610000"
+ }, 
+ {
+  "_id": "XaM4mSxRKHnyc2CXr", 
+  "users": [
+   "G8RHeTr7gk5dg8HpE"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:52:57.370000", 
+  "endTime": "2017-04-13T03:08:59.882000"
+ }, 
+ {
+  "_id": "MR4xq6eaY4p4ZfstT", 
+  "users": [
+   "KnD4SiTrJ29Zn8AA8"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:53:06.377000", 
+  "endTime": "2017-04-13T02:56:30.819000"
+ }, 
+ {
+  "_id": "EdsvbxtKH4p74tCCk", 
+  "users": [
+   "BEk8WsLaW8d2KWSod"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:53:11.923000", 
+  "endTime": "2017-04-13T02:59:05.639000"
+ }, 
+ {
+  "_id": "eTK22RvoDAKddTx4B", 
+  "users": [
+   "eEnScgwfzjxM9xPaW"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:53:28.695000", 
+  "endTime": "2017-04-13T03:02:00.157000"
+ }, 
+ {
+  "_id": "7aP5yLPEhi9bXFAcX", 
+  "users": [
+   "h9pz6HY3mdah8R5Jq"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:53:57.989000", 
+  "endTime": "2017-04-13T03:03:31.814000"
+ }, 
+ {
+  "_id": "ehC66gBfJq6WTiAoK", 
+  "users": [
+   "bRnAjiH7pr9845P67"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:54:30.670000", 
+  "endTime": "2017-04-13T03:02:14.461000"
+ }, 
+ {
+  "_id": "xKxYurkDZEewjmoqG", 
+  "users": [
+   "s55W8DjwqkFgSXCi5"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:56:55.731000", 
+  "endTime": "2017-04-13T03:00:54.125000"
+ }, 
+ {
+  "_id": "jEr7xbB8qNBPGsPtJ", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T02:59:56.812000", 
+  "endTime": "2017-04-13T03:11:04.058000"
+ }, 
+ {
+  "_id": "xoJJy5GQC6rB5mabE", 
+  "users": [
+   "hspQ9wTrnh5qynh7M"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:00:09.186000", 
+  "endTime": "2017-04-13T03:11:00.622000"
+ }, 
+ {
+  "_id": "o8DQZQn8Xi63hiui3", 
+  "users": [
+   "oQAW8iMEQc5Di6PiM"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:01:27.067000", 
+  "endTime": "2017-04-13T03:04:11.922000"
+ }, 
+ {
+  "_id": "k3EyMwADcdSnpBAiv", 
+  "users": [
+   "oQAW8iMEQc5Di6PiM"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:04:30.769000", 
+  "endTime": "2017-04-13T03:07:30.922000"
+ }, 
+ {
+  "_id": "hmqEcxhssaeCCbWMr", 
+  "users": [
+   "AuQwMsMPjeyaZQt7L"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:06:11.605000", 
+  "endTime": "2017-04-13T03:14:02.958000"
+ }, 
+ {
+  "_id": "vumrK89KRbAZAko4E", 
+  "users": [
+   "JDissyde6usiTsbFE"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:09:24.265000", 
+  "endTime": "2017-04-13T03:17:32.877000"
+ }, 
+ {
+  "_id": "pS89p55ZEu5J6R9Md", 
+  "users": [
+   "nqy9JmQbuZFRPogJw"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:17:22.026000", 
+  "endTime": "2017-04-13T03:25:06.879000"
+ }, 
+ {
+  "_id": "vt47pY7Ma9p7F2c8Q", 
+  "users": [
+   "sjdvgdNzgau4jnYvm"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:28:17.568000", 
+  "endTime": "2017-04-13T03:33:39.828000"
+ }, 
+ {
+  "_id": "QrFgto42vfmij8KDs", 
+  "users": [
+   "Lp5SqSPrH2YtfcrNB"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T03:33:27.205000", 
+  "endTime": "2017-04-13T03:38:50.078000"
+ }, 
+ {
+  "_id": "vH7eeGGygX6hSTXop", 
+  "users": [
+   "qnTngmjkWFSNcWa3i"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:06:59.153000", 
+  "endTime": "2017-04-13T04:11:48.405000"
+ }, 
+ {
+  "_id": "8AvTxPJS6stSFtB7G", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:33:22.528000", 
+  "endTime": "2017-04-13T04:38:02.307000"
+ }, 
+ {
+  "_id": "hpLMRHteQRQTrGhLX", 
+  "users": [
+   "XwqKaBoZHTEiDWfFg"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:42:01.199000", 
+  "endTime": "2017-04-13T04:49:09.408000"
+ }, 
+ {
+  "_id": "ap4iGm67FLj4dEstj", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:43:52.540000", 
+  "endTime": "2017-04-13T04:47:05.719000"
+ }, 
+ {
+  "_id": "YpdkxxN2x5wxZwgiF", 
+  "users": [
+   "4Nuz5oe9KkS3zyZ74"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:44:39.790000", 
+  "endTime": "2017-04-13T05:00:32.680000"
+ }, 
+ {
+  "_id": "t8dKjqFM9ye9ZzCZy", 
+  "users": [
+   "2X4ZGCcrMzqXYk3GW"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:48:40.784000", 
+  "endTime": "2017-04-13T04:51:21.185000"
+ }, 
+ {
+  "_id": "mLjKRJFLnv7k544Kt", 
+  "users": [
+   "kWRPs7pBknAsMEkBB"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:50:22.626000", 
+  "endTime": "2017-04-13T04:55:26.140000"
+ }, 
+ {
+  "_id": "kcC7yDsmugwQmZWSq", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T04:51:47.189000", 
+  "endTime": "2017-04-13T04:53:46.485000"
+ }, 
+ {
+  "_id": "auivnp9XxsR8P7C9j", 
+  "users": [
+   "3iCmJz8m82nCyz7aS"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:01:37.432000", 
+  "endTime": "2017-04-13T05:14:38.894000"
+ }, 
+ {
+  "_id": "vNkpzBXDDHTFRrgRy", 
+  "users": [
+   "XwqKaBoZHTEiDWfFg"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:07:02.161000", 
+  "endTime": "2017-04-13T05:10:45"
+ }, 
+ {
+  "_id": "Pg825dWTtMZorGfJQ", 
+  "users": [
+   "8uaccRaNRhGXpk7sr"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:09:00.241000", 
+  "endTime": "2017-04-13T05:11:32.002000"
+ }, 
+ {
+  "_id": "cx3wYtHXfsLpAFAiG", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:10:17.861000", 
+  "endTime": "2017-04-13T05:12:13.397000"
+ }, 
+ {
+  "_id": "dcEMwxPFTHrMQpazs", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:12:23.008000", 
+  "endTime": "2017-04-13T05:13:35.766000"
+ }, 
+ {
+  "_id": "CwmSptbMs6qTq4yp4", 
+  "users": [
+   "XwqKaBoZHTEiDWfFg"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:21:57.081000", 
+  "endTime": "2017-04-13T05:26:07.659000"
+ }, 
+ {
+  "_id": "ZorybB4fHSgSDHLcu", 
+  "users": [
+   "3iCmJz8m82nCyz7aS"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:22:31.883000", 
+  "endTime": "2017-04-13T05:27:07.570000"
+ }, 
+ {
+  "_id": "H4QKjXNWjGuTt5xjp", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:26:14.187000", 
+  "endTime": "2017-04-13T05:27:36.681000"
+ }, 
+ {
+  "_id": "aKNYeG8pyX7pYYkK7", 
+  "users": [
+   "3iCmJz8m82nCyz7aS"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:27:32.257000", 
+  "endTime": "2017-04-13T05:36:43.492000"
+ }, 
+ {
+  "_id": "yDAr8iRyDmoMYoAXr", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:27:45.153000", 
+  "endTime": "2017-04-13T05:28:54.460000"
+ }, 
+ {
+  "_id": "5gP9tXKLWwcDHKYZM", 
+  "users": [
+   "3ssf4eRR4vc6vTQoo"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:29:09.430000", 
+  "endTime": "2017-04-13T05:34:15.173000"
+ }, 
+ {
+  "_id": "tq3dQXt4qwGug3x2q", 
+  "users": [
+   "XkTHcAFJPDLDnrAZK"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:32:45.983000", 
+  "endTime": "2017-04-13T05:39:46.120000"
+ }, 
+ {
+  "_id": "cMFiFyL7g735foeRr", 
+  "users": [
+   "XwqKaBoZHTEiDWfFg"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:33:17.820000", 
+  "endTime": "2017-04-13T05:37:19.753000"
+ }, 
+ {
+  "_id": "AqdLPwvEDheJ88otv", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:35:44.693000", 
+  "endTime": "2017-04-13T05:37:44.413000"
+ }, 
+ {
+  "_id": "4wjA88C8MdcbHSbJP", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:37:54.218000", 
+  "endTime": "2017-04-13T05:39:02.970000"
+ }, 
+ {
+  "_id": "2NaP8JgwkLz2jFGB3", 
+  "users": [
+   "MqzbsNPbneyELtzkn"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:39:41.285000", 
+  "endTime": "2017-04-13T05:42:08.101000"
+ }, 
+ {
+  "_id": "DGaN6zRdxjiyRtro4", 
+  "users": [
+   "6bEyT9EzzmyxDjGcf"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:40:58.326000", 
+  "endTime": "2017-04-13T05:44:48.350000"
+ }, 
+ {
+  "_id": "WFcj7ft59ZLfB8Cvm", 
+  "users": [
+   "3iCmJz8m82nCyz7aS"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:47:03.966000", 
+  "endTime": "2017-04-13T05:56:56.990000"
+ }, 
+ {
+  "_id": "uT7L5pkhCRMo5pqYz", 
+  "users": [
+   "3ssf4eRR4vc6vTQoo"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:49:50.570000", 
+  "endTime": "2017-04-13T05:56:16.541000"
+ }, 
+ {
+  "_id": "YpfruBkScohP67Guc", 
+  "users": [
+   "kGwgjkfvpkJHZfa3m"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:51:45.891000", 
+  "endTime": "2017-04-13T05:59:09.787000"
+ }, 
+ {
+  "_id": "548WnM6cWaGXyxFm7", 
+  "users": [
+   "XwqKaBoZHTEiDWfFg"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:53:41.722000", 
+  "endTime": "2017-04-13T05:58:05.328000"
+ }, 
+ {
+  "_id": "aEJnfM9rQQ4qo9Bk4", 
+  "users": [
+   "3iCmJz8m82nCyz7aS"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:57:23.922000", 
+  "endTime": "2017-04-13T06:02:03.027000"
+ }, 
+ {
+  "_id": "kZExLdEuPCHhJqk4e", 
+  "users": [
+   "3ssf4eRR4vc6vTQoo"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T05:57:40.247000", 
+  "endTime": "2017-04-13T06:00:02.597000"
+ }, 
+ {
+  "_id": "bWCECQLbefpNDdPNF", 
+  "users": [
+   "3iCmJz8m82nCyz7aS"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T06:02:29.417000", 
+  "endTime": "2017-04-13T06:04:36.795000"
+ }, 
+ {
+  "_id": "tG7tBWRrNnLXAw89i", 
+  "users": [
+   "oYXjNc66iq6qeddAw"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T06:04:49.486000", 
+  "endTime": "2017-04-13T06:09:24.862000"
+ }, 
+ {
+  "_id": "JtMWLYu3Zhdms2Z6d", 
+  "users": [
+   "LPcAsukrFaGjLrBMq"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T07:48:43.780000", 
+  "endTime": "2017-04-13T07:55:23.213000"
+ }, 
+ {
+  "_id": "foW9SbuFQ9vQQHw8h", 
+  "users": [
+   "4Nuz5oe9KkS3zyZ74"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T07:54:19.211000", 
+  "endTime": "2017-04-13T08:02:15.966000"
+ }, 
+ {
+  "_id": "ytgtiQFsKJJ5XKT33", 
+  "users": [
+   "wPraL5bnmRBQweuRJ"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T15:48:08.597000", 
+  "endTime": "2017-04-13T15:52:56.797000"
+ }, 
+ {
+  "_id": "W5fhD2CszcFgkjPbN", 
+  "users": [
+   "Xybe53HnFXdS5DHkg"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T19:33:27.445000", 
+  "endTime": "2017-04-13T19:44:14.586000"
+ }, 
+ {
+  "_id": "aJFffsfy4m8KJyT5j", 
+  "users": [
+   "jcmBgy2ENTQD3kX54"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T21:59:57.429000", 
+  "endTime": "2017-04-13T22:15:54.905000"
+ }, 
+ {
+  "_id": "A2b8woZTuGPRxxapR", 
+  "users": [
+   "kb4uSXkyYbsvTw4pj"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T23:29:48.845000", 
+  "endTime": "2017-04-14T02:16:13.201000"
+ }, 
+ {
+  "_id": "meeYiQQoP7pmYePDA", 
+  "users": [
+   "uPjrKvFv3fmSN7T9g"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-13T23:55:50.081000", 
+  "endTime": "2017-04-14T00:02:43.441000"
+ }, 
+ {
+  "_id": "Dp7Fx4gx6RADo95qY", 
+  "users": [
+   "kGwgjkfvpkJHZfa3m"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-14T00:10:02.190000", 
+  "endTime": "2017-04-14T00:14:04.910000"
+ }, 
+ {
+  "_id": "78NnEmHFx2WTZfmhF", 
+  "users": [
+   "if5tKyhvrK4A6cCwT"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-14T00:27:01.873000", 
+  "endTime": "2017-04-14T00:33:51.138000"
+ }, 
+ {
+  "_id": "WYBGMhgAfgqjQAEWq", 
+  "users": [
+   "S7ufA6Bfff2hAjDvQ"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-14T01:22:21.491000", 
+  "endTime": "2017-04-14T01:27:32.894000"
+ }, 
+ {
+  "_id": "rcacdqtM4epX3QX5Z", 
+  "users": [
+   "fSuyeG9ADshvTF9nL"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-14T01:45:54.986000", 
+  "endTime": "2017-04-14T01:51:57.385000"
+ }, 
+ {
+  "_id": "jHWKMzx5Ehy445ekC", 
+  "users": [
+   "kb4uSXkyYbsvTw4pj"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-14T02:17:07.563000", 
+  "endTime": "2017-04-14T02:32:04.482000"
+ }, 
+ {
+  "_id": "bPWiBTNoupcfpDenN", 
+  "users": [
+   "Bxwkbr2gyazHnbX4v"
+  ], 
+  "treatments": [], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "startTime": "2017-04-14T04:43:10.656000", 
+  "endTime": "2017-04-14T04:48:03.241000"
+ }
+]

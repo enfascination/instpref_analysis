@@ -1,0 +1,3523 @@
+[
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Fantastic HIT... Everything seemed to run smoothly without bugs; however - It would be nice if we can do it in real time and watch our bonus rise, but no complaints on waiting.\n\nHopefully I can catch another and see if I can produce any different outcomes."
+  }, 
+  "submitTime": "2017-04-11T15:26:16.210000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T15:25:16.462000", 
+    "joinTime": "2017-04-11T15:21:50.896000", 
+    "id": "CTjgTGr7nN7SRFMQW"
+   }
+  ], 
+  "assignmentId": "3M0BCWMB8VW9HRSLQPHEG8SSQ56WB9", 
+  "workerId": "A15FXHC1CVNW31", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-11T17:07:19.241000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:04:46.670000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0"
+  ], 
+  "_id": "5Y7o7iXZRq59aJBwM", 
+  "bonusPayment": 2.25, 
+  "bonusMessage": "Thank you very much for participating, and for the encouraging feedback. You earned 1.40 from your games, 0.60 for the quiz and survey, and 0.25 thank you for being an early participant and providing feedback.  I'll continue to post this HIT; you're welcome to return."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "The instructions were a little wordy for my taste. I found myself both feeling like I had been given too much to take in, and that I understood the important concepts regardless. \n\nIt is inconsistent which screens require that you need to click Next to proceed from, and which will be advanced automatically when you click \"Submit\". Also, I think it's slightly unclear that choosing between the two games is labeled as its own \"Round.\"\n\nAll in all though this was great and the interface is really nice. "
+  }, 
+  "submitTime": "2017-04-11T15:43:30.641000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T15:41:43.264000", 
+    "joinTime": "2017-04-11T15:37:26.464000", 
+    "id": "JFR3rFKAam7L7YYj5"
+   }
+  ], 
+  "assignmentId": "3EJPLAJKEMG75AGV5LKD4W0IT6ZZ6H", 
+  "workerId": "A36TE52PSYAAD6", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-11T17:25:01.506000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:04:47.138000", 
+  "mturkStatus": "Approved", 
+  "hitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "4vhAJuu5qSNh5297G", 
+  "bonusPayment": 2.4, 
+  "bonusMessage": "Thank you very much for your feedback. You earned 1.40 from your games, 0.60 for the quiz and survey, and 0.40 as thanks for the useful feedback.  The instructions must be wordy (others have asked for more), but you'll get to skip them if you return.  On your input, I changed up the round titles and will think about better distinguishing between buttons that take you through rounds and buttons that take you across sections. I'll continue to post this HIT; you're welcome to return."
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3KAKFY4PGU2MD143MFYTXYL8N2W3IJ", 
+  "workerId": "A9Z25VKRSKF8O", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:04:50.704000", 
+  "hitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "duCmFwxZyzb3CTB5q"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "I didn't find anything confusing I thought the instructions were very well communicated to me.  I love the layout of the game you have set up as well. "
+  }, 
+  "submitTime": "2017-04-11T15:40:59.573000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T15:40:14.681000", 
+    "joinTime": "2017-04-11T15:35:44.248000", 
+    "id": "ZEcQGgMLwvKBxEmXD"
+   }
+  ], 
+  "assignmentId": "3SEPORI8WNZ8SCSYVY1PK124PPPZA7", 
+  "workerId": "AQJWO4YPR3LUQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-11T17:18:26.998000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:04:52.312000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "Yxns2vG4TDsZFemF4", 
+  "bonusPayment": 2.5, 
+  "bonusMessage": "Thank you very much for your feedback. You earned 1.70 from your games, 0.60 for the quiz and survey, and 0.20 as thanks for the encouraging feedback. I'll continue to post this HIT; you're welcome to return."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "No issues.  Need to describe somewhat elaborately for the section 1 and 2."
+  }, 
+  "submitTime": "2017-04-11T18:27:39.697000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T18:26:45.449000", 
+    "joinTime": "2017-04-11T18:20:40.369000", 
+    "id": "tceC6KdyacMyWAocJ"
+   }
+  ], 
+  "assignmentId": "3LS2AMNW5FQOGOL8ILNUU3A5938OQ1", 
+  "workerId": "A296HTKGCX7FY9", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T14:55:13.754000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:04:54.737000", 
+  "mturkStatus": "Approved", 
+  "hitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "tkXwf7WEpsnK7jDLx", 
+  "bonusPayment": 2.3, 
+  "bonusMessage": "Thank you very much for participating, and for the feedback. You earned 1.50 from your games, 0.60 for the quiz and survey, and 0.20 thank you for being an early participant and providing feedback.  I'll continue to post this HIT; you're welcome to return.\n"
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3NPI0JQDAO5JT4P1EPU4O8QI3F3TP1", 
+  "workerId": "A37QCZD5MFB2TF", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:05:02.334000", 
+  "hitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "8FPJCCngq24BudnF5"
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "374TNBHA8BV0A2PAO8WSWU87ND7QYE", 
+  "workerId": "A154X03NKVZZL1", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:06:05.733000", 
+  "hitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "7PAsgSLe72SBnWGYo"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Interesting, engaging, and well-designed game."
+  }, 
+  "submitTime": "2017-04-12T13:14:20.518000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-12T13:13:59.197000", 
+    "joinTime": "2017-04-12T12:55:41.093000", 
+    "id": "EdixdF68eAbudDboc"
+   }
+  ], 
+  "assignmentId": "3LYA37P8IQNIMRY41BYBSXYX3YYBKT", 
+  "workerId": "AKSJ3C5O3V9RB", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T02:18:31.541000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:06:46.126000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.54 Safari/537.36"
+  ], 
+  "_id": "m5E5XewMRXMyQgFn5", 
+  "bonusPayment": 1.55, 
+  "bonusMessage": "Thank you for participating. You earned 0.35 for the quiz and survey, 0.60 for Section 1, and 0.60 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "I'm wondering how I can repeat the experiment, as mentioned above. Also, earlier in the instructions it said each point was 10 cents, and that getting 3 points in the scenario would give me a bonus of 45 cents. shouldn't that be a bonus of 30 cents?"
+  }, 
+  "submitTime": "2017-04-11T15:34:40.045000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T15:32:41.932000", 
+    "joinTime": "2017-04-11T15:23:00.088000", 
+    "id": "X62qNLLWXEmZ3Gmtc"
+   }
+  ], 
+  "assignmentId": "33FOTY3KEMLZQV4O71OOY28GCDYC1Y", 
+  "workerId": "A2HM35CWB7IIFM", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-11T17:11:15.232000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:08:29.610000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "AN5Z4BCwXauNoh7t7", 
+  "bonusPayment": 2.3, 
+  "bonusMessage": "Thank you very much for participating, for the encouraging feedback, and for catching that typo! You earned a total of 1.30 from your games, 0.60 for the quiz and survey, and 0.40 as thanks for the useful feedback.  I'll continue to post this HIT; you're welcome to return."
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3RKNTXVS3MYSPF49A5BZQ5PVOUO4A2", 
+  "workerId": "ANVAFB99K5RKP", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:21:24.942000", 
+  "hitId": "35O6H0UNLSGIZ7DJSE2KZD2B0UJJ5P", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "YFNgr9fS8tqv4vyuF"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "No bugs, all worked out great, thanks ! As this was first time experience for me, needed some extra time to understand the basics. I assume, during the game got more understanding.  Thank you !"
+  }, 
+  "submitTime": "2017-04-11T16:01:44.499000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T15:59:45.833000", 
+    "joinTime": "2017-04-11T15:51:06.270000", 
+    "id": "afn9MQH9PhKpiS9Hy"
+   }
+  ], 
+  "assignmentId": "33SA9F9TRXU7OU450GJ4HGYDT2LEWT", 
+  "workerId": "A16QZSBYXE5VY8", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-11T20:11:00.086000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:21:26.679000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35O6H0UNLSGIZ7DJSE2KZD2B0UJJ5P", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+  ], 
+  "_id": "Tjo8ykTrp7PHimkfv", 
+  "bonusPayment": 2, 
+  "bonusMessage": "Thank you very much for participating, and for the encouraging feedback. You earned 1.20 from your games, 0.60 for the quiz and survey, and round up to 2.00 for being an early participant and providing feedback.  I'll continue to post this HIT; you're welcome to return.\n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Om the quiz, it is not said that you have to click the squares to make a selection. There is what looks like an input field that I expected to type my answer in. That should be cleared up a little."
+  }, 
+  "submitTime": "2017-04-11T15:35:36.361000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T15:33:55.531000", 
+    "joinTime": "2017-04-11T15:31:13.434000", 
+    "id": "2shHFqmTEKnwY2JHq"
+   }
+  ], 
+  "assignmentId": "33TIN5LC04AUI38O76L6AZIIDD59YD", 
+  "workerId": "A3F0NFNLOLFJT0", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-11T17:16:33.877000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:22:16.790000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35O6H0UNLSGIZ7DJSE2KZD2B0UJJ5P", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "Y9muWtjJFtTWXoC29", 
+  "bonusPayment": 2.6, 
+  "bonusMessage": "Thank you very much for your feedback. You earned the maximum of 1.80 from your games, 0.60 for the quiz and survey, and 0.20 as thanks for the useful feedback. I clarified the instructions on your advice.  I'll continue to post this HIT; you're welcome to return."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "I think the interface is great! It's simple, and it works. It's fast, and the design is good. I think the instructions were clear and it's an easy and fun experiment. I didn't find any bugs and it wasn't confusing at all. Well done!"
+  }, 
+  "submitTime": "2017-04-11T15:43:34.468000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T15:41:37.693000", 
+    "joinTime": "2017-04-11T15:35:34.274000", 
+    "id": "zCfTBn63gSZBdwwsK"
+   }
+  ], 
+  "assignmentId": "3VFJCI1K4ZZ00CJA7HZMUKB8E3KGR8", 
+  "workerId": "A2A0M30DSA7ZN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-11T20:07:26.519000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T15:29:48.064000", 
+  "mturkStatus": "Approved", 
+  "hitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "D8PfCv3v7CT5S9w6H", 
+  "bonusPayment": 1.85, 
+  "bonusMessage": "Thank you very much for participating, and for the encouraging feedback! You earned a total of 1.00 from your games, 0.60 for the quiz and survey, and 0.25 as thanks for the useful feedback.  I'll continue to post this HIT; you're welcome to return.\n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "I did not."
+  }, 
+  "submitTime": "2017-04-11T22:39:53.545000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T22:39:34.409000", 
+    "joinTime": "2017-04-11T22:30:57.673000", 
+    "id": "w2EK9w9hf2Ay8Yz37"
+   }
+  ], 
+  "assignmentId": "3LEIZ60CDJZUNTIT3SNPO6RKJ77Z9S", 
+  "workerId": "A1MJHGH55K3O0", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T02:17:18.660000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T16:34:55.618000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "JheqXta5tJeqERrEC", 
+  "bonusPayment": 2.05, 
+  "bonusMessage": "Thank you for participating. You earned 0.35 for the quiz and survey, 0.80 for Section 1, and 0.90 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "I had no issues whatsoever with the experiment. Thanks for the study."
+  }, 
+  "submitTime": "2017-04-11T19:44:44.417000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T19:41:34.122000", 
+    "joinTime": "2017-04-11T19:32:17.596000", 
+    "id": "zqoqNvvCFAxG9jGGk"
+   }
+  ], 
+  "assignmentId": "3FE2ERCCZX83GCKTI885UYKV47MOPA", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T14:59:19.613000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T17:28:12.241000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "ZAX3dhAsAj5wm8dcY", 
+  "bonusPayment": 1.8, 
+  "bonusMessage": "Thank you for participating (and for returning).  You game earnings in this HIT were 1.20."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Another great HIT.. I'm liking this. Definitely more responsive now. Keep them coming! :-)"
+  }, 
+  "submitTime": "2017-04-11T20:19:50.573000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:19:31.366000", 
+    "joinTime": "2017-04-11T20:17:01.293000", 
+    "id": "D9Wy3y7konZ9scxzn"
+   }
+  ], 
+  "assignmentId": "3NGMS9VZTLIXJMI652TAVAXDA16FFC", 
+  "workerId": "A15FXHC1CVNW31", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:22:02.915000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:03:09.147000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35JDMRECC4984OGBV9AK6UG8M5DGEG", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0"
+  ], 
+  "_id": "miTjGsEKessrtzsoL", 
+  "bonusPayment": 1.2, 
+  "bonusMessage": "0.30 for section 1, 0.90 for section 2.  Thanks!"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:17:57.324000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:17:48.570000", 
+    "joinTime": "2017-04-11T20:14:53.116000", 
+    "id": "qridZmRa4kohrk9sF"
+   }
+  ], 
+  "assignmentId": "3NQL1CS15R8SFALRA7Q22H7F46KYVG", 
+  "workerId": "A1MYLQQL8BBOYT", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:20:38.415000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:13:02.838000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3P458N04Q1HRVUZLRZFNSF7ESSV2X4", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "9TSPXrqYgHpgTqGGr", 
+  "bonusPayment": 1.85, 
+  "bonusMessage": "0.35 for quiz and survey, 0.70 for section 1, and 0.80 for section 2. "
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "This was nice."
+  }, 
+  "submitTime": "2017-04-11T22:19:32.549000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T22:19:23.608000", 
+    "joinTime": "2017-04-11T22:17:06.662000", 
+    "id": "PDEZBBMeC42xbPSp9"
+   }
+  ], 
+  "assignmentId": "3NG53N1RLVJ0VKXDBRJ9XCUVP3GP88", 
+  "workerId": "A1W4Q0E00VP6VD", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:44:31.231000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:13:07.670000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3WRBLBQ2GR89DY1HN2B5L5E4S4FG06", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+  ], 
+  "_id": "4WfGEidA8jGico2Ar", 
+  "bonusPayment": 1.35, 
+  "bonusMessage": "Thank you for participating. You earned 0.35 for the quiz and survey, 0.90 for Section 1, and 0.10 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:29:33.847000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:29:04.318000", 
+    "joinTime": "2017-04-11T20:23:00.330000", 
+    "id": "4bzMXH47zkpmqMAYh"
+   }
+  ], 
+  "assignmentId": "3EJJQNKU9R5E08ELRNH4FKN9T4UHR7", 
+  "workerId": "A3SKEW89V5S0DI", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:29:48.640000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:13:09.646000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3P458N04Q1HRVUZLRZFNSF7ESSV2X4", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "paZ8xDeT6gJQNJgJb", 
+  "bonusPayment": 1.45, 
+  "bonusMessage": "Thank you for participating. You earned 0.35 for the quiz and survey, 0.40 for Section 1, and 0.70 for Section 2.  "
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:36:20.021000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:36:07.765000", 
+    "joinTime": "2017-04-11T20:30:16.456000", 
+    "id": "X9aw5XjTidkJF5zkH"
+   }
+  ], 
+  "assignmentId": "37WLF8U1WPQCGFH95KH3HHC5PYKK6G", 
+  "workerId": "A5TI9UQEPLNWI", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:32:31.034000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:24:04.127000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3P458N04Q1HRVUZLRZFNSF7ESSV2X4", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "sJYuW4m3GsWwDRLsf", 
+  "bonusPayment": 2.15, 
+  "bonusMessage": "Thank you for participating. You earned the maximum bonus in this HIT: 0.35 for the quiz and survey, 0.90 for Section 1, and 0.90 for Section 2. \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:34:23.653000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:34:11.604000", 
+    "joinTime": "2017-04-11T20:25:27.065000", 
+    "id": "hD43LfB4zNw252qGY"
+   }
+  ], 
+  "assignmentId": "3CTOC39K37Q09VPW69MJMGCO5K47J3", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T15:04:08.030000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:25:05.929000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35JDMRECC4984OGBV9AK6UG8M5DGEG", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "5CzQWiJatWysfcCSg", 
+  "bonusPayment": 0.9, 
+  "bonusMessage": "Your game earnings by section were 0.5 and 0.4"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:38:26.476000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:38:23.145000", 
+    "joinTime": "2017-04-11T20:34:34.813000", 
+    "id": "N8G8zq5xPkeF7ay7u"
+   }
+  ], 
+  "assignmentId": "34S9DKFK73PF75CI8G4BS0D2I3JNYP", 
+  "workerId": "A3HESOWHVBQOEI", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:39:18.528000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:33:05.602000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3MYASTQBG7BUP7WP2A4CUQ2PSGCDQ6", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "4fyMAgA3REHiHhkbq", 
+  "bonusPayment": 1.35, 
+  "bonusMessage": "Thank you for participating. You earned 0.35 for the quiz and survey, 0.30 for Section 1, and 0.70 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:40:31.486000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:40:21.414000", 
+    "joinTime": "2017-04-11T20:37:22.303000", 
+    "id": "Qw7RsN7WmiNi5HQta"
+   }
+  ], 
+  "assignmentId": "39N5ACM9HEN09PGNGJPNX8P699YP9X", 
+  "workerId": "A5TI9UQEPLNWI", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:33:43.362000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:36:22.423000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3WRBLBQ2GR89DY1HN2B5L5E4S4FG06", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "hHentHZxKwXmSMrA4", 
+  "bonusPayment": 1.1, 
+  "bonusMessage": "Thank you for participating. You earned 0.60 for Section 1, and 0.50 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:44:16.588000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:44:14.813000", 
+    "joinTime": "2017-04-11T20:39:19.818000", 
+    "id": "Fs5RjFBxoC6BxduBm"
+   }
+  ], 
+  "assignmentId": "30BXRYBRP4XJ84V7QHRA2JVQLJ9WHP", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T15:06:20.112000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:39:14.713000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3WRBLBQ2GR89DY1HN2B5L5E4S4FG06", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "R54fjFoknSGXReyKd", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Your game earnings by section were 0.9 and 0.7"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:45:30.098000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:45:20.236000", 
+    "joinTime": "2017-04-11T20:40:46.277000", 
+    "id": "Bg8Pj33c4Y25zB7rc"
+   }
+  ], 
+  "assignmentId": "3QHK8ZVMIMIT6XGMMBAC7XBCSZ1BLW", 
+  "workerId": "A5TI9UQEPLNWI", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:38:14.478000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:40:33.833000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3E6L1VR4XWMYD9R1E7L4CLOJ4SG6FD", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "mN8zfAEenkZHvAqud", 
+  "bonusPayment": 1.4, 
+  "bonusMessage": "Thank you for participating. You earned 0.90 for Section 1, and 0.50 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Way too hard. I dont' get it at all. ewwwww"
+  }, 
+  "submitTime": "2017-04-11T21:06:26.124000", 
+  "assignmentId": "3TPZPLC3M0CEUNR7ZAOD6VMK9HP3PV", 
+  "workerId": "AMYURTQIMAC8T", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:41:05.104000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3E6L1VR4XWMYD9R1E7L4CLOJ4SG6FD", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586"
+  ], 
+  "_id": "qoTNsPdqvurAcjGZP", 
+  "bonusPayment": 0
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T20:51:29.458000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T20:51:11.760000", 
+    "joinTime": "2017-04-11T20:46:52.102000", 
+    "id": "93CBAo4HHinmifA28"
+   }
+  ], 
+  "assignmentId": "3X66WABAJWI8HAY8WRYQCM8S8Q2G34", 
+  "workerId": "AA7ASGQEOMKEZ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:40:21.172000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T20:41:35.017000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3MYASTQBG7BUP7WP2A4CUQ2PSGCDQ6", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "o8CWnQyv9viwTGS9u", 
+  "bonusPayment": 2.05, 
+  "bonusMessage": "Thank you for participating. You earned 0.35 for the quiz and survey, 0.80 for Section 1, and 0.90 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T21:23:05.884000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T21:22:51.697000", 
+    "joinTime": "2017-04-11T21:19:10.523000", 
+    "id": "DQ5ioohhhMainDwta"
+   }
+  ], 
+  "assignmentId": "3PW9OPU9PQKMSDCMA8ZIMPZU0NI12D", 
+  "workerId": "A4J4GGMKJ68L0", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T17:43:20.568000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T21:14:37.862000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35JDMRECC4984OGBV9AK6UG8M5DGEG", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+  ], 
+  "_id": "uAczmzL3LKna8FAHk", 
+  "bonusPayment": 1.65, 
+  "bonusMessage": "Thank you for participating. You earned 0.35 for the quiz and survey, 0.90 for Section 1, and 0.40 for Section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T22:17:33.714000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T22:17:31.920000", 
+    "joinTime": "2017-04-11T22:09:38.585000", 
+    "id": "KNz7gcuyTwiyu5A7q"
+   }
+  ], 
+  "assignmentId": "3RXPCZQMQPBC77KT9NK7OTTVA6OG1C", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T15:07:05.700000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T22:09:33.711000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3MYASTQBG7BUP7WP2A4CUQ2PSGCDQ6", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "hLQg8LKEwZMfAbgeQ", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Your game earnings by section were 0.7 and 0.9."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-11T22:23:08.905000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-11T22:23:02.730000", 
+    "joinTime": "2017-04-11T22:20:22.144000", 
+    "id": "J6xQz2EZZN2v2PjaT"
+   }
+  ], 
+  "assignmentId": "3EA3QWIZ4IVRCI2X1U4KFBP6H27ITF", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-12T15:07:45.629000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-11T22:17:36.625000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3E6L1VR4XWMYD9R1E7L4CLOJ4SG6FD", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "a72K3FzXyPyBGt8XK", 
+  "bonusPayment": 1.3, 
+  "bonusMessage": "Your game earnings by section were 0.9 and 0.4"
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "39OWYR0EPKR3JDZ1ASLYKV4TGG8FYT", 
+  "workerId": "A1RJ2LORL5PJHS", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:42:09.928000", 
+  "hitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "8hnw7c3Zi88NR8EJq"
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3018Q3ZVOIQZQL67LH7CYY05GDGAR9", 
+  "workerId": "A3EBUBRYCKB6AF", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:42:12.912000", 
+  "hitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0"
+  ], 
+  "_id": "4tdDYAfGKbCkAdkqr"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:21:54.901000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:21:40.413000", 
+    "joinTime": "2017-04-13T02:13:40.182000", 
+    "id": "28b6maTrvjbs2hZWq"
+   }
+  ], 
+  "assignmentId": "3WZ36BJEV3GHPAORVKC3TOLTMGXTBZ", 
+  "workerId": "A21SIPO89DP66I", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T02:32:35.634000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:42:14.679000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "XrPcYfPoayzH59P4v", 
+  "bonusPayment": 1.1, 
+  "bonusMessage": "Thank you for participating. The bonus represents your combined earnings from Section 1, Section 2 and, if this was your first time, the quiz and the survey."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T01:49:02.039000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T01:48:45.843000", 
+    "joinTime": "2017-04-13T01:46:10.913000", 
+    "id": "WKywZGBCyskWK7QPT"
+   }
+  ], 
+  "assignmentId": "3NVC2EB65QZ831J8QXKWJMFWDQ33Y8", 
+  "workerId": "A3UUH3632AI3ZX", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T02:32:34.959000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:42:16.774000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "2rdHxGb4fHs9sMkaq", 
+  "bonusPayment": 2, 
+  "bonusMessage": "Thank you for participating. The bonus represents your combined earnings from Section 1, Section 2 and, if this was your first time, the quiz and the survey."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T01:54:36.842000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T01:54:18.893000", 
+    "joinTime": "2017-04-13T01:49:07.961000", 
+    "id": "LThb8z2z5vZ2B2wqY"
+   }
+  ], 
+  "assignmentId": "3R9WASFE2ZG3O3966ENHY2DVMACFZK", 
+  "workerId": "A15NPTZ0JH7TB9", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T02:32:35.195000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:42:25.673000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "userAgent": [
+   "Mozilla/5.0 (Linux; Android 5.1.1; LGMS330 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36"
+  ], 
+  "_id": "n4sRJdKrSMbKrcxEa", 
+  "bonusPayment": 0.7000000000000001, 
+  "bonusMessage": "Thank you for participating. The bonus represents your combined earnings from Section 1, Section 2 and, if this was your first time, the quiz and the survey."
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3M1CVSFP605ZEKR782ICT8Q0KREAQ8", 
+  "workerId": "A1NM7ZPZ3NH412", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:43:25.291000", 
+  "hitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "cwrqTdGbNjweB5wmB"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T01:56:38.780000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T01:56:26.268000", 
+    "joinTime": "2017-04-13T01:50:42.725000", 
+    "id": "ardZMkNuNQ8MuHQ7Y"
+   }
+  ], 
+  "assignmentId": "351SEKWQS0H6RCWR0J2X20E1VTEMDZ", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T02:29:06.434000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:47:23.597000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "ipARdAck6qvDqbocM", 
+  "bonusPayment": 1.3, 
+  "bonusMessage": "Thank you for participating again. You earned 0.50 for Section 1, and 0.80 for Section 2.  "
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:04:07.378000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:04:05.208000", 
+    "joinTime": "2017-04-13T01:58:07.021000", 
+    "id": "ExbE5XnkZByYiSQb9"
+   }
+  ], 
+  "assignmentId": "3QAPZX2QN4DMLOR4EPVI8KGKVZP20W", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T02:32:35.433000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T01:56:41.571000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "7KCpD6aNN8XWSHFoA", 
+  "bonusPayment": 0.9000000000000001, 
+  "bonusMessage": "Thank you for participating. The bonus represents your combined earnings from Section 1, Section 2 and, if this was your first time, the quiz and the survey."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Everything was clear and easy to understand."
+  }, 
+  "submitTime": "2017-04-13T03:39:02.731000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:38:50.078000", 
+    "joinTime": "2017-04-13T03:33:27.241000", 
+    "id": "QrFgto42vfmij8KDs"
+   }
+  ], 
+  "assignmentId": "3UNH76FOCS59PNRIWFPBFLO2DIPMYE", 
+  "workerId": "A27MJOV91GA8R3", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:45.086000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:04.818000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "AcJFBeCTEomyEJ6ez", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:44:14.848000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:44:08.946000", 
+    "joinTime": "2017-04-13T02:41:42.030000", 
+    "id": "reseS53b2L497HRxD"
+   }
+  ], 
+  "assignmentId": "3TK8OJTYM1LY6WTQJKUJPQE306YPV4", 
+  "workerId": "A15FXHC1CVNW31", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:39.263000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:04.883000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "NJpAGdk9p5wQwnQTi", 
+  "bonusPayment": 1.7000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:54:17.950000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:54:03.576000", 
+    "joinTime": "2017-04-13T02:48:35.800000", 
+    "id": "wpD2pNw4mRnbKLbNK"
+   }
+  ], 
+  "assignmentId": "3GNA64GUZE428EFQD6RVLXAESEIQ5P", 
+  "workerId": "A3SWVCOJPJM7KQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:59:06.289000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:23.309000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "yFN8k3YmjjxRNqdu3", 
+  "bonusPayment": 1.9, 
+  "bonusMessage": "According to my logs, you may have been dealing with lag or some other problem.  I think I found the issue, but if you have any other information, it will be very helpful in preventing others from facing the same problem. You made 8 points in section 1 and 7 in section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:04:23.236000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:04:11.922000", 
+    "joinTime": "2017-04-13T03:01:27.172000", 
+    "id": "o8DQZQn8Xi63hiui3"
+   }
+  ], 
+  "assignmentId": "3Z3ZLGNNSIUZUZSMZN3260CUEIRQ3Z", 
+  "workerId": "A2O7H7VXLFN6BP", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:43.608000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:24.028000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "7qNt4jFCxXQA5k7uy", 
+  "bonusPayment": 2.2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "nice oe"
+  }, 
+  "submitTime": "2017-04-13T02:56:16.093000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:56:07.473000", 
+    "joinTime": "2017-04-13T02:49:21.867000", 
+    "id": "TzvmcMFmRDMmyeLGm"
+   }
+  ], 
+  "assignmentId": "3JBT3HLQF82FFGY0KHJMAWRZOH4PZ4", 
+  "workerId": "A22847MKXI8ZYQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:42:13.481000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:24.718000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "dE46ikumjXofC3Grm", 
+  "bonusPayment": 1.4, 
+  "bonusMessage": "Your payments weren't complete on my end: Could you tell me if you were experiencing lags?  I think I found the issue, but if you have any other information, it will be very helpful in preventing others from facing the same problem.  In the meantime, one of your outcomes couldn't be calculated, so I am paying you the maximum of 0.30 cents. you made 0.7 in section 1 and 0.3 in section 2.  "
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "33M4IA01QG1BMYE0WRZQI6B3HZUXR7", 
+  "workerId": "A2BA9Y6VGW6WS1", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:33.834000", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "Fe9mqA4GJjHruWSiy"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T04:12:35.546000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T04:11:48.405000", 
+    "joinTime": "2017-04-13T04:06:59.160000", 
+    "id": "vH7eeGGygX6hSTXop"
+   }
+  ], 
+  "assignmentId": "3OF2M9AATGOE4P1K7PEEEF50U7YKZY", 
+  "workerId": "A1WK3G97IIQ3OJ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-14T03:08:37.698000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:38.170000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "F59Xo2jJ4bqdmgL2q", 
+  "bonusPayment": 1.9, 
+  "bonusMessage": "Hello, I don't know if you experienced any problems (please let me know!), like lag maybe, or having to press a button multiple times? Due to errors on my end, 4 out of 6 of your outcomes were not logged.  Between the 2 that were logged, you earned 0.30.  I will give you the maximum of 0.30 for the other 4 choices, plus 0.40 for the quiz and survey, for a total of 1.90.  Thank you for your participation.    Any information you have about what you experienced on your side will help me prevent others from facing the same issues."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "This was absolutely fantastic to participate in!! "
+  }, 
+  "submitTime": "2017-04-13T02:57:46.434000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:56:50.857000", 
+    "joinTime": "2017-04-13T02:47:58.662000", 
+    "id": "4feanyYcwBjRqFu7T"
+   }
+  ], 
+  "assignmentId": "3DHE4R9OCWBJWS2PSRKLTC302HIG2J", 
+  "workerId": "AJL536DIQQTGO", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:40.972000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:41.199000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+  ], 
+  "_id": "L27BFxPxH3G8N5T3j", 
+  "bonusPayment": 2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:54:53.700000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:54:42.857000", 
+    "joinTime": "2017-04-13T02:49:00.459000", 
+    "id": "uPjsYeZ6mTFPCe4hY"
+   }
+  ], 
+  "assignmentId": "3QIYRE09Y3HIHZ1FWRX2ED2SBNQN1H", 
+  "workerId": "AOWW3URQNRJ6U", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:40.168000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:43.549000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "TNtBdhDmcrti2Cn7D", 
+  "bonusPayment": 1.3, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3TEM0PF1Q5X9OYPKBEFZ437OSRJ0DA", 
+  "workerId": "A3T61LJ1WNOL6Z", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:45.041000", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "CuyJ2dGbQ8xM3Hz7y"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:02:06.747000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:01:38.610000", 
+    "joinTime": "2017-04-13T02:51:20.569000", 
+    "id": "sf6jsqpZMHiSiWtB8"
+   }
+  ], 
+  "assignmentId": "3OVR4I9USPJKCVBQZ18LG540SINQ4K", 
+  "workerId": "AGVUHOBSCP6YC", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:42.258000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:47.710000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.111 Safari/537.36 Vivaldi/1.8.770.50"
+  ], 
+  "_id": "rqKeAp9dnav2r3pgM", 
+  "bonusPayment": 1.8, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T06:09:40.361000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T06:09:24.862000", 
+    "joinTime": "2017-04-13T06:04:49.541000", 
+    "id": "tG7tBWRrNnLXAw89i"
+   }
+  ], 
+  "assignmentId": "3UWN2HHPUY5IBJ099ACMAEP11N3SN6", 
+  "workerId": "A1CE2XPYCDRHVZ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:32:00.770000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:49.382000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "rqtwNyQDLAEJfAhxv", 
+  "bonusPayment": 1.5, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "No bugs. Great hit!"
+  }, 
+  "submitTime": "2017-04-13T02:57:26.759000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:56:56.877000", 
+    "joinTime": "2017-04-13T02:49:40.891000", 
+    "id": "8Dvfn6pXQZ7DAagBR"
+   }
+  ], 
+  "assignmentId": "37Z929RLG98G6W5T66YYJDVTQ5PST7", 
+  "workerId": "AK467M5VTG7N4", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:40.525000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:51.087000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "mzZrEEmtHXoaxbCZM", 
+  "bonusPayment": 2.2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:57:40.691000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:57:12.626000", 
+    "joinTime": "2017-04-13T02:49:38.277000", 
+    "id": "ibtg9x5AZaMWXF4Kb"
+   }
+  ], 
+  "assignmentId": "3CFVK00FWLLN0LZRQKT4WHPKE36L6B", 
+  "workerId": "A255A9FFZD8PQW", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:48:36.383000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:51.303000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "oWQX3jHP7RyAidS3H", 
+  "bonusPayment": 1.9, 
+  "bonusMessage": "According to my side, you may have been dealing with lag or some other problem.  I think I found the issue, but if you have any other information, it will be very helpful in preventing others from facing the same problem.  In the meantime, one of your outcomes couldn't be calculated, so I am paying you the maximum of 0.30 cents for it. you made 8 points in section 1 and 7 in section 2.  "
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "386CSBG1OZMYRIF4IP10D3OEO9TQ65", 
+  "workerId": "ADCZGJUI64U9X", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:52.476000", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36"
+  ], 
+  "_id": "RKwnk3Aftry64MfSq"
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3LJ7UR74RHDZ9YYYJ9G4CB9VN70N4U", 
+  "workerId": "A1UHNDB2EQ8TK0", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:52.753000", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "AfygkszrwRgAWh2me"
+ }, 
+ {
+  "status": "returned", 
+  "assignmentId": "31UV0MXWNQCPRGR70YMMCVJS141I5E", 
+  "workerId": "A3G8NSPRF986WP", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:53.524000", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "tYWqhmMKQDTfwn6N4", 
+  "bonusPayment": 0
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:58:27.653000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:58:22.117000", 
+    "joinTime": "2017-04-13T02:45:31.871000", 
+    "id": "6Ki9sfHD7xLd98eLj"
+   }
+  ], 
+  "assignmentId": "3UOUJI6MTDE32Q6H0LUVNHYNOYYXUB", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:41.210000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:54.007000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "R4s5bYFH7hPH2AR7c", 
+  "bonusPayment": 1.2000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3F1567XTNW5L91H2GW4CXDFGEA1Q9G", 
+  "workerId": "A3JDT3L41Z09YL", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:56.395000", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
+  ], 
+  "_id": "oNS4PMkG893tHNoCS", 
+  "bonusPayment": 0
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:59:30.773000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:59:05.639000", 
+    "joinTime": "2017-04-13T02:53:11.970000", 
+    "id": "EdsvbxtKH4p74tCCk"
+   }
+  ], 
+  "assignmentId": "3X87C8JFV6B3EGD1P243E8K66YQSQT", 
+  "workerId": "ATIUQQLY0LCNA", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:41.473000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:57.797000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "EYbCxukbWaGTdDPKQ", 
+  "bonusPayment": 1.2999999999999998, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:11:10.081000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:11:00.622000", 
+    "joinTime": "2017-04-13T03:00:09.232000", 
+    "id": "xoJJy5GQC6rB5mabE"
+   }
+  ], 
+  "assignmentId": "3RU7GD8VPOTIE4CMPPPEE3UW124SP2", 
+  "workerId": "A2MD4K1YFYBLZN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:44.271000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:41:57.971000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "QnzefkTYqBqHzEvTi", 
+  "bonusPayment": 1.8, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "3B837J3LDOW3QHS12HT3JYUB2KSSRU", 
+  "workerId": "A2NF2OA358F8KM", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:01.984000", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/57.0.2987.98 Chrome/57.0.2987.98 Safari/537.36"
+  ], 
+  "_id": "5AA5otRZH64AdmEuu"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:48:50.346000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:48:38.086000", 
+    "joinTime": "2017-04-13T02:45:06.822000", 
+    "id": "9f8wfThwRtkZPdq9e"
+   }
+  ], 
+  "assignmentId": "3JNQLM5FT4MZIKGQ3IH16488YY4L2U", 
+  "workerId": "AYQJO08F8EAB9", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:51:20.031000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:02.098000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "7nn4Myt57m7i2PHcB", 
+  "bonusPayment": 1.9, 
+  "bonusMessage": "According to my logs, you may have been dealing with lag or some other problem.  I think I found the issue, but if you have any other information, it will be very helpful in preventing others from facing the same problem.  In the meantime, one of your outcomes couldn't be calculated, so I am paying you the maximum of 0.30 cents for it. you made 6 points in section 1 and 9 in section 2.  "
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-14T01:52:12.473000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T01:51:57.385000", 
+    "joinTime": "2017-04-14T01:45:55.024000", 
+    "id": "rcacdqtM4epX3QX5Z"
+   }
+  ], 
+  "assignmentId": "3Y4W8Q93LZKPHZQ0EB3OPWXEMNVVDW", 
+  "workerId": "AO4241SMFJ95K", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:45.677000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:03.318000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "YYKTW4HcNTYBCoAo4", 
+  "bonusPayment": 1, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Everything is fine"
+  }, 
+  "submitTime": "2017-04-13T02:48:41.873000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:48:28.680000", 
+    "joinTime": "2017-04-13T02:45:12.210000", 
+    "id": "8P3rudwksAAW82kF6"
+   }
+  ], 
+  "assignmentId": "3X1FV8S5JXRSTJ0RG14WVH0BZFBVG6", 
+  "workerId": "A2A0M30DSA7ZN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:01:24.029000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:04.486000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "jfzzrxwKwmrj3Y9YG", 
+  "bonusPayment": 0.7, 
+  "bonusMessage": "2 points in Section 1 and 5 in Section 2."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Thank you"
+  }, 
+  "submitTime": "2017-04-13T02:52:02.941000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:51:38.165000", 
+    "joinTime": "2017-04-13T02:47:07.061000", 
+    "id": "oozr4ixqcYybTQxrh"
+   }
+  ], 
+  "assignmentId": "34T446B1C0EZJ6J6BIKOKXP67R70CA", 
+  "workerId": "A3PRZRK9IC5CBI", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:39.892000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:05.197000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "GmZfx2e8wTfW2opQ2", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:57:44.316000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:57:21.894000", 
+    "joinTime": "2017-04-13T02:51:00.906000", 
+    "id": "KYagqc38hEw2xdvtd"
+   }
+  ], 
+  "assignmentId": "3E47SOBEYQWAQ10MF89UQ1P2TLNICM", 
+  "workerId": "A25AX0DNHKJCQT", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:40.740000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:09.282000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "RXF3hK8EkvpBGEDZ4", 
+  "bonusPayment": 2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:09:14.815000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:08:59.882000", 
+    "joinTime": "2017-04-13T02:52:57.521000", 
+    "id": "XaM4mSxRKHnyc2CXr"
+   }
+  ], 
+  "assignmentId": "3QHK8ZVMIMIT6XGMMBAC7XBCS4HLBW", 
+  "workerId": "A3NHJPE6326P9V", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:46:29.484000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:10.576000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "xu7PtGykZkapzm2K6", 
+  "bonusPayment": 1.8, 
+  "bonusMessage": "According to my side, you may have been dealing with lag or some other problem.  I think I found the issue, but if you have any other information, it will be very helpful in preventing others from facing the same problem.  In the meantime, one of your outcomes couldn't be calculated, so I am paying you the maximum of 0.30 cents for it. you made 7 points in both sections."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:55:42.330000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:55:36.444000", 
+    "joinTime": "2017-04-13T02:50:34.745000", 
+    "id": "GJBFtk5PbaYfQbwzr"
+   }
+  ], 
+  "assignmentId": "392CY0QWG1R7VXN7MT3C73DE186I49", 
+  "workerId": "A3KX8PBHVFQZ3U", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:40.359000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:11.166000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "r6SqCxLfeTG36Ni5K", 
+  "bonusPayment": 2.2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "It was interesting, thanks!"
+  }, 
+  "submitTime": "2017-04-13T02:55:02.388000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:54:39.619000", 
+    "joinTime": "2017-04-13T02:48:41.152000", 
+    "id": "m6HosYnmAQByYbJrF"
+   }
+  ], 
+  "assignmentId": "3WLEIWSYHOHXWOX0CX23ECF1HHW2H5", 
+  "workerId": "AADDOP3FHMAV1", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:55:56.221000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:12.575000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "R5kQuNq5SyhBy3NqK", 
+  "bonusPayment": 1.4, 
+  "bonusMessage": "You earned 6 points in section 1 and 4 in section 2.  I see that you performed the HIT twice.  This was the first, and I am processing the second.  I bring it up because my logs indicate that something went wrong one of the times. Would it be right to say that things were smooth for one run and laggy for the other.  Are there any other problems you encountered? Thank you for your input: it will go a long way toward helping me give everyone a great experience."
+ }, 
+ {
+  "status": "assigned", 
+  "assignmentId": "33IZTU6J811NNDEDBGZV8GGZ31DSXQ", 
+  "workerId": "A1PUHCEBSOWETV", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:18.243000", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "DuDG8H6WuFdkm6agC", 
+  "bonusPayment": 0
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:02:19.923000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:02:00.157000", 
+    "joinTime": "2017-04-13T02:53:28.775000", 
+    "id": "eTK22RvoDAKddTx4B"
+   }
+  ], 
+  "assignmentId": "3TU5ZICBRD1LVWYSB4YYXHK5U4JQ8R", 
+  "workerId": "AGHLR9UNHB6ZR", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:42.554000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:20.031000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+  ], 
+  "_id": "Jy72HWuaD3zp4HPK4", 
+  "bonusPayment": 1.8, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "this was fun! "
+  }, 
+  "submitTime": "2017-04-13T03:03:45.577000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:03:31.814000", 
+    "joinTime": "2017-04-13T02:53:58.031000", 
+    "id": "7aP5yLPEhi9bXFAcX"
+   }
+  ], 
+  "assignmentId": "3IOEN3P9S7JAAEVNXABLC2G6GX216M", 
+  "workerId": "AY9ZVK32I1P1L", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:43.361000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:42:45.731000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "rcSBqMDtQ3DhRruXS", 
+  "bonusPayment": 2.1, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T02:47:11.514000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:47:03.950000", 
+    "joinTime": "2017-04-13T02:44:24.124000", 
+    "id": "JAqdpBdazeEwR3bCr", 
+    "disconnectedTime": 19825
+   }
+  ], 
+  "assignmentId": "30LSNF239UVXSJ8KIFKOEOGGHUAI2D", 
+  "workerId": "A15FXHC1CVNW31", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:39.576000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:44:16.818000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "ugBvtMcAYTYBbACBe", 
+  "bonusPayment": 1.1, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:02:38.906000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:02:14.461000", 
+    "joinTime": "2017-04-13T02:54:30.700000", 
+    "id": "ehC66gBfJq6WTiAoK"
+   }
+  ], 
+  "assignmentId": "3IFS6Q0HJIJQXIPICUZU56TKFO9SIQ", 
+  "workerId": "AK3H5QRAROFGP", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:42.779000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:46:20.987000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "S3z2s6QN5mqw5cn23", 
+  "bonusPayment": 2.1, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "n/a"
+  }, 
+  "submitTime": "2017-04-13T03:25:16.741000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:25:06.879000", 
+    "joinTime": "2017-04-13T03:17:22.084000", 
+    "id": "pS89p55ZEu5J6R9Md"
+   }
+  ], 
+  "assignmentId": "3E4GGUZ1T8ROYEY8II50R4VT9Y02K9", 
+  "workerId": "A22DP0ST9DWG9O", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:44.643000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:47:10.493000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0"
+  ], 
+  "_id": "eTF75YEx4ii6s2FJQ", 
+  "bonusPayment": 2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:07:23.321000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:07:18.566000", 
+    "joinTime": "2017-04-13T02:49:04.296000", 
+    "id": "NuEPqWthzdrSn5BSr"
+   }
+  ], 
+  "assignmentId": "3RWE2M8QWHAIAAGX08T208JI6VKN0E", 
+  "workerId": "A2A0M30DSA7ZN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:03:20.571000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:48:56.611000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "jbnHfJPHsap9XKauQ", 
+  "bonusPayment": 1.05, 
+  "bonusMessage": "Hi, thank you for your helpful correspondence.  You earned 4 points in section 1 and 1 in section 2.  However, my system missed a payoff in section one, so I'll be adding the maximum of 0.30 for that.  I will also add 0.25 for your help and helpfulness."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Very slow and choppy throughout."
+  }, 
+  "submitTime": "2017-04-13T02:56:39.360000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T02:56:30.819000", 
+    "joinTime": "2017-04-13T02:53:06.657000", 
+    "id": "MR4xq6eaY4p4ZfstT"
+   }
+  ], 
+  "assignmentId": "31UV0MXWNQCPRGR70YMMCVJS141I5E", 
+  "workerId": "A2DWQF4ZHHBLOW", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:40:11.983000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:49:04.921000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "EmMZmWeFFDPwgxREA", 
+  "bonusPayment": 2.1, 
+  "bonusMessage": "2.10. Thank you for informing me that you were dealing with lag.  I think I found the issue, but if you have any other information, it will be very helpful in preventing others from facing the same problem.  In the meantime, one of your outcomes couldn't be calculated, so I am paying you the maximum of 0.30 cents. you made 9 in section 1 and 8 in section 2.  "
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "no problems"
+  }, 
+  "submitTime": "2017-04-13T03:14:33.770000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:14:02.958000", 
+    "joinTime": "2017-04-13T03:06:11.630000", 
+    "id": "hmqEcxhssaeCCbWMr"
+   }
+  ], 
+  "assignmentId": "3QAPZX2QN4DMLOR4EPVI8KGKV0U021", 
+  "workerId": "A2R8IV2PWFTY00", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:44.455000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:49:30.370000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "GCd2J37qDLnYyCzuR", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:01:07.494000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:00:54.125000", 
+    "joinTime": "2017-04-13T02:56:55.802000", 
+    "id": "xKxYurkDZEewjmoqG"
+   }
+  ], 
+  "assignmentId": "3E1QT0TDFP98EYA9YWTPOFTJ3U2I8G", 
+  "workerId": "A1OBWGLS5LRLT3", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:41.741000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:53:04.905000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "userAgent": [
+   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+  ], 
+  "_id": "LhaJeqmuo2B32P8GW", 
+  "bonusPayment": 1.5, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:11:05.825000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:11:04.058000", 
+    "joinTime": "2017-04-13T02:59:56.843000", 
+    "id": "jEr7xbB8qNBPGsPtJ"
+   }
+  ], 
+  "assignmentId": "3W2LOLRXLBF52YFTX8K1SC31LQFKR5", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:44.065000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T02:58:31.203000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "B5LApBpnagt8BcTSX", 
+  "bonusPayment": 1.5000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "none"
+  }, 
+  "submitTime": "2017-04-13T03:18:18.686000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:17:32.877000", 
+    "joinTime": "2017-04-13T03:09:24.270000", 
+    "id": "vumrK89KRbAZAko4E"
+   }
+  ], 
+  "assignmentId": "3X3OR7WPZZ0A4ZIFJZQ2GVLBKYXL8Y", 
+  "workerId": "A2A27TLFWKDXUW", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:36:18.869000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T03:01:47.414000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "MjmSLq4CP73kKxGaK", 
+  "bonusPayment": 1.9, 
+  "bonusMessage": "1.90: .40 for the quiz, 0.9 for section 1, 0.6 for section two.  You should know that I found errors on my side.  Did you have any problems?  Perhaps with lag?  Any information will greatly help me in preventing others from facing similar problems.  Thank you very much for your help."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:07:34.470000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:07:30.922000", 
+    "joinTime": "2017-04-13T03:04:30.793000", 
+    "id": "k3EyMwADcdSnpBAiv"
+   }
+  ], 
+  "assignmentId": "3FFJ6VRIL1OQW9563SGAV0N1KWR0IC", 
+  "workerId": "A2O7H7VXLFN6BP", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:43.842000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T03:04:25.286000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "6sD5FZEBm8QbP7xjZ", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T03:33:41.601000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T03:33:39.828000", 
+    "joinTime": "2017-04-13T03:28:17.590000", 
+    "id": "vt47pY7Ma9p7F2c8Q"
+   }
+  ], 
+  "assignmentId": "308Q0PEVB8D8S3TJ3OZ3OBOUN0KI95", 
+  "workerId": "A3N0QZ9ZKUCTCQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:44.863000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T03:11:08.680000", 
+  "mturkStatus": "Approved", 
+  "hitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "SSppHqqvvwmXebdQZ", 
+  "bonusPayment": 1.3000000000000003, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T04:38:32.201000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T04:38:02.307000", 
+    "joinTime": "2017-04-13T04:33:22.597000", 
+    "id": "8AvTxPJS6stSFtB7G"
+   }
+  ], 
+  "assignmentId": "3JWH6J9I9SDJUXJ7YOQRKPF1XZPNB8", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:45.281000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:29:38.902000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3JMNNNO3B14C6UUVHUJ1QWT7LROW28", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "QbpPvNMTajWivhfAM", 
+  "bonusPayment": 1.9000000000000001, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "No confusion or bugs. I'm just confused whether we should try to maximize our personal earnings. I understood from the instruction that I must try to choose that option which is most likely to be preferred by the other player.  \n\nThe message above mentions I can do this Hit 10 times. I hope you change the title of your Hit/clarify the same, if it is a totally new experiment/game to avoid confusion about this ( 10 times eligibility)."
+  }, 
+  "submitTime": "2017-04-13T05:03:25.826000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:00:32.680000", 
+    "joinTime": "2017-04-13T04:44:39.797000", 
+    "id": "YpdkxxN2x5wxZwgiF"
+   }
+  ], 
+  "assignmentId": "3HWRJOOET52EHDNWGB93KRVSNVASEP", 
+  "workerId": "A2K56J9POYUFCA", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:17:56.645000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:30:24.521000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3JMNNNO3B14C6UUVHUJ1QWT7LROW28", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "mundjQbrzfGJYD53R", 
+  "bonusPayment": 1.9, 
+  "bonusMessage": "Hi, thanks for your participation, and your question. You should maximize your earnings.  An important part of doing so is remembering that the other person is also trying to maximize their earnings, and that the outcome you get will be influenced by the other person. I will go back to the instructions to make them more clear.  Thank you for the great feedback.\n\nYou earned 6 points in Section 1 and 9 in Section 2."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "It was fine"
+  }, 
+  "submitTime": "2017-04-13T05:39:52.968000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:39:46.120000", 
+    "joinTime": "2017-04-13T05:32:45.991000", 
+    "id": "tq3dQXt4qwGug3x2q"
+   }
+  ], 
+  "assignmentId": "33NF62TLXJ2O4AWGP3BSQLHAB9TJKK", 
+  "workerId": "AADDOP3FHMAV1", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T16:56:59.928000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:33:56.866000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3MVY4USGB6NNAYROMSUSGNX34AWSI7", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "agBAYyQiaBc8uejoe", 
+  "bonusPayment": 1.2, 
+  "bonusMessage": "6 points in section 1 and 6 in section 2.  Thank you!"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T04:49:31.862000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T04:49:09.408000", 
+    "joinTime": "2017-04-13T04:42:01.248000", 
+    "id": "hpLMRHteQRQTrGhLX"
+   }
+  ], 
+  "assignmentId": "3TPZPLC3M0CEUNR7ZAOD6VMK9ME3PU", 
+  "workerId": "A1U8RH67FLZW87", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:45.614000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:34:10.130000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3MVY4USGB6NNAYROMSUSGNX34AWSI7", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "t7PiASxcnuNqxn9ZE", 
+  "bonusPayment": 2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "no problems, thanks!"
+  }, 
+  "submitTime": "2017-04-13T04:56:08.291000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T04:55:26.140000", 
+    "joinTime": "2017-04-13T04:50:22.662000", 
+    "id": "mLjKRJFLnv7k544Kt"
+   }
+  ], 
+  "assignmentId": "37TD41K0AH9ZKF3IKK38U3VP2JYCSH", 
+  "workerId": "A14ADQ7RUN6TDY", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:46.205000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:42:31.146000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3QTFNPMJC6ICPBOTE01SHOQNDP3ZNE", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "GFMqnKkFn7PFkoNLv", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T04:51:30.137000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T04:51:21.185000", 
+    "joinTime": "2017-04-13T04:48:40.804000", 
+    "id": "t8dKjqFM9ye9ZzCZy"
+   }
+  ], 
+  "assignmentId": "3TXMY6UCAEON7ZO5SGE3Z3GOKVDCQS", 
+  "workerId": "A110KENBXU7SUJ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:45.786000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:42:56.578000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3QTFNPMJC6ICPBOTE01SHOQNDP3ZNE", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "bfSuR5uyDHyWwfBcd", 
+  "bonusPayment": 0.9, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T04:47:11.008000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T04:47:05.719000", 
+    "joinTime": "2017-04-13T04:43:52.565000", 
+    "id": "ap4iGm67FLj4dEstj"
+   }
+  ], 
+  "assignmentId": "3WRFBPLXRAOER2FUJVBL26HP97DN3I", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:45.459000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:43:23.628000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3QTFNPMJC6ICPBOTE01SHOQNDP3ZNE", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "gssjqRj7uyKipN9Pf", 
+  "bonusPayment": 0.9000000000000001, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T04:53:58.289000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T04:53:46.485000", 
+    "joinTime": "2017-04-13T04:51:47.201000", 
+    "id": "kcC7yDsmugwQmZWSq"
+   }
+  ], 
+  "assignmentId": "3TVRFO09GKF0J0JNR72UWU24B7ELXE", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:45.949000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:51:42.546000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3KTZHH2ONIFRNX26T9MFRP4J9Q0M8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "srZW5ictjcxRkFqAm", 
+  "bonusPayment": 1.7000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:15:15.532000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:14:38.894000", 
+    "joinTime": "2017-04-13T05:01:37.506000", 
+    "id": "auivnp9XxsR8P7C9j"
+   }
+  ], 
+  "assignmentId": "384PI804XS1FQN8284AOZ2TOTU20SD", 
+  "workerId": "AB66CTVQ90RCV", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:49.938000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:53:02.257000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3KTZHH2ONIFRNX26T9MFRP4J9Q0M8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "vt5X2FathWQcZYu67", 
+  "bonusPayment": 2.2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:34:36.473000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:34:15.173000", 
+    "joinTime": "2017-04-13T05:29:09.441000", 
+    "id": "5gP9tXKLWwcDHKYZM"
+   }
+  ], 
+  "assignmentId": "3U088ZLJVKT8X4PBS9KPWRW9Z7XW0N", 
+  "workerId": "A37WXDYYT7RCZ0", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:53.487000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T04:59:08.395000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3KTZHH2ONIFRNX26T9MFRP4J9Q0M8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "hM2frwbTdcZzmt6Tx", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:11:44.019000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:11:32.002000", 
+    "joinTime": "2017-04-13T05:09:00.387000", 
+    "id": "Pg825dWTtMZorGfJQ"
+   }
+  ], 
+  "assignmentId": "38SKSKU7R1X3T5USSL2TTKFPNUBLIF", 
+  "workerId": "A49HPQ9P5AHU4", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:46.563000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:06:24.149000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3SSN80MU8COMCA3BG5LRSBT8BV1KX0", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "Be8AT24DrtyiGtafG", 
+  "bonusPayment": 2.1, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:10:53.101000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:10:45", 
+    "joinTime": "2017-04-13T05:07:02.175000", 
+    "id": "vNkpzBXDDHTFRrgRy"
+   }
+  ], 
+  "assignmentId": "3TY7ZAOG5FKH24VU3V1M8G2EC0PK0G", 
+  "workerId": "A1U8RH67FLZW87", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:46.373000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:06:50.151000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3W1K7D6QSBHAO2ZWBAWJQTQTW1RBZ5", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "Y8FvcBbqjrkD6TQ5p", 
+  "bonusPayment": 1.8000000000000003, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:12:16.024000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:12:13.397000", 
+    "joinTime": "2017-04-13T05:10:17.890000", 
+    "id": "cx3wYtHXfsLpAFAiG"
+   }
+  ], 
+  "assignmentId": "34Z02EIMISDG5NLHX4FE97PAVDH0T3", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:47.785000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:10:11.866000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3SSN80MU8COMCA3BG5LRSBT8BV1KX0", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "okKfTTKgww5cP2rcQ", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:13:37.431000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:13:35.766000", 
+    "joinTime": "2017-04-13T05:12:23.060000", 
+    "id": "dcEMwxPFTHrMQpazs"
+   }
+  ], 
+  "assignmentId": "3WYP994K17R70K6Q9ZIUQPRGNIKY6Q", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:49.070000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:12:18.523000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3W1K7D6QSBHAO2ZWBAWJQTQTW1RBZ5", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "bEtKqgducNJm4TB4b", 
+  "bonusPayment": 0.7000000000000001, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:26:11.965000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:26:07.659000", 
+    "joinTime": "2017-04-13T05:21:57.087000", 
+    "id": "CwmSptbMs6qTq4yp4"
+   }
+  ], 
+  "assignmentId": "3AMYWKA6YBMV662O3C9WOYTE98MO66", 
+  "workerId": "A1U8RH67FLZW87", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:50.542000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:21:44.591000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3G9UA71JVVUXMBR2G7HHXXG7UDA7JH", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "F4fyQ9atsFbChgjLL", 
+  "bonusPayment": 1.0000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:59:47.788000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:59:09.787000", 
+    "joinTime": "2017-04-13T05:51:45.912000", 
+    "id": "YpfruBkScohP67Guc"
+   }
+  ], 
+  "assignmentId": "3VAR3R6G1P1IAKLCWR6U8CP5F3CO8S", 
+  "workerId": "AMZV70TID53WY", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:59.586000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:21:50.538000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35O6H0UNLSGIZ7DJSE2KZD2B37F5J0", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+  ], 
+  "_id": "Lf5BhZjRgYtmyg2S4", 
+  "bonusPayment": 2.2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:27:15.569000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:27:07.570000", 
+    "joinTime": "2017-04-13T05:22:31.898000", 
+    "id": "ZorybB4fHSgSDHLcu"
+   }
+  ], 
+  "assignmentId": "3QBD8R3Z21JHRJYAKOGHR090DHGO4L", 
+  "workerId": "AB66CTVQ90RCV", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:51.485000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:22:12.756000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3G9UA71JVVUXMBR2G7HHXXG7UDA7JH", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "9d9JhRXbupmdzcTxj", 
+  "bonusPayment": 0.9, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:27:39.069000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:27:36.681000", 
+    "joinTime": "2017-04-13T05:26:14.195000", 
+    "id": "H4QKjXNWjGuTt5xjp"
+   }
+  ], 
+  "assignmentId": "3I3WADAZ9Q4ZN22AYTZRWSFEDDBO5Q", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:52.334000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:26:10.014000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3G9UA71JVVUXMBR2G7HHXXG7UDA7JH", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "qDWPXwvPFAWrHFeRL", 
+  "bonusPayment": 1.7000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:36:49.997000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:36:43.492000", 
+    "joinTime": "2017-04-13T05:27:32.292000", 
+    "id": "aKNYeG8pyX7pYYkK7"
+   }
+  ], 
+  "assignmentId": "3OCHAWUVGOKPZU1567QTHUPPM7BKXC", 
+  "workerId": "AB66CTVQ90RCV", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:54.125000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:27:21.209000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35O6H0UNLSGIZ7DJSE2KZD2B37F5J0", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "ttBq9MskbHkBtJhqw", 
+  "bonusPayment": 1.5000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:28:57.448000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:28:54.460000", 
+    "joinTime": "2017-04-13T05:27:45.196000", 
+    "id": "yDAr8iRyDmoMYoAXr"
+   }
+  ], 
+  "assignmentId": "3TOK3KHVJTIEA6GTMMEOUCTA4J6O75", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:52.896000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:27:41.314000", 
+  "mturkStatus": "Approved", 
+  "hitId": "35O6H0UNLSGIZ7DJSE2KZD2B37F5J0", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "Sk5rE7SfXSQLDhBuj", 
+  "bonusPayment": 1.5000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:37:39.318000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:37:19.753000", 
+    "joinTime": "2017-04-13T05:33:18.057000", 
+    "id": "cMFiFyL7g735foeRr"
+   }
+  ], 
+  "assignmentId": "3E47SOBEYQWAQ10MF89UQ1P2TLZICY", 
+  "workerId": "A1U8RH67FLZW87", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:54.855000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:33:08.611000", 
+  "mturkStatus": "Approved", 
+  "hitId": "31ODACBENUF0RWF7Z0Z1PPOPVNWSQZ", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "vPhRJt3RWWiQAxfca", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:45:00.425000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:44:48.350000", 
+    "joinTime": "2017-04-13T05:40:58.360000", 
+    "id": "DGaN6zRdxjiyRtro4"
+   }
+  ], 
+  "assignmentId": "3WETL7AQWT8A1D9OFVFZ8PH3IMG35B", 
+  "workerId": "A1QCQE5XW37LN1", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:57.315000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:33:27.805000", 
+  "mturkStatus": "Approved", 
+  "hitId": "32TMVRKDGNYBJ7D0N5MJ5VNJN1884Y", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "x726ZkyzXh3LsYL2S", 
+  "bonusPayment": 1.8, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:37:48.305000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:37:44.413000", 
+    "joinTime": "2017-04-13T05:35:44.765000", 
+    "id": "AqdLPwvEDheJ88otv"
+   }
+  ], 
+  "assignmentId": "3FTOP5WARFOMRKPCLA1A7121XBR0JZ", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:55.373000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:35:38.470000", 
+  "mturkStatus": "Approved", 
+  "hitId": "31ODACBENUF0RWF7Z0Z1PPOPVNWSQZ", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "GRvzpLKCwGrv2jsPi", 
+  "bonusPayment": 1.8000000000000003, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:39:05.616000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:39:02.970000", 
+    "joinTime": "2017-04-13T05:37:54.249000", 
+    "id": "4wjA88C8MdcbHSbJP"
+   }
+  ], 
+  "assignmentId": "3YHH42UU5BFSMADCOVDNNGFT10W0L1", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:56.115000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:37:50.752000", 
+  "mturkStatus": "Approved", 
+  "hitId": "32TMVRKDGNYBJ7D0N5MJ5VNJN1884Y", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "Nwd76YagBJbDSxzDS", 
+  "bonusPayment": 1.4000000000000001, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:42:30.458000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:42:08.101000", 
+    "joinTime": "2017-04-13T05:39:41.331000", 
+    "id": "2NaP8JgwkLz2jFGB3"
+   }
+  ], 
+  "assignmentId": "3DI28L7YXAEENTO23SUJOQ8JXV1E1V", 
+  "workerId": "AW0MG225VXWCN", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:56.617000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:39:31.767000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3BPP3MA3TCKOQGUC6070JMLGKQALEC", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "znNX2K3rjd4YfEEbA", 
+  "bonusPayment": 1.2000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:56:21.588000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:56:16.541000", 
+    "joinTime": "2017-04-13T05:49:50.718000", 
+    "id": "uT7L5pkhCRMo5pqYz"
+   }
+  ], 
+  "assignmentId": "3B837J3LDOW3QHS12HT3JYUB2K4SR6", 
+  "workerId": "A37WXDYYT7RCZ0", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:58.396000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:45:40.886000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3BPP3MA3TCKOQGUC6070JMLGKQALEC", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "kcomigRh4KB9qPqFo", 
+  "bonusPayment": 1.4000000000000001, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:57:04.492000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:56:56.990000", 
+    "joinTime": "2017-04-13T05:47:04.022000", 
+    "id": "WFcj7ft59ZLfB8Cvm"
+   }
+  ], 
+  "assignmentId": "3VA45EW49NN0ZK1RX6XFT22X1X7O19", 
+  "workerId": "AB66CTVQ90RCV", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:58.927000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:46:47.439000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3BPP3MA3TCKOQGUC6070JMLGKQALEC", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "GFTC53sbdyjEsTkCj", 
+  "bonusPayment": 1.8000000000000003, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T05:58:11.087000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T05:58:05.328000", 
+    "joinTime": "2017-04-13T05:53:41.731000", 
+    "id": "548WnM6cWaGXyxFm7"
+   }
+  ], 
+  "assignmentId": "3II4UPYCOJ7XCRUJSC9EJ9Y65VTDQX", 
+  "workerId": "A1U8RH67FLZW87", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:31:59.260000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:53:37.476000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3HXCEECSQMT61AS7L2A3Y4OUHC8YZA", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "qZB8GnFWTuZmgCPmx", 
+  "bonusPayment": 1.2000000000000002, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T06:00:07.419000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T06:00:02.597000", 
+    "joinTime": "2017-04-13T05:57:40.284000", 
+    "id": "kZExLdEuPCHhJqk4e"
+   }
+  ], 
+  "assignmentId": "3HSYG7LRBJYJFU2Y7OB4R0HNQYYKKP", 
+  "workerId": "A37WXDYYT7RCZ0", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:32:00", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:56:23.266000", 
+  "mturkStatus": "Approved", 
+  "hitId": "32TZXEA1OLKT87TFOKD4QL0B9WX144", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "XGPkpFpeYabLy3Ppk", 
+  "bonusPayment": 1.8000000000000003, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T06:02:09.937000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T06:02:03.027000", 
+    "joinTime": "2017-04-13T05:57:23.992000", 
+    "id": "aEJnfM9rQQ4qo9Bk4"
+   }
+  ], 
+  "assignmentId": "3TUI152ZZBN3KWE7CJPJI7XXGYQQ1K", 
+  "workerId": "AB66CTVQ90RCV", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:32:00.375000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T05:57:11.290000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3HXCEECSQMT61AS7L2A3Y4OUHC8YZA", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "RCGyrsaRHT2JTmtB7", 
+  "bonusPayment": 0.9000000000000001, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T06:04:39.577000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T06:04:36.795000", 
+    "joinTime": "2017-04-13T06:02:29.454000", 
+    "id": "bWCECQLbefpNDdPNF"
+   }
+  ], 
+  "assignmentId": "3FE7TXL1LINA9HW3VNPXNQ72844Q21", 
+  "workerId": "AB66CTVQ90RCV", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:32:00.581000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T06:02:15.147000", 
+  "mturkStatus": "Approved", 
+  "hitId": "32TZXEA1OLKT87TFOKD4QL0B9WX144", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "2XZRyw2ofNk9utXFP", 
+  "bonusPayment": 1.8000000000000003, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-14T04:48:17.622000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T04:48:03.241000", 
+    "joinTime": "2017-04-14T04:43:10.674000", 
+    "id": "bPWiBTNoupcfpDenN"
+   }
+  ], 
+  "assignmentId": "3SKRO2GZ71RH9TGCZE5MMLLOHSVK1J", 
+  "workerId": "A2WCV7ULUPKVNQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:44:28.226000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T06:46:25.586000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3W1K7D6QSBHAO2ZWBAWJQTQTW1RBZ5", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "ERZRFXczcvwWqGPwT", 
+  "bonusPayment": 2.2, 
+  "bonusMessage": "You earned the maximum in this experiment, 0.40 for the quiz and survey, 0.90 for section 1, and 0.90 for section 2.  "
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "No problems, thank you"
+  }, 
+  "submitTime": "2017-04-13T07:55:45.830000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T07:55:23.213000", 
+    "joinTime": "2017-04-13T07:48:43.801000", 
+    "id": "JtMWLYu3Zhdms2Z6d"
+   }
+  ], 
+  "assignmentId": "3X66WABAJWI8HAY8WRYQCM8S8VVG37", 
+  "workerId": "A16HSMUJ7C7QA7", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:32:01.213000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T07:15:25.564000", 
+  "mturkStatus": "Approved", 
+  "hitId": "32TZXEA1OLKT87TFOKD4QL0B9WX144", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  ], 
+  "_id": "HNCY8Rrq43cTdB3pY", 
+  "bonusPayment": 1.5, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Thanks."
+  }, 
+  "submitTime": "2017-04-13T08:02:32.949000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T08:02:15.966000", 
+    "joinTime": "2017-04-13T07:54:19.222000", 
+    "id": "foW9SbuFQ9vQQHw8h"
+   }
+  ], 
+  "assignmentId": "3KKG4CDWKIYEKWU4IZXZUAEBIIW94U", 
+  "workerId": "A2K56J9POYUFCA", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-13T17:20:41.011000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T07:53:52.693000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3HXCEECSQMT61AS7L2A3Y4OUHC8YZA", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "7ukC2XDCJ9TvYB72R", 
+  "bonusPayment": 1.1, 
+  "bonusMessage": "According to my logs, you may have been dealing with lag or some other problem during this HIT.  I think I found the issue, but if you have any other information, it will be very helpful in preventing others from facing the same problem.  You made 4 points in section 1 and 7 in section 2.  \n"
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T22:16:19.557000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T22:15:54.905000", 
+    "joinTime": "2017-04-13T21:59:57.471000", 
+    "id": "aJFffsfy4m8KJyT5j"
+   }
+  ], 
+  "assignmentId": "3Z3ZLGNNSIUZUZSMZN3260CUEI03QL", 
+  "workerId": "A32CRWJESR6AX4", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:44.414000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T10:00:21.976000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3MVY4USGB6NNAYROMSUSGNX34AWSI7", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "3bf3L7k7fwK2s7Hrz", 
+  "bonusPayment": 1.8, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Interesting and well-designed study."
+  }, 
+  "submitTime": "2017-04-14T02:16:36.157000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T02:16:13.201000", 
+    "joinTime": "2017-04-13T23:29:48.905000", 
+    "id": "A2b8woZTuGPRxxapR", 
+    "disconnectedTime": 153949
+   }
+  ], 
+  "assignmentId": "3HSYG7LRBJYJFU2Y7OB4R0HNQYXKKO", 
+  "workerId": "AKSJ3C5O3V9RB", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:45.866000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T12:56:38.405000", 
+  "mturkStatus": "Approved", 
+  "hitId": "31ODACBENUF0RWF7Z0Z1PPOPVNWSQZ", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.54 Safari/537.36"
+  ], 
+  "_id": "QxvaJ9Qp5dD2nsaX4", 
+  "bonusPayment": 1.3, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "This was a fun HIT, the instructions were very step by step and clear."
+  }, 
+  "submitTime": "2017-04-14T00:34:36.697000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T00:33:51.138000", 
+    "joinTime": "2017-04-14T00:27:01.913000", 
+    "id": "78NnEmHFx2WTZfmhF"
+   }
+  ], 
+  "assignmentId": "3X31TUMD7XMSTZYUKEHN1LY36SYL1L", 
+  "workerId": "AKCH7EGJBNV43", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:45.247000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T13:11:34.806000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3JMNNNO3B14C6UUVHUJ1QWT7LROW28", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "kRb3RqZbzazGbLTxT", 
+  "bonusPayment": 2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-13T15:53:02.397000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T15:52:56.797000", 
+    "joinTime": "2017-04-13T15:48:08.633000", 
+    "id": "ytgtiQFsKJJ5XKT33"
+   }
+  ], 
+  "assignmentId": "3JAOYWH7VI4AI41PORWGGRGM44EL9M", 
+  "workerId": "A2581F7TDPAMBQ", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-14T03:01:54.609000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T14:33:31.344000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "3Gskn67N5tiPpes3Z", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "0.40 for quiz and survey, 0.70 for section 1, and 0.50 for section 2. Thank you for participating."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "I enjoyed the task. Thanks!"
+  }, 
+  "submitTime": "2017-04-13T19:45:05.135000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-13T19:44:14.586000", 
+    "joinTime": "2017-04-13T19:33:27.477000", 
+    "id": "W5fhD2CszcFgkjPbN"
+   }
+  ], 
+  "assignmentId": "3QXNC7EIPIVXL8C3ZYAXI7OY16D90B", 
+  "workerId": "A40LU73SS18IW", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:44.189000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T17:11:35.311000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3SSN80MU8COMCA3BG5LRSBT8BV1KX0", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+  ], 
+  "_id": "sFDZCkZ3fwefcQRWh", 
+  "bonusPayment": 1.2999999999999998, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-14T01:27:51.590000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T01:27:32.894000", 
+    "joinTime": "2017-04-14T01:22:21.606000", 
+    "id": "WYBGMhgAfgqjQAEWq"
+   }
+  ], 
+  "assignmentId": "3II4UPYCOJ7XCRUJSC9EJ9Y65UCQDR", 
+  "workerId": "A1KGCOR8OXYR72", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:45.450000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T20:28:03.666000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+  ], 
+  "_id": "RWenLxo2btMQuadCE", 
+  "bonusPayment": 1.9000000000000001, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-14T00:14:13.614000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T00:14:04.910000", 
+    "joinTime": "2017-04-14T00:10:02.230000", 
+    "id": "Dp7Fx4gx6RADo95qY"
+   }
+  ], 
+  "assignmentId": "3IHR8NYAM71ZCJABZOTWG0EQNPSP4P", 
+  "workerId": "AMZV70TID53WY", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:44.922000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T23:54:09.045000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3Y40HMYLL1I0F68NAJPTYY26EXYUXT", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+  ], 
+  "_id": "bxBFnD5HkiNBkretm", 
+  "bonusPayment": 1.6, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": ""
+  }, 
+  "submitTime": "2017-04-14T00:03:08.007000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T00:02:43.441000", 
+    "joinTime": "2017-04-13T23:55:50.099000", 
+    "id": "meeYiQQoP7pmYePDA"
+   }
+  ], 
+  "assignmentId": "3NPI0JQDAO5JT4P1EPU4O8QI3O9TPP", 
+  "workerId": "AGVUHOBSCP6YC", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:44.666000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-13T23:55:25.677000", 
+  "mturkStatus": "Approved", 
+  "hitId": "3Y40HMYLL1I0F68NAJPTYY26EXYUXT", 
+  "userAgent": [
+   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.111 Safari/537.36 Vivaldi/1.8.770.50"
+  ], 
+  "_id": "E4zj25JZGy3o7Ypum", 
+  "bonusPayment": 1.2, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }, 
+ {
+  "status": "completed", 
+  "exitdata": {
+   "feedback": "Interesting and well-designed study."
+  }, 
+  "submitTime": "2017-04-14T02:32:15.652000", 
+  "instances": [
+   {
+    "leaveTime": "2017-04-14T02:32:04.482000", 
+    "joinTime": "2017-04-14T02:17:07.601000", 
+    "id": "jHWKMzx5Ehy445ekC"
+   }
+  ], 
+  "assignmentId": "3LWJHTCVCCMUAB8FJI44791RH88FQ9", 
+  "workerId": "AKSJ3C5O3V9RB", 
+  "ipAddr": [
+   "172.17.0.4"
+  ], 
+  "bonusPaid": "2017-04-16T21:48:46.070000", 
+  "batchId": "dpmhLMSeHeJP8wGdo", 
+  "acceptTime": "2017-04-14T02:16:55.573000", 
+  "mturkStatus": "Approved", 
+  "hitId": "32TMVRKDGNYBJ7D0N5MJ5VNJN1884Y", 
+  "userAgent": [
+   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.54 Safari/537.36"
+  ], 
+  "_id": "kXu8wZuxx3WirZK2r", 
+  "bonusPayment": 1.8000000000000003, 
+  "bonusMessage": "Thank you for you participation. This bonus combines your earnings from Section 1 and Section 2, and, if this was your first time, the quiz and survey were worth 0.40 together.  You are welcome to repeat this experiment a number of times as you see more assignments come up."
+ }
+]

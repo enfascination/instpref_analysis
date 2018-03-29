@@ -1,0 +1,5288 @@
+[
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "4vhAJuu5qSNh5297G", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A36TE52PSYAAD6", 
+  "mtHitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 6, 
+  "bonusEarnings": 1.4000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "AP8vcD9dXt36haXn8", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "XdvjpWFQFKivs2w32", 
+  "mtAssignmentId": "3EJPLAJKEMG75AGV5LKD4W0IT6ZZ6H"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "duCmFwxZyzb3CTB5q", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A9Z25VKRSKF8O", 
+  "mtHitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "fd2nMFvz6stryYpWe", 
+  "_id": "wv3cNxCwhB32zjfER", 
+  "mtAssignmentId": "3KAKFY4PGU2MD143MFYTXYL8N2W3IJ"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "Yxns2vG4TDsZFemF4", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AQJWO4YPR3LUQ", 
+  "mtHitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 6, 
+  "bonusEarnings": 1.5000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "EaXw7z2Y2wtsvHRBM", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "o87GbTucJR3ZviGmM", 
+  "mtAssignmentId": "3SEPORI8WNZ8SCSYVY1PK124PPPZA7"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "tkXwf7WEpsnK7jDLx", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A296HTKGCX7FY9", 
+  "mtHitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 9, 
+  "bonusEarnings": 1.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "kAaJW7zGCLBBfkh2X", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "ryngX2kzabuSLDeuK", 
+  "mtAssignmentId": "3LS2AMNW5FQOGOL8ILNUU3A5938OQ1"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "8FPJCCngq24BudnF5", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A37QCZD5MFB2TF", 
+  "mtHitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "ncTpfDERtZN9XLPwB", 
+  "_id": "cNcnYf2qa5tNaBYri", 
+  "mtAssignmentId": "3NPI0JQDAO5JT4P1EPU4O8QI3F3TP1"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "7PAsgSLe72SBnWGYo", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A154X03NKVZZL1", 
+  "mtHitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "vZHazFyBGaY4nMGLR", 
+  "_id": "vZXdsHg8naEkYS5t8", 
+  "mtAssignmentId": "374TNBHA8BV0A2PAO8WSWU87ND7QYE"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "AN5Z4BCwXauNoh7t7", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A2HM35CWB7IIFM", 
+  "mtHitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 1, 
+  "bonusEarnings": 1.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "r6D7Ym94xLPbWSFvE", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "EdDo4ypEgvpgNkyHC", 
+  "mtAssignmentId": "33FOTY3KEMLZQV4O71OOY28GCDYC1Y"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "YFNgr9fS8tqv4vyuF", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "ANVAFB99K5RKP", 
+  "mtHitId": "35O6H0UNLSGIZ7DJSE2KZD2B0UJJ5P", 
+  "treatment_now": "feedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "PewnBgxYn38XJAKZ4", 
+  "_id": "c92fz7nTwGQDarwrE", 
+  "mtAssignmentId": "3RKNTXVS3MYSPF49A5BZQ5PVOUO4A2"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "Tjo8ykTrp7PHimkfv", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A16QZSBYXE5VY8", 
+  "mtHitId": "35O6H0UNLSGIZ7DJSE2KZD2B0UJJ5P", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 5, 
+  "bonusEarnings": 1.4000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "zCAJyqF8ARDSSJrDX", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "ZZKkdsDmLreEWfT8P", 
+  "mtAssignmentId": "33SA9F9TRXU7OU450GJ4HGYDT2LEWT"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "Y9muWtjJFtTWXoC29", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3F0NFNLOLFJT0", 
+  "mtHitId": "35O6H0UNLSGIZ7DJSE2KZD2B0UJJ5P", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 2, 
+  "bonusEarnings": 1.5000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "w2dCCQFuHrf9Bkodc", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "GH5A9jazoNpM6jCRK", 
+  "mtAssignmentId": "33TIN5LC04AUI38O76L6AZIIDD59YD"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "JheqXta5tJeqERrEC", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1MJHGH55K3O0", 
+  "mtHitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 25, 
+  "bonusEarnings": 0.35, 
+  "completedExperiment": true, 
+  "meteorUserId": "SaTXYqg24E6pH7KAc", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "ht6nkRcLdx5RqE3Yt", 
+  "mtAssignmentId": "3LEIZ60CDJZUNTIT3SNPO6RKJ77Z9S"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "9TSPXrqYgHpgTqGGr", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A1MYLQQL8BBOYT", 
+  "mtHitId": "3P458N04Q1HRVUZLRZFNSF7ESSV2X4", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 9, 
+  "bonusEarnings": 1.1500000000000001, 
+  "completedExperiment": true, 
+  "meteorUserId": "YEwfheDvxFD5REcmG", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "CkBmGNQ2nmiubkQri", 
+  "mtAssignmentId": "3NQL1CS15R8SFALRA7Q22H7F46KYVG"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 1
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "4WfGEidA8jGico2Ar", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1W4Q0E00VP6VD", 
+  "mtHitId": "3WRBLBQ2GR89DY1HN2B5L5E4S4FG06", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 23, 
+  "bonusEarnings": 0.35, 
+  "completedExperiment": true, 
+  "meteorUserId": "RmoXgMC3RJ3hrRpY3", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "xdmCKzZDs5iidR5un", 
+  "mtAssignmentId": "3NG53N1RLVJ0VKXDBRJ9XCUVP3GP88"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "paZ8xDeT6gJQNJgJb", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3SKEW89V5S0DI", 
+  "mtHitId": "3P458N04Q1HRVUZLRZFNSF7ESSV2X4", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 14, 
+  "bonusEarnings": 0.35, 
+  "completedExperiment": true, 
+  "meteorUserId": "fzn5XL42LHTcCNYJP", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "dkdWKt963Cd2Px3C5", 
+  "mtAssignmentId": "3EJJQNKU9R5E08ELRNH4FKN9T4UHR7"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "4fyMAgA3REHiHhkbq", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3HESOWHVBQOEI", 
+  "mtHitId": "3MYASTQBG7BUP7WP2A4CUQ2PSGCDQ6", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 16, 
+  "bonusEarnings": 0.65, 
+  "completedExperiment": true, 
+  "meteorUserId": "Gcso2BbAN4WtgwLRD", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "Nu5FpHgddnd4SFf5P", 
+  "mtAssignmentId": "34S9DKFK73PF75CI8G4BS0D2I3JNYP"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "mN8zfAEenkZHvAqud", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A5TI9UQEPLNWI", 
+  "mtHitId": "3E6L1VR4XWMYD9R1E7L4CLOJ4SG6FD", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 19, 
+  "bonusEarnings": 0, 
+  "completedExperiment": true, 
+  "meteorUserId": "NnrLFYb9Rw7duzNK6", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "hketiS4psoRXWcrr2", 
+  "mtAssignmentId": "3QHK8ZVMIMIT6XGMMBAC7XBCSZ1BLW"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": true, 
+   "passed": false, 
+   "triesLeft": 0
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "qoTNsPdqvurAcjGZP", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AMYURTQIMAC8T", 
+  "mtHitId": "3E6L1VR4XWMYD9R1E7L4CLOJ4SG6FD", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "ZnrZwpdDKicNEdb6D", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "tD8yq7FyNwCuRPd8e", 
+  "mtAssignmentId": "3TPZPLC3M0CEUNR7ZAOD6VMK9HP3PV"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "o8CWnQyv9viwTGS9u", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AA7ASGQEOMKEZ", 
+  "mtHitId": "3MYASTQBG7BUP7WP2A4CUQ2PSGCDQ6", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 18, 
+  "bonusEarnings": 1.2500000000000002, 
+  "completedExperiment": true, 
+  "meteorUserId": "h75S9sjJJ5FuFZrnt", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "WgxvWDwAP3AFhcpss", 
+  "mtAssignmentId": "3X66WABAJWI8HAY8WRYQCM8S8Q2G34"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "uAczmzL3LKna8FAHk", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A4J4GGMKJ68L0", 
+  "mtHitId": "35JDMRECC4984OGBV9AK6UG8M5DGEG", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 19, 
+  "bonusEarnings": 0.75, 
+  "completedExperiment": true, 
+  "meteorUserId": "R7yQJzocsJJCtCnAh", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "RucLYg8Kb8FDFejc3", 
+  "mtAssignmentId": "3PW9OPU9PQKMSDCMA8ZIMPZU0NI12D"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "8hnw7c3Zi88NR8EJq", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A1RJ2LORL5PJHS", 
+  "mtHitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "JXK4aZjiBXHMv4oip", 
+  "_id": "tkwqfwSkg3MgSLA6J", 
+  "mtAssignmentId": "39OWYR0EPKR3JDZ1ASLYKV4TGG8FYT"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "quiz", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "4tdDYAfGKbCkAdkqr", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3EBUBRYCKB6AF", 
+  "mtHitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "quiz", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "FFXW36645aCcpuKnf", 
+  "_id": "FEt8Tda4wfB6gpYHS", 
+  "mtAssignmentId": "3018Q3ZVOIQZQL67LH7CYY05GDGAR9"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   31, 
+   29
+  ], 
+  "tsAsstId": "XrPcYfPoayzH59P4v", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A21SIPO89DP66I", 
+  "mtHitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 29, 
+  "bonusEarnings": 2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "ns5EJRdgjH6rx9mhF", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.7000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "7jX7nnCrS2Zaom88y", 
+  "mtAssignmentId": "3WZ36BJEV3GHPAORVKC3TOLTMGXTBZ"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   27, 
+   25
+  ], 
+  "tsAsstId": "2rdHxGb4fHs9sMkaq", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3UUH3632AI3ZX", 
+  "mtHitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 25, 
+  "bonusEarnings": 2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "RX9N8N6dmdssNCWr6", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.7000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "gwGsBXXDqaLxenkig", 
+  "mtAssignmentId": "3NVC2EB65QZ831J8QXKWJMFWDQ33Y8"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   28, 
+   26
+  ], 
+  "tsAsstId": "n4sRJdKrSMbKrcxEa", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A15NPTZ0JH7TB9", 
+  "mtHitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 26, 
+  "bonusEarnings": 0.7000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "fmBsDStFevZRa9Rkc", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "fvEwtLBohuQqx283D", 
+  "mtAssignmentId": "3R9WASFE2ZG3O3966ENHY2DVMACFZK"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "cwrqTdGbNjweB5wmB", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1NM7ZPZ3NH412", 
+  "mtHitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "treatment_now": "feedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "DGtJNkcr3bDtp8yTi", 
+  "_id": "FiGFFnimnJntoosyC", 
+  "mtAssignmentId": "3M1CVSFP605ZEKR782ICT8Q0KREAQ8"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   61, 
+   65
+  ], 
+  "tsAsstId": "AcJFBeCTEomyEJ6ez", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A27MJOV91GA8R3", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 65, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "Lp5SqSPrH2YtfcrNB", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "Xz9Dm2kouSNt935Z7", 
+  "mtAssignmentId": "3UNH76FOCS59PNRIWFPBFLO2DIPMYE"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   39, 
+   45
+  ], 
+  "tsAsstId": "yFN8k3YmjjxRNqdu3", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3SWVCOJPJM7KQ", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 45, 
+  "bonusEarnings": 1.9, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "rnrm22qTTooMxarWS", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.7, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "LfnpcbYw2QEvGsS5F", 
+  "mtAssignmentId": "3GNA64GUZE428EFQD6RVLXAESEIQ5P"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   42, 
+   45
+  ], 
+  "tsAsstId": "dE46ikumjXofC3Grm", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A22847MKXI8ZYQ", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 45, 
+  "bonusEarnings": 1.1, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 5
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "G3KMf4dc2wirsPJnN", 
+  "breakdownEarnings": {
+   "experiment1": 0.4, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "LZNQPGdG8YrzemTqJ", 
+  "mtAssignmentId": "3JBT3HLQF82FFGY0KHJMAWRZOH4PZ4"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "Fe9mqA4GJjHruWSiy", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2BA9Y6VGW6WS1", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "feedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "uroXikNeyFFosChdR", 
+  "_id": "22pgMeuzefmEpkXEd", 
+  "mtAssignmentId": "33M4IA01QG1BMYE0WRZQI6B3HZUXR7"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   62, 
+   66
+  ], 
+  "tsAsstId": "F59Xo2jJ4bqdmgL2q", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1WK3G97IIQ3OJ", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 66, 
+  "bonusEarnings": 0.7000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 4, 
+   "gamesConsummated": 2
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "qnTngmjkWFSNcWa3i", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "eYMyJEmfQvXrPStFy", 
+  "mtAssignmentId": "3OF2M9AATGOE4P1K7PEEEF50U7YKZY"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   38, 
+   39
+  ], 
+  "tsAsstId": "L27BFxPxH3G8N5T3j", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AJL536DIQQTGO", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 39, 
+  "bonusEarnings": 2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "Wx7KNPgJxKRLSjdNT", 
+  "breakdownEarnings": {
+   "experiment1": 0.7000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "xarkLuJFMpspvh9tB", 
+  "mtAssignmentId": "3DHE4R9OCWBJWS2PSRKLTC302HIG2J"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   34, 
+   47
+  ], 
+  "tsAsstId": "TNtBdhDmcrti2Cn7D", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AOWW3URQNRJ6U", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 47, 
+  "bonusEarnings": 1.3, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "uhcLfTADo2R9rxGEw", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "Add2mPgAFsHfxJJin", 
+  "mtAssignmentId": "3QIYRE09Y3HIHZ1FWRX2ED2SBNQN1H"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "CuyJ2dGbQ8xM3Hz7y", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3T61LJ1WNOL6Z", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "feedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "ZFpRqNKGFakWx6bx5", 
+  "_id": "FDz75j5qyPnCTqkeK", 
+  "mtAssignmentId": "3TEM0PF1Q5X9OYPKBEFZ437OSRJ0DA"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   95, 
+   97
+  ], 
+  "tsAsstId": "rqtwNyQDLAEJfAhxv", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1CE2XPYCDRHVZ", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 97, 
+  "bonusEarnings": 1.5, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "oYXjNc66iq6qeddAw", 
+  "breakdownEarnings": {
+   "experiment1": 0.4, 
+   "experiment2": 0.7, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "whdszxvamDzpautSe", 
+  "mtAssignmentId": "3UWN2HHPUY5IBJ099ACMAEP11N3SN6"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   37, 
+   50
+  ], 
+  "tsAsstId": "mzZrEEmtHXoaxbCZM", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AK467M5VTG7N4", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 50, 
+  "bonusEarnings": 2.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "36bJR27PvovnLFb5h", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "eAehrFKsNfmvc7L5Y", 
+  "mtAssignmentId": "37Z929RLG98G6W5T66YYJDVTQ5PST7"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   43, 
+   40
+  ], 
+  "tsAsstId": "oWQX3jHP7RyAidS3H", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A255A9FFZD8PQW", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 40, 
+  "bonusEarnings": 1.5999999999999999, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 5
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "Hgc66uQw73gEt7HxW", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.7, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "c6RrPNTLpMivsug9C", 
+  "mtAssignmentId": "3CFVK00FWLLN0LZRQKT4WHPKE36L6B"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "RKwnk3Aftry64MfSq", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "ADCZGJUI64U9X", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "PLwNgyFa9rTcT66aZ", 
+  "_id": "v5mpj2fQRwrK86oQG", 
+  "mtAssignmentId": "386CSBG1OZMYRIF4IP10D3OEO9TQ65"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "AfygkszrwRgAWh2me", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1UHNDB2EQ8TK0", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "feedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "gXS7SLafC2J3JAhyb", 
+  "_id": "jw3rkoip5ZRqXiLpK", 
+  "mtAssignmentId": "3LJ7UR74RHDZ9YYYJ9G4CB9VN70N4U"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": true, 
+   "passed": false, 
+   "triesLeft": 0
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "tYWqhmMKQDTfwn6N4", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3G8NSPRF986WP", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "ymmeRPhbpCnv4W3w2", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "NdDdhkNoSQvGyTBoJ", 
+  "mtAssignmentId": "31UV0MXWNQCPRGR70YMMCVJS141I5E"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": true, 
+   "passed": false, 
+   "triesLeft": 0
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "oNS4PMkG893tHNoCS", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3JDT3L41Z09YL", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "Cy6msqSpGboXSpjyB", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "4pMKtQ88bzncg6Wn2", 
+  "mtAssignmentId": "3F1567XTNW5L91H2GW4CXDFGEA1Q9G"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   51, 
+   58
+  ], 
+  "tsAsstId": "QnzefkTYqBqHzEvTi", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2MD4K1YFYBLZN", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 58, 
+  "bonusEarnings": 1.8, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "hspQ9wTrnh5qynh7M", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "TKfDzReGXDSymExh8", 
+  "mtAssignmentId": "3RU7GD8VPOTIE4CMPPPEE3UW124SP2"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   49, 
+   46
+  ], 
+  "tsAsstId": "EYbCxukbWaGTdDPKQ", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "ATIUQQLY0LCNA", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 46, 
+  "bonusEarnings": 1.2999999999999998, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "BEk8WsLaW8d2KWSod", 
+  "breakdownEarnings": {
+   "experiment1": 0.4, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "uRYhDTSJJXKZPQfGc", 
+  "mtAssignmentId": "3X87C8JFV6B3EGD1P243E8K66YQSQT"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "instructions", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "5AA5otRZH64AdmEuu", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A2NF2OA358F8KM", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "instructions", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "bMu2ygn7stbBT57Rr", 
+  "_id": "ZSteCi9G8sMcyRH5A", 
+  "mtAssignmentId": "3B837J3LDOW3QHS12HT3JYUB2KSSRU"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   32, 
+   36
+  ], 
+  "tsAsstId": "7nn4Myt57m7i2PHcB", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AYQJO08F8EAB9", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 36, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 5
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "LpWWqJWLn8mp8gZr5", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "78BCt7ZtNw4f8JD8n", 
+  "mtAssignmentId": "3JNQLM5FT4MZIKGQ3IH16488YY4L2U"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   106, 
+   109
+  ], 
+  "tsAsstId": "YYKTW4HcNTYBCoAo4", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AO4241SMFJ95K", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 109, 
+  "bonusEarnings": 1, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "fSuyeG9ADshvTF9nL", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "Mt4XGWfGRZA9Wp6Ep", 
+  "mtAssignmentId": "3Y4W8Q93LZKPHZQ0EB3OPWXEMNVVDW"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   37, 
+   41
+  ], 
+  "tsAsstId": "GmZfx2e8wTfW2opQ2", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3PRZRK9IC5CBI", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 41, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "hP5QRovHWaETNdLb8", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "d3adknNGBEpQG8iFK", 
+  "mtAssignmentId": "34T446B1C0EZJ6J6BIKOKXP67R70CA"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   44, 
+   53
+  ], 
+  "tsAsstId": "RXF3hK8EkvpBGEDZ4", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A25AX0DNHKJCQT", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 53, 
+  "bonusEarnings": 2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "Bu2dqocZwxuxRHFiC", 
+  "breakdownEarnings": {
+   "experiment1": 0.7, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "DwXdKJgkwGD3L5Bcv", 
+  "mtAssignmentId": "3E47SOBEYQWAQ10MF89UQ1P2TLNICM"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   43, 
+   59
+  ], 
+  "tsAsstId": "xu7PtGykZkapzm2K6", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3NHJPE6326P9V", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 59, 
+  "bonusEarnings": 1.5, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 5
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "G8RHeTr7gk5dg8HpE", 
+  "breakdownEarnings": {
+   "experiment1": 0.4, 
+   "experiment2": 0.7000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "4AnBGSLY3nzM6ZazS", 
+  "mtAssignmentId": "3QHK8ZVMIMIT6XGMMBAC7XBCS4HLBW"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   41, 
+   52
+  ], 
+  "tsAsstId": "r6SqCxLfeTG36Ni5K", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A3KX8PBHVFQZ3U", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 52, 
+  "bonusEarnings": 2.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "Wr47saendmcHB9Nxr", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "AZBfJDtqexa7QBpci", 
+  "mtAssignmentId": "392CY0QWG1R7VXN7MT3C73DE186I49"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": true, 
+   "passed": false, 
+   "triesLeft": 0
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 0, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "DuDG8H6WuFdkm6agC", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1PUHCEBSOWETV", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 0, 
+  "bonusEarnings": 0, 
+  "completedExperiment": false, 
+  "meteorUserId": "jyM9k9f4Pz82v83To", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "NabY249w37GQC832Y", 
+  "mtAssignmentId": "33IZTU6J811NNDEDBGZV8GGZ31DSXQ"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   51, 
+   48
+  ], 
+  "tsAsstId": "Jy72HWuaD3zp4HPK4", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AGHLR9UNHB6ZR", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 48, 
+  "bonusEarnings": 1.8, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "eEnScgwfzjxM9xPaW", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "mwFW5Lc2RGXR8QuCa", 
+  "mtAssignmentId": "3TU5ZICBRD1LVWYSB4YYXHK5U4JQ8R"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   54, 
+   52
+  ], 
+  "tsAsstId": "rcSBqMDtQ3DhRruXS", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AY9ZVK32I1P1L", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 52, 
+  "bonusEarnings": 2.1, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "h9pz6HY3mdah8R5Jq", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "XzaJiLWjp8kcRTKNv", 
+  "mtAssignmentId": "3IOEN3P9S7JAAEVNXABLC2G6GX216M"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 3, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   31, 
+   35
+  ], 
+  "tsAsstId": "ugBvtMcAYTYBbACBe", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A15FXHC1CVNW31", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 35, 
+  "bonusEarnings": 1.1, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XSreo4RoaNqbKpmkK", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "APq7gLuwcvT7kZ7Qr", 
+  "mtAssignmentId": "30LSNF239UVXSJ8KIFKOEOGGHUAI2D"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   44, 
+   56
+  ], 
+  "tsAsstId": "S3z2s6QN5mqw5cn23", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AK3H5QRAROFGP", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 56, 
+  "bonusEarnings": 2.1, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "bRnAjiH7pr9845P67", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "cwv6fWJCS7Rptbk5L", 
+  "mtAssignmentId": "3IFS6Q0HJIJQXIPICUZU56TKFO9SIQ"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   63, 
+   59
+  ], 
+  "tsAsstId": "eTF75YEx4ii6s2FJQ", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A22DP0ST9DWG9O", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 59, 
+  "bonusEarnings": 2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "nqy9JmQbuZFRPogJw", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "p9qSyZTXADGkSDEoe", 
+  "mtAssignmentId": "3E4GGUZ1T8ROYEY8II50R4VT9Y02K9"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   36, 
+   60
+  ], 
+  "tsAsstId": "jbnHfJPHsap9XKauQ", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2A0M30DSA7ZN", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 60, 
+  "bonusEarnings": 0.5, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 5
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "38pi4HxgRX27sTq4b", 
+  "breakdownEarnings": {
+   "experiment1": 0.4, 
+   "experiment2": 0.1, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "Y3C23GKeX5gd3YFsq", 
+  "mtAssignmentId": "3RWE2M8QWHAIAAGX08T208JI6VKN0E"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   48, 
+   42
+  ], 
+  "tsAsstId": "EmMZmWeFFDPwgxREA", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A2DWQF4ZHHBLOW", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 42, 
+  "bonusEarnings": 1.8, 
+  "HITStatus": {
+   "gamesPlayed": 5, 
+   "gamesConsummated": 5
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "KnD4SiTrJ29Zn8AA8", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "HMNeh82jsuewDFRee", 
+  "mtAssignmentId": "31UV0MXWNQCPRGR70YMMCVJS141I5E"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   55, 
+   61
+  ], 
+  "tsAsstId": "GCd2J37qDLnYyCzuR", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2R8IV2PWFTY00", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 61, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "AuQwMsMPjeyaZQt7L", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "viFQzFiKMechiGiQq", 
+  "mtAssignmentId": "3QAPZX2QN4DMLOR4EPVI8KGKV0U021"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   55, 
+   49
+  ], 
+  "tsAsstId": "LhaJeqmuo2B32P8GW", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A1OBWGLS5LRLT3", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 49, 
+  "bonusEarnings": 1.5, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "s55W8DjwqkFgSXCi5", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "PiYnmwQfGjuMbwrw7", 
+  "mtAssignmentId": "3E1QT0TDFP98EYA9YWTPOFTJ3U2I8G"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   57, 
+   62
+  ], 
+  "tsAsstId": "MjmSLq4CP73kKxGaK", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2A27TLFWKDXUW", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 62, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 5
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "JDissyde6usiTsbFE", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "q3dms9F7ZTQAg9QLE", 
+  "mtAssignmentId": "3X3OR7WPZZ0A4ZIFJZQ2GVLBKYXL8Y"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   54, 
+   56
+  ], 
+  "tsAsstId": "6sD5FZEBm8QbP7xjZ", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A2O7H7VXLFN6BP", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 56, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "oQAW8iMEQc5Di6PiM", 
+  "breakdownEarnings": {
+   "experiment1": 0.7000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "ubJAa7QoqguMHoAuY", 
+  "mtAssignmentId": "3FFJ6VRIL1OQW9563SGAV0N1KWR0IC"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 9, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   64, 
+   60
+  ], 
+  "tsAsstId": "SSppHqqvvwmXebdQZ", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 60, 
+  "bonusEarnings": 1.3000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "fDsCKuAAt7fBNBagp", 
+  "mtAssignmentId": "308Q0PEVB8D8S3TJ3OZ3OBOUN0KI95"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   82, 
+   86
+  ], 
+  "tsAsstId": "agBAYyQiaBc8uejoe", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AADDOP3FHMAV1", 
+  "mtHitId": "3MVY4USGB6NNAYROMSUSGNX34AWSI7", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 86, 
+  "bonusEarnings": 1.2000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XkTHcAFJPDLDnrAZK", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "Z9ktCEFWEWvfvAK6G", 
+  "mtAssignmentId": "33NF62TLXJ2O4AWGP3BSQLHAB9TJKK"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   71, 
+   73
+  ], 
+  "tsAsstId": "GFMqnKkFn7PFkoNLv", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A14ADQ7RUN6TDY", 
+  "mtHitId": "3QTFNPMJC6ICPBOTE01SHOQNDP3ZNE", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 73, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "kWRPs7pBknAsMEkBB", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "r7bLP72dy383RxufL", 
+  "mtAssignmentId": "37TD41K0AH9ZKF3IKK38U3VP2JYCSH"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 1
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   68, 
+   70
+  ], 
+  "tsAsstId": "bfSuR5uyDHyWwfBcd", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A110KENBXU7SUJ", 
+  "mtHitId": "3QTFNPMJC6ICPBOTE01SHOQNDP3ZNE", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 70, 
+  "bonusEarnings": 0.9, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "2X4ZGCcrMzqXYk3GW", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "ouxipvFPTFMfcYBLG", 
+  "mtAssignmentId": "3TXMY6UCAEON7ZO5SGE3Z3GOKVDCQS"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   74, 
+   75
+  ], 
+  "tsAsstId": "Be8AT24DrtyiGtafG", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A49HPQ9P5AHU4", 
+  "mtHitId": "3SSN80MU8COMCA3BG5LRSBT8BV1KX0", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 75, 
+  "bonusEarnings": 2.1, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "8uaccRaNRhGXpk7sr", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "qdYHtuSrgCqQqxeT8", 
+  "mtAssignmentId": "38SKSKU7R1X3T5USSL2TTKFPNUBLIF"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   87, 
+   90
+  ], 
+  "tsAsstId": "x726ZkyzXh3LsYL2S", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1QCQE5XW37LN1", 
+  "mtHitId": "32TMVRKDGNYBJ7D0N5MJ5VNJN1884Y", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 90, 
+  "bonusEarnings": 1.8, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "6bEyT9EzzmyxDjGcf", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "NuyJhEdLRoG5cMBF5", 
+  "mtAssignmentId": "3WETL7AQWT8A1D9OFVFZ8PH3IMG35B"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 9, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   86, 
+   89
+  ], 
+  "tsAsstId": "znNX2K3rjd4YfEEbA", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "3BPP3MA3TCKOQGUC6070JMLGKQALEC", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 89, 
+  "bonusEarnings": 1.2000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.7000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "HeGJTMLmgzWEDyaF3", 
+  "mtAssignmentId": "3DI28L7YXAEENTO23SUJOQ8JXV1E1V"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 4, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   92, 
+   93
+  ], 
+  "tsAsstId": "qZB8GnFWTuZmgCPmx", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1U8RH67FLZW87", 
+  "mtHitId": "3HXCEECSQMT61AS7L2A3Y4OUHC8YZA", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 93, 
+  "bonusEarnings": 1.2000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XwqKaBoZHTEiDWfFg", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.30000000000000004, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "3yv82wxX7YuxLRjut", 
+  "mtAssignmentId": "3II4UPYCOJ7XCRUJSC9EJ9Y65VTDQX"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   92, 
+   96
+  ], 
+  "tsAsstId": "XGPkpFpeYabLy3Ppk", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A37WXDYYT7RCZ0", 
+  "mtHitId": "32TZXEA1OLKT87TFOKD4QL0B9WX144", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 96, 
+  "bonusEarnings": 1.8000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3ssf4eRR4vc6vTQoo", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "qcNbMnLwTvymqkroP", 
+  "mtAssignmentId": "3HSYG7LRBJYJFU2Y7OB4R0HNQYYKKP"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 5, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   94, 
+   96
+  ], 
+  "tsAsstId": "2XZRyw2ofNk9utXFP", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AB66CTVQ90RCV", 
+  "mtHitId": "32TZXEA1OLKT87TFOKD4QL0B9WX144", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 96, 
+  "bonusEarnings": 1.8000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3iCmJz8m82nCyz7aS", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "cdkyvWLQzuDBfXZ7T", 
+  "mtAssignmentId": "3FE7TXL1LINA9HW3VNPXNQ72844Q21"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   110, 
+   107
+  ], 
+  "tsAsstId": "ERZRFXczcvwWqGPwT", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A2WCV7ULUPKVNQ", 
+  "mtHitId": "3W1K7D6QSBHAO2ZWBAWJQTQTW1RBZ5", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 107, 
+  "bonusEarnings": 1.3, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "Bxwkbr2gyazHnbX4v", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "yDbFqwokKc8MjaDpY", 
+  "mtAssignmentId": "3SKRO2GZ71RH9TGCZE5MMLLOHSVK1J"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   98, 
+   97
+  ], 
+  "tsAsstId": "HNCY8Rrq43cTdB3pY", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A16HSMUJ7C7QA7", 
+  "mtHitId": "32TZXEA1OLKT87TFOKD4QL0B9WX144", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 97, 
+  "bonusEarnings": 1.5, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "LPcAsukrFaGjLrBMq", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "YMA8y23Gwhovmn856", 
+  "mtAssignmentId": "3X66WABAJWI8HAY8WRYQCM8S8VVG37"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   98, 
+   99
+  ], 
+  "tsAsstId": "7ukC2XDCJ9TvYB72R", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2K56J9POYUFCA", 
+  "mtHitId": "3HXCEECSQMT61AS7L2A3Y4OUHC8YZA", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 99, 
+  "bonusEarnings": 0.9, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "4Nuz5oe9KkS3zyZ74", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "rcDjoEfv9JbhBqSMa", 
+  "mtAssignmentId": "3KKG4CDWKIYEKWU4IZXZUAEBIIW94U"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   102, 
+   101
+  ], 
+  "tsAsstId": "3bf3L7k7fwK2s7Hrz", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A32CRWJESR6AX4", 
+  "mtHitId": "3MVY4USGB6NNAYROMSUSGNX34AWSI7", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 101, 
+  "bonusEarnings": 1.8, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "jcmBgy2ENTQD3kX54", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "FzvkCnb8tRQNxQCur", 
+  "mtAssignmentId": "3Z3ZLGNNSIUZUZSMZN3260CUEI03QL"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   104, 
+   106
+  ], 
+  "tsAsstId": "kRb3RqZbzazGbLTxT", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AKCH7EGJBNV43", 
+  "mtHitId": "3JMNNNO3B14C6UUVHUJ1QWT7LROW28", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 106, 
+  "bonusEarnings": 2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "if5tKyhvrK4A6cCwT", 
+  "breakdownEarnings": {
+   "experiment1": 0.7, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "GrZZuY6A7KnpuiKpY", 
+  "mtAssignmentId": "3X31TUMD7XMSTZYUKEHN1LY36SYL1L"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 1
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   99, 
+   100
+  ], 
+  "tsAsstId": "3Gskn67N5tiPpes3Z", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2581F7TDPAMBQ", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 100, 
+  "bonusEarnings": 1.5999999999999999, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "wPraL5bnmRBQweuRJ", 
+  "breakdownEarnings": {
+   "experiment1": 0.7, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "bz32ADc8qLqzoFYMm", 
+  "mtAssignmentId": "3JAOYWH7VI4AI41PORWGGRGM44EL9M"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   100, 
+   101
+  ], 
+  "tsAsstId": "sFDZCkZ3fwefcQRWh", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A40LU73SS18IW", 
+  "mtHitId": "3SSN80MU8COMCA3BG5LRSBT8BV1KX0", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 101, 
+  "bonusEarnings": 1.2999999999999998, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "Xybe53HnFXdS5DHkg", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "ws2HcihLENKdxn3eR", 
+  "mtAssignmentId": "3QXNC7EIPIVXL8C3ZYAXI7OY16D90B"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   108, 
+   105
+  ], 
+  "tsAsstId": "RWenLxo2btMQuadCE", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A1KGCOR8OXYR72", 
+  "mtHitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 105, 
+  "bonusEarnings": 1.9000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "S7ufA6Bfff2hAjDvQ", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "3vvTPvtHyX5JiAk58", 
+  "mtAssignmentId": "3II4UPYCOJ7XCRUJSC9EJ9Y65UCQDR"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   105, 
+   103
+  ], 
+  "tsAsstId": "bxBFnD5HkiNBkretm", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AMZV70TID53WY", 
+  "mtHitId": "3Y40HMYLL1I0F68NAJPTYY26EXYUXT", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 103, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "kGwgjkfvpkJHZfa3m", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.7000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "9MmhnHvWnZ4jCK6SW", 
+  "mtAssignmentId": "3IHR8NYAM71ZCJABZOTWG0EQNPSP4P"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   103, 
+   104
+  ], 
+  "tsAsstId": "E4zj25JZGy3o7Ypum", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AGVUHOBSCP6YC", 
+  "mtHitId": "3Y40HMYLL1I0F68NAJPTYY26EXYUXT", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 104, 
+  "bonusEarnings": 1.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "uPjrKvFv3fmSN7T9g", 
+  "breakdownEarnings": {
+   "experiment1": 0.7, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "m97HbHL5GEGZXuwtA", 
+  "mtAssignmentId": "3NPI0JQDAO5JT4P1EPU4O8QI3O9TPP"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   108, 
+   109
+  ], 
+  "tsAsstId": "kXu8wZuxx3WirZK2r", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AKSJ3C5O3V9RB", 
+  "mtHitId": "32TMVRKDGNYBJ7D0N5MJ5VNJN1884Y", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 109, 
+  "bonusEarnings": 1.8000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "kb4uSXkyYbsvTw4pj", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "awDHTfXTAM5Ya9sM6", 
+  "mtAssignmentId": "3LWJHTCVCCMUAB8FJI44791RH88FQ9"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "5Y7o7iXZRq59aJBwM", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A15FXHC1CVNW31", 
+  "mtHitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 2, 
+  "bonusEarnings": 0.6000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 0
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XSreo4RoaNqbKpmkK", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "WtW5mpEoEYQKAdDZu", 
+  "mtAssignmentId": "3M0BCWMB8VW9HRSLQPHEG8SSQ56WB9"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "ZAX3dhAsAj5wm8dcY", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3IWA71V4TIGFDVIME1RQISOQ7NOX6M", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 8, 
+  "bonusEarnings": 1.3, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.7000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "WJESGjd7bpBFWQwbK", 
+  "mtAssignmentId": "3FE2ERCCZX83GCKTI885UYKV47MOPA"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "sJYuW4m3GsWwDRLsf", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A5TI9UQEPLNWI", 
+  "mtHitId": "3P458N04Q1HRVUZLRZFNSF7ESSV2X4", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 13, 
+  "bonusEarnings": 1.2500000000000002, 
+  "completedExperiment": true, 
+  "meteorUserId": "NnrLFYb9Rw7duzNK6", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "HwsAztyp6xTcw5MC8", 
+  "mtAssignmentId": "37WLF8U1WPQCGFH95KH3HHC5PYKK6G"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "5CzQWiJatWysfcCSg", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "35JDMRECC4984OGBV9AK6UG8M5DGEG", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 12, 
+  "bonusEarnings": 0.4, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "sCj5aaz4Hv5D5hpGX", 
+  "mtAssignmentId": "3CTOC39K37Q09VPW69MJMGCO5K47J3"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "hHentHZxKwXmSMrA4", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A5TI9UQEPLNWI", 
+  "mtHitId": "3WRBLBQ2GR89DY1HN2B5L5E4S4FG06", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 16, 
+  "bonusEarnings": 0.5, 
+  "completedExperiment": true, 
+  "meteorUserId": "NnrLFYb9Rw7duzNK6", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "i4QFcWNPdyZ9g9c6R", 
+  "mtAssignmentId": "39N5ACM9HEN09PGNGJPNX8P699YP9X"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "R54fjFoknSGXReyKd", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3WRBLBQ2GR89DY1HN2B5L5E4S4FG06", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 17, 
+  "bonusEarnings": 1.6, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.7000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "NeY88gro6pzvTuR6J", 
+  "mtAssignmentId": "30BXRYBRP4XJ84V7QHRA2JVQLJ9WHP"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 3, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "hLQg8LKEwZMfAbgeQ", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3MYASTQBG7BUP7WP2A4CUQ2PSGCDQ6", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 21, 
+  "bonusEarnings": 1.6, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.7000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "eZ4AuHFJQgXxEP3z9", 
+  "mtAssignmentId": "3RXPCZQMQPBC77KT9NK7OTTVA6OG1C"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 4, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "a72K3FzXyPyBGt8XK", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3E6L1VR4XWMYD9R1E7L4CLOJ4SG6FD", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 23, 
+  "bonusEarnings": 1.3000000000000003, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "KwYLkrK8ZpH9WLbsC", 
+  "mtAssignmentId": "3EA3QWIZ4IVRCI2X1U4KFBP6H27ITF"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 5, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   29, 
+   27
+  ], 
+  "tsAsstId": "ipARdAck6qvDqbocM", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3H781YYV6TIC9T2HF99R5DVXDTUETL", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 27, 
+  "bonusEarnings": 1.3, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "iX7ayEamZWfJPrGDc", 
+  "mtAssignmentId": "351SEKWQS0H6RCWR0J2X20E1VTEMDZ"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "miTjGsEKessrtzsoL", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A15FXHC1CVNW31", 
+  "mtHitId": "35JDMRECC4984OGBV9AK6UG8M5DGEG", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 11, 
+  "bonusEarnings": 1.2000000000000002, 
+  "completedExperiment": true, 
+  "meteorUserId": "XSreo4RoaNqbKpmkK", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "gWhxQ29rSLgCATjxc", 
+  "mtAssignmentId": "3NGMS9VZTLIXJMI652TAVAXDA16FFC"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 6, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   30, 
+   28
+  ], 
+  "tsAsstId": "7KCpD6aNN8XWSHFoA", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3ZQX1VYFTD5FN0NI6P1SJTTO3IFO8A", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 28, 
+  "bonusEarnings": 1.8000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "yLGR69uZECqfpGFu5", 
+  "mtAssignmentId": "3QAPZX2QN4DMLOR4EPVI8KGKVZP20W"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "D8PfCv3v7CT5S9w6H", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2A0M30DSA7ZN", 
+  "mtHitId": "351S7I5UG9WMPWJPWEY6TU2XRFZJNV", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 7, 
+  "bonusEarnings": 0.9000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 3
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "38pi4HxgRX27sTq4b", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0.2, 
+   "quiz": 0.4
+  }, 
+  "_id": "3x55ZogH9z8rFdEqe", 
+  "mtAssignmentId": "3VFJCI1K4ZZ00CJA7HZMUKB8E3KGR8"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   32, 
+   30
+  ], 
+  "tsAsstId": "NJpAGdk9p5wQwnQTi", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A15FXHC1CVNW31", 
+  "mtHitId": "3GS542CVJVNTTV0A62B7AJO86V959W", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 30, 
+  "bonusEarnings": 1.7000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XSreo4RoaNqbKpmkK", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "5r7jsMWXHgAPR3wec", 
+  "mtAssignmentId": "3TK8OJTYM1LY6WTQJKUJPQE306YPV4"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   33, 
+   35
+  ], 
+  "tsAsstId": "jfzzrxwKwmrj3Y9YG", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A2A0M30DSA7ZN", 
+  "mtHitId": "37OPIVELUU3JE7UAZAQGVB2IHMIAHX", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 35, 
+  "bonusEarnings": 0.7, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "38pi4HxgRX27sTq4b", 
+  "breakdownEarnings": {
+   "experiment1": 0.2, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "PkDggxKnX6gNDPvpE", 
+  "mtAssignmentId": "3X1FV8S5JXRSTJ0RG14WVH0BZFBVG6"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 7, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   34, 
+   33
+  ], 
+  "tsAsstId": "R4s5bYFH7hPH2AR7c", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 33, 
+  "bonusEarnings": 1.2000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "Ye4iNf3wWwjSqf4XT", 
+  "mtAssignmentId": "3UOUJI6MTDE32Q6H0LUVNHYNOYYXUB"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   53, 
+   57
+  ], 
+  "tsAsstId": "7qNt4jFCxXQA5k7uy", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A2O7H7VXLFN6BP", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 57, 
+  "bonusEarnings": 2.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "oQAW8iMEQc5Di6PiM", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "NkHWeKa3Cwtm892w7", 
+  "mtAssignmentId": "3Z3ZLGNNSIUZUZSMZN3260CUEIRQ3Z"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 8, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   50, 
+   58
+  ], 
+  "tsAsstId": "B5LApBpnagt8BcTSX", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A3N0QZ9ZKUCTCQ", 
+  "mtHitId": "3YLPJ8OXX8D1Y8E8VDYBLU4CD254X9", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 58, 
+  "bonusEarnings": 1.5000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "sjdvgdNzgau4jnYvm", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "ii8pRqxZKMhmei2zJ", 
+  "mtAssignmentId": "3W2LOLRXLBF52YFTX8K1SC31LQFKR5"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   40, 
+   38
+  ], 
+  "tsAsstId": "R5kQuNq5SyhBy3NqK", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AADDOP3FHMAV1", 
+  "mtHitId": "3GVPRXWRPHU1R07WYPWHLW17GRR7IW", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 38, 
+  "bonusEarnings": 1.4, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XkTHcAFJPDLDnrAZK", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.4, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "GFT7X53vS7sYPcf7W", 
+  "mtAssignmentId": "3WLEIWSYHOHXWOX0CX23ECF1HHW2H5"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   63, 
+   67
+  ], 
+  "tsAsstId": "QbpPvNMTajWivhfAM", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "3JMNNNO3B14C6UUVHUJ1QWT7LROW28", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 67, 
+  "bonusEarnings": 1.9000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "QQ8itzsGhNk9rvgoo", 
+  "mtAssignmentId": "3JWH6J9I9SDJUXJ7YOQRKPF1XZPNB8"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   64, 
+   65
+  ], 
+  "tsAsstId": "gssjqRj7uyKipN9Pf", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "3QTFNPMJC6ICPBOTE01SHOQNDP3ZNE", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 65, 
+  "bonusEarnings": 0.9000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.30000000000000004, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "5xurem3qwT2BkL7JG", 
+  "mtAssignmentId": "3WRFBPLXRAOER2FUJVBL26HP97DN3I"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   68, 
+   67
+  ], 
+  "tsAsstId": "t7PiASxcnuNqxn9ZE", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A1U8RH67FLZW87", 
+  "mtHitId": "3MVY4USGB6NNAYROMSUSGNX34AWSI7", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 67, 
+  "bonusEarnings": 2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XwqKaBoZHTEiDWfFg", 
+  "breakdownEarnings": {
+   "experiment1": 0.7, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "uErHZT3pJMnt4vHr2", 
+  "mtAssignmentId": "3TPZPLC3M0CEUNR7ZAOD6VMK9ME3PU"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   72, 
+   69
+  ], 
+  "tsAsstId": "srZW5ictjcxRkFqAm", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "3KTZHH2ONIFRNX26T9MFRP4J9Q0M8A", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 69, 
+  "bonusEarnings": 1.7000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "uBBEcewCdRnBMvffK", 
+  "mtAssignmentId": "3TVRFO09GKF0J0JNR72UWU24B7ELXE"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 3, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   76, 
+   75
+  ], 
+  "tsAsstId": "okKfTTKgww5cP2rcQ", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "3SSN80MU8COMCA3BG5LRSBT8BV1KX0", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 75, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.7, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "jwTx3auzW4GDGH99Y", 
+  "mtAssignmentId": "34Z02EIMISDG5NLHX4FE97PAVDH0T3"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   72, 
+   73
+  ], 
+  "tsAsstId": "Y8FvcBbqjrkD6TQ5p", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A1U8RH67FLZW87", 
+  "mtHitId": "3W1K7D6QSBHAO2ZWBAWJQTQTW1RBZ5", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 73, 
+  "bonusEarnings": 1.8000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XwqKaBoZHTEiDWfFg", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "Db8wA97MaTeTEki4M", 
+  "mtAssignmentId": "3TY7ZAOG5FKH24VU3V1M8G2EC0PK0G"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   74, 
+   71
+  ], 
+  "tsAsstId": "vt5X2FathWQcZYu67", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AB66CTVQ90RCV", 
+  "mtHitId": "3KTZHH2ONIFRNX26T9MFRP4J9Q0M8A", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 71, 
+  "bonusEarnings": 2.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3iCmJz8m82nCyz7aS", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "TkhFTpQuSeHZZod8T", 
+  "mtAssignmentId": "384PI804XS1FQN8284AOZ2TOTU20SD"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 4, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   77, 
+   78
+  ], 
+  "tsAsstId": "bEtKqgducNJm4TB4b", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "3W1K7D6QSBHAO2ZWBAWJQTQTW1RBZ5", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 78, 
+  "bonusEarnings": 0.7000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.7000000000000001, 
+   "experiment2": 0, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "KdR8ijjW4CR2M9mpL", 
+  "mtAssignmentId": "3WYP994K17R70K6Q9ZIUQPRGNIKY6Q"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   79, 
+   78
+  ], 
+  "tsAsstId": "9d9JhRXbupmdzcTxj", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AB66CTVQ90RCV", 
+  "mtHitId": "3G9UA71JVVUXMBR2G7HHXXG7UDA7JH", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 78, 
+  "bonusEarnings": 0.9, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3iCmJz8m82nCyz7aS", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.1, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "Xi7taoiZ6ibGR2eCv", 
+  "mtAssignmentId": "3QBD8R3Z21JHRJYAKOGHR090DHGO4L"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 5, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   79, 
+   80
+  ], 
+  "tsAsstId": "qDWPXwvPFAWrHFeRL", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "3G9UA71JVVUXMBR2G7HHXXG7UDA7JH", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 80, 
+  "bonusEarnings": 1.7000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "GjRRNxR2hmngKKgPo", 
+  "mtAssignmentId": "3I3WADAZ9Q4ZN22AYTZRWSFEDDBO5Q"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   76, 
+   77
+  ], 
+  "tsAsstId": "F4fyQ9atsFbChgjLL", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A1U8RH67FLZW87", 
+  "mtHitId": "3G9UA71JVVUXMBR2G7HHXXG7UDA7JH", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 77, 
+  "bonusEarnings": 1.0000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XwqKaBoZHTEiDWfFg", 
+  "breakdownEarnings": {
+   "experiment1": 0.1, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "ckp5vF5N7fkbmHNpa", 
+  "mtAssignmentId": "3AMYWKA6YBMV662O3C9WOYTE98MO66"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 6, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   81, 
+   82
+  ], 
+  "tsAsstId": "Sk5rE7SfXSQLDhBuj", 
+  "treatments": [
+   "nofeedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "35O6H0UNLSGIZ7DJSE2KZD2B37F5J0", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 82, 
+  "bonusEarnings": 1.5000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "mKQQJf5eg92E9qNGC", 
+  "mtAssignmentId": "3TOK3KHVJTIEA6GTMMEOUCTA4J6O75"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 7, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   84, 
+   87
+  ], 
+  "tsAsstId": "GRvzpLKCwGrv2jsPi", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "31ODACBENUF0RWF7Z0Z1PPOPVNWSQZ", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 87, 
+  "bonusEarnings": 1.8000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "AXx2yTnrRELtHeogG", 
+  "mtAssignmentId": "3FTOP5WARFOMRKPCLA1A7121XBR0JZ"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 8, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   85, 
+   88
+  ], 
+  "tsAsstId": "Nwd76YagBJbDSxzDS", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AW0MG225VXWCN", 
+  "mtHitId": "32TMVRKDGNYBJ7D0N5MJ5VNJN1884Y", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 88, 
+  "bonusEarnings": 1.4000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "MqzbsNPbneyELtzkn", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "RXx4NNFFmgJueCSxr", 
+  "mtAssignmentId": "3YHH42UU5BFSMADCOVDNNGFT10W0L1"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   83, 
+   81
+  ], 
+  "tsAsstId": "hM2frwbTdcZzmt6Tx", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A37WXDYYT7RCZ0", 
+  "mtHitId": "3KTZHH2ONIFRNX26T9MFRP4J9Q0M8A", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 81, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3ssf4eRR4vc6vTQoo", 
+  "breakdownEarnings": {
+   "experiment1": 0.4, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "8BYhxbWNkMLMzEXHD", 
+  "mtAssignmentId": "3U088ZLJVKT8X4PBS9KPWRW9Z7XW0N"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 2, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   80, 
+   84
+  ], 
+  "tsAsstId": "ttBq9MskbHkBtJhqw", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AB66CTVQ90RCV", 
+  "mtHitId": "35O6H0UNLSGIZ7DJSE2KZD2B37F5J0", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 84, 
+  "bonusEarnings": 1.5000000000000002, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3iCmJz8m82nCyz7aS", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "DRpjW6NPh4zQd34yx", 
+  "mtAssignmentId": "3OCHAWUVGOKPZU1567QTHUPPM7BKXC"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 3, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   83, 
+   85
+  ], 
+  "tsAsstId": "vPhRJt3RWWiQAxfca", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A1U8RH67FLZW87", 
+  "mtHitId": "31ODACBENUF0RWF7Z0Z1PPOPVNWSQZ", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 85, 
+  "bonusEarnings": 1.6, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "XwqKaBoZHTEiDWfFg", 
+  "breakdownEarnings": {
+   "experiment1": 0.7000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "BaiNFSYpWLEgG4zPZ", 
+  "mtAssignmentId": "3E47SOBEYQWAQ10MF89UQ1P2TLZICY"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   89, 
+   91
+  ], 
+  "tsAsstId": "kcomigRh4KB9qPqFo", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "A37WXDYYT7RCZ0", 
+  "mtHitId": "3BPP3MA3TCKOQGUC6070JMLGKQALEC", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 91, 
+  "bonusEarnings": 1.4000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3ssf4eRR4vc6vTQoo", 
+  "breakdownEarnings": {
+   "experiment1": 0.5, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "nFDJHcLQGJvsJ4rMQ", 
+  "mtAssignmentId": "3B837J3LDOW3QHS12HT3JYUB2K4SR6"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 3, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   88, 
+   91
+  ], 
+  "tsAsstId": "GFTC53sbdyjEsTkCj", 
+  "treatments": [
+   "feedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AB66CTVQ90RCV", 
+  "mtHitId": "3BPP3MA3TCKOQGUC6070JMLGKQALEC", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 91, 
+  "bonusEarnings": 1.8000000000000003, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3iCmJz8m82nCyz7aS", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "7SRmZnZmwbAZPkfja", 
+  "mtAssignmentId": "3VA45EW49NN0ZK1RX6XFT22X1X7O19"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 4, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   95, 
+   93
+  ], 
+  "tsAsstId": "RCGyrsaRHT2JTmtB7", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AB66CTVQ90RCV", 
+  "mtHitId": "3HXCEECSQMT61AS7L2A3Y4OUHC8YZA", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 93, 
+  "bonusEarnings": 0.9000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "3iCmJz8m82nCyz7aS", 
+  "breakdownEarnings": {
+   "experiment1": 0.7000000000000001, 
+   "experiment2": 0.2, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "MurKSrWsQoxs23Xux", 
+  "mtAssignmentId": "3TUI152ZZBN3KWE7CJPJI7XXGYQQ1K"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   69, 
+   70
+  ], 
+  "tsAsstId": "mundjQbrzfGJYD53R", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "A2K56J9POYUFCA", 
+  "mtHitId": "3JMNNNO3B14C6UUVHUJ1QWT7LROW28", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 70, 
+  "bonusEarnings": 1.9000000000000001, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "4Nuz5oe9KkS3zyZ74", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "ANxgXrA6BrhedxQqn", 
+  "mtAssignmentId": "3HWRJOOET52EHDNWGB93KRVSNVASEP"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [], 
+  "tsAsstId": "m5E5XewMRXMyQgFn5", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AKSJ3C5O3V9RB", 
+  "mtHitId": "3PKVGQTFIHKXZJ6GBLGQC1MV5GXRYL", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 24, 
+  "bonusEarnings": 0.9500000000000001, 
+  "completedExperiment": true, 
+  "meteorUserId": "kb4uSXkyYbsvTw4pj", 
+  "breakdownEarnings": {
+   "experiment1": 0, 
+   "experiment2": 0.6000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.1, 
+   "quiz": 0.25
+  }, 
+  "_id": "rkiciyFMEwy9TgWoC", 
+  "mtAssignmentId": "3LYA37P8IQNIMRY41BYBSXYX3YYBKT"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 2
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   90, 
+   94
+  ], 
+  "tsAsstId": "Lf5BhZjRgYtmyg2S4", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AMZV70TID53WY", 
+  "mtHitId": "35O6H0UNLSGIZ7DJSE2KZD2B37F5J0", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 94, 
+  "bonusEarnings": 2.2, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "kGwgjkfvpkJHZfa3m", 
+  "breakdownEarnings": {
+   "experiment1": 0.9000000000000001, 
+   "experiment2": 0.9000000000000001, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "5rr69SFBe3XA9ZrYQ", 
+  "mtAssignmentId": "3VAR3R6G1P1IAKLCWR6U8CP5F3CO8S"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 0, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": true, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   46, 
+   47
+  ], 
+  "tsAsstId": "rqKeAp9dnav2r3pgM", 
+  "treatments": [
+   "nofeedback", 
+   "feedback"
+  ], 
+  "mtWorkerId": "AGVUHOBSCP6YC", 
+  "mtHitId": "3XQ4XW3OD9CJZDDMXP90T7QME972S3", 
+  "treatment_now": "feedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 47, 
+  "bonusEarnings": 1.8, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "uPjrKvFv3fmSN7T9g", 
+  "breakdownEarnings": {
+   "experiment1": 0.6000000000000001, 
+   "experiment2": 0.8, 
+   "hit": 0.1, 
+   "survey": 0.15, 
+   "quiz": 0.25
+  }, 
+  "_id": "3tLnKHpcXJkQ7fcpp", 
+  "mtAssignmentId": "3OVR4I9USPJKCVBQZ18LG540SINQ4K"
+ }, 
+ {
+  "readyToProceed": false, 
+  "tsGroupId": "undefined", 
+  "isExperienced": 1, 
+  "sec_rnd_stg_now": 0, 
+  "sec_rnd_now": 0, 
+  "quiz": {
+   "failed": false, 
+   "passed": false, 
+   "triesLeft": 3
+  }, 
+  "sec_type_now": "submitHIT", 
+  "block_now": 1, 
+  "tsBatchId": "dpmhLMSeHeJP8wGdo", 
+  "cohortIds": [
+   102, 
+   107
+  ], 
+  "tsAsstId": "QxvaJ9Qp5dD2nsaX4", 
+  "treatments": [
+   "feedback", 
+   "nofeedback"
+  ], 
+  "mtWorkerId": "AKSJ3C5O3V9RB", 
+  "mtHitId": "31ODACBENUF0RWF7Z0Z1PPOPVNWSQZ", 
+  "treatment_now": "nofeedback", 
+  "sec_now": "submitHIT", 
+  "cohort_now": 107, 
+  "bonusEarnings": 1.3, 
+  "HITStatus": {
+   "gamesPlayed": 6, 
+   "gamesConsummated": 6
+  }, 
+  "completedExperiment": true, 
+  "meteorUserId": "kb4uSXkyYbsvTw4pj", 
+  "breakdownEarnings": {
+   "experiment1": 0.8, 
+   "experiment2": 0.5, 
+   "hit": 0.1, 
+   "survey": 0, 
+   "quiz": 0
+  }, 
+  "_id": "48qNdbu7CCLe8ZbZ3", 
+  "mtAssignmentId": "3HSYG7LRBJYJFU2Y7OB4R0HNQYXKKO"
+ }
+]
