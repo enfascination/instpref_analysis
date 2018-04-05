@@ -65,22 +65,28 @@ preflrn$cmndGameF  <- NULL
 
 library(caret)
 MyTrainControl=trainControl(
-                            method = "repeatedCV",
+                            method = "repeatedcv",
                             number=2,
                             repeats=100,
                             #returnResamp = "all",
                             #classProbs = TRUE,
                             #summaryFunction=twoClassSummary
                             )
-model <- train(outlrn ~ .*.,data=preflrn,method='enet',
-                   metric = "RMSE",
-                       tuneGrid = expand.grid(fraction=c(0,0.1, 0.5, 0.9, 1),lambda=seq(0,0.05,by=0.01)),
-                       trControl=MyTrainControl)
+preflrn$outlrn <- outlrn
+model <- train(outlrn ~.,
+               data = preflrn,
+               method ='enet',
+               metric = "RMSE",
+               family="binomial",
+               tuneGrid = expand.grid(fraction=c(0,0.1, 0.5, 0.9, 1),lambda=seq(0,0.05,by=0.01)),
+               trControl = MyTrainControl
+               )
 model
 plot(model, metric='RMSE')
 plot(model$finalModel)
 model$bestTune
 model$finalModel
+
 enetCoefIsolate <- function(xs, y, model, lambda, toPrint=TRUE) {
     gg <- cv.enet(as.matrix(xs),y=y,lambda=lambda,s=seq(0,1,length=100),mode="fraction",trace=FALSE,max.steps=80, plot.it=toPrint)
     ggfrac <- gg$s[min(which(gg$cv < min(gg$cv) + gg$cv.error[which.min(gg$cv)]  ))]
